@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+     android:fadeScrollbars="false" 
+      android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+         android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Add an Event"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/TextBrown" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:layout_weight="2">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event:    "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/TextBrown" />
+
+                <org.grameenfoundation.cch.utils.MaterialSpinner
+                    android:id="@+id/spinner_eventPlanType"
+                    app:ms_multiline="false"
+       				    app:ms_hint="Select"
+        	            app:ms_baseColor="@color/spinner_base_color"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"  />
+
+            </TableRow>
+			<TableRow
+                android:id="@+id/other_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="If other specify"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/TextBrown" />
+
+                <EditText
+                    android:id="@+id/editText_otherOption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10" >
+                </EditText>
+              
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location: "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/TextBrown" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView_location"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/apptheme_edit_text_holo_light"
+                    android:ems="10"
+                    android:hint="enter location"
+                    android:textStyle="italic" >
+
+                </AutoCompleteTextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/TextBrown" />
+
+                <EditText
+                    android:id="@+id/editText_eventPlanDescription"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/apptheme_edit_text_holo_light"
+                    android:ems="10"
+                    android:hint="enter description"
+                    android:textStyle="italic" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:weightSum="2"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Is this a personal event?"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic"
+                android:layout_weight="1" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2">
+
+                <RadioButton
+                    android:id="@+id/radio_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/apptheme_btn_radio_holo_light"
+                    android:checked="true"
+                    android:text="Yes"
+                    android:layout_weight="1" />
+
+ 				<RadioButton
+ 				    android:id="@+id/radio_no"
+ 				    android:layout_width="wrap_content"
+ 				    android:layout_height="wrap_content"
+ 				    android:button="@drawable/apptheme_btn_radio_holo_light"
+ 				    android:text="No"
+                    android:layout_weight="1" />
+                
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_buttonsOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:weightSum="2"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerPadding="10dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/button_eventPlanAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Event"
+                    android:textColor="@color/TextBrown"
+                    android:layout_weight="1"
+                    style="@android:style/Widget.Material.Light.Button" />
+
+                <Button
+                    android:id="@+id/button_eventViewCalendar"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:text="View Calendar"
+                    android:textColor="@color/TextBrown"
+                    android:layout_weight="1"
+                    style="@android:style/Widget.Material.Light.Button" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

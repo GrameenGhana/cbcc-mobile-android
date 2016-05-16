@@ -1,0 +1,1658 @@
+[
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ask_her.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_ask_her.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_estimate_due_date.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_estimate_due_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_matching.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_matching.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_reminders.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_set_reminders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_events.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_view_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_ref_malaria_para.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_ref_malaria_para.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_symptoms.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_no_symptoms.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_page.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_main.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_new_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_infant_feeding_menu.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_infant_feeding_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_treatment_unomplicate_malaria_preg.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_treatment_unomplicate_malaria_preg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coverage_targetsetting.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\coverage_targetsetting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_birth_abnormalities.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_no_birth_abnormalities.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_third_trimester_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_third_trimester_counselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_child_age_calculator.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_child_age_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uncomplicated_malaria_pnc_mother.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_uncomplicated_malaria_pnc_mother.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_monitor.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_monitor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_view.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\calendar_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_things_to_remember.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_things_to_remember.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_details_view.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_event_details_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_breast_problems_pnc_mother.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_no_breast_problems_pnc_mother.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breast_problems_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_breast_problems_counselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_treating_uncomplicated_malaria_next_four.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_treating_uncomplicated_malaria_next_four.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_achievements.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_course_achievements.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fever_take_action.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_fever_take_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chps_one_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_chps_one_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_records_yes_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_records_yes_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mother_pnc_soft_uterus_yes.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mother_pnc_soft_uterus_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_thrush.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_thrush.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cyanosis.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_cyanosis.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ask_mother_records_pnc_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_ask_mother_records_pnc_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_numerical.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_numerical.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first_visit.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_first_visit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_coverage.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_coverage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_establish_rapport.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_establish_rapport.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mastitis_pnc_mother.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mastitis_pnc_mother.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_readiness_plan.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_readiness_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_suppliment_during_pregnancy.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_suppliment_during_pregnancy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breast_attachement.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_breast_attachement.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hiv_negative_no.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_hiv_negative_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_jaundice.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_jaundice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breast_problems_pnc_mother.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_breast_problems_pnc_mother.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fast_breathing.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_fast_breathing.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_events.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kangaroo_care.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_kangaroo_care.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_other.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_other.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_achievements_detail.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_achievements_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_set_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\event_set_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\section_list_row.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\section_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_acuteemergencies.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_acuteemergencies.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_how_breastfeed_breastcare_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_how_breastfeed_breastcare_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_care_infant.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_home_care_infant.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_shortanswer.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_shortanswer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_severe_disease_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_severe_disease_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_exclusive_breastfeeding_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_exclusive_breastfeeding_counselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\normal_date_cell.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\normal_date_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_details_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_details_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_malaria_prevention.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_malaria_prevention.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feeding_frequency_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_feeding_frequency_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_good_attachement.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_good_attachement.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_point_of_care.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_point_of_care.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_reminder.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\schedule_reminder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_blood_in_stool.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_blood_in_stool.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_index.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_course_index.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_care_new_borns.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_care_new_borns.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_treating_uncomplicated_malaria_next_three.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_treating_uncomplicated_malaria_next_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diarrhoea_sections.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_diarrhoea_sections.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mother_pnc_breast_no_problem.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mother_pnc_breast_no_problem.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\planner_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\planner_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_treatment_unomplicate_malaria_preg_next_3.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_treatment_unomplicate_malaria_preg_next_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_learning.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_soft_uterus_one_no.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_soft_uterus_one_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postnatal_care_menu.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postnatal_care_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_records_and_history.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_records_and_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\examine_patient_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\examine_patient_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scorecard.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_scorecard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_how_breastfeed_breastcare.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_how_breastfeed_breastcare.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_malaria_fever_ask.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_malaria_fever_ask.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bleeding_umbilical_cord.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_bleeding_umbilical_cord.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_express_breastmilk_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_express_breastmilk_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feeding_difficulty.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_feeding_difficulty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_soft_swelling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_soft_swelling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_soft_uterus_one_yes.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_soft_uterus_one_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moderate_anaemia.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_moderate_anaemia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_target_detail.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_event_target_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\action_difficulty_breathing_cyanosis.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\action_difficulty_breathing_cyanosis.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uncomplicated_malaria_ask.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_uncomplicated_malaria_ask.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_open_tissue.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_open_tissue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_group.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_course_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hiv_negative_yes.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_hiv_negative_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_returning_for_care.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_returning_for_care.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_expandable_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\event_expandable_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_severe_jaundice.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_severe_jaundice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_difficulty_breathing_mother_pnc.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_difficulty_breathing_mother_pnc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_records_check.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_records_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_antenatal_care.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_antenatal_care.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_some_dehydration.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_some_dehydration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_events_list_view.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_events_list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\learning_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\learning_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_soft_uterus_two_no.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_soft_uterus_two_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_managing_danger_signs.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_managing_danger_signs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_family_planning_postpartum_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_family_planning_postpartum_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_nutrition.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_nutrition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_maternal_emergencies.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_maternal_emergencies.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edema_of_feet.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_edema_of_feet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_managing_danger_signs_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_managing_danger_signs_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\antenatal_care_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\antenatal_care_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\target_number.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\target_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_jaundice_sections.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_jaundice_sections.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_injuries.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_no_injuries.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\facility_target_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\facility_target_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postpartum_exercises_next_three_activity.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postpartum_exercises_next_three_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_diarrhoea.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_no_diarrhoea.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_not_breastfeeding.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_not_breastfeeding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_event.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_add_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_facility_age_groups.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_facility_age_groups.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\section_horizonal_item.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\section_horizonal_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\expandable_group_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\expandable_group_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_low_birth_weight_for_age.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_low_birth_weight_for_age.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_overall_course_achievements.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_overall_course_achievements.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_treating_uncomplicated_malaria_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_treating_uncomplicated_malaria_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_mainscreen.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_new_mainscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\events_pager_layout.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\events_pager_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_low_weight_next_two.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_low_weight_next_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sever_dehydration.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_sever_dehydration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_event_planner.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_new_event_planner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chps_one.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_chps_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diarrhoea_home_visit.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_diarrhoea_home_visit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_express_breastmilk_final.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_express_breastmilk_final.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_records_no.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_records_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chps_two.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_chps_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_facility_targets.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_update_facility_targets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_malaria_test_not_done_pnc_mother.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_malaria_test_not_done_pnc_mother.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_disgnostic_tool.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_disgnostic_tool.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievements_details.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_achievements_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mastitis_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mastitis_counselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_very_severe_disease.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_very_severe_disease.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tag_row.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\tag_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\points.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\points.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_some_dehydration_yes.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_some_dehydration_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning_target_detail.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_learning_target_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\other_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\other_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning_center_references.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_learning_center_references.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_participants_select.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_group_participants_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_when_return_anc.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_when_return_anc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_sti_prevention.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_sti_prevention.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_targets.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_targets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\overall_course_details_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\overall_course_details_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_malaria_test_negative_pnc_mother.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_malaria_test_negative_pnc_mother.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_family_planning_postpartum.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_family_planning_postpartum.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_other_maternal_danger_signs.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_other_maternal_danger_signs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cracked_nipples_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_cracked_nipples_counselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_multichoice.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_multichoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postnatal_care_sections.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postnatal_care_sections.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_immunisation_schedule.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_immunisation_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feeding_frequency.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_feeding_frequency.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievements.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_achievements.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_other_newborn_danger_signs.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_other_newborn_danger_signs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_very_severe_disease_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_very_severe_disease_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mother_pnc_aneamia_no.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mother_pnc_aneamia_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_third_trimester_malaria.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_third_trimester_malaria.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_grid_fragment.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\date_grid_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mng_danger_sign_shock.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mng_danger_sign_shock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_download_row_new.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_download_row_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_malaria_test_.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_malaria_test_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_convulsion_pnc.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_convulsion_pnc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievements_summary.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_achievements_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ask_records_no.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_ask_records_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ask_mother_records_pnc.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_ask_mother_records_pnc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kangaroo_care_next_two.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_kangaroo_care_next_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\media_download_row.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\media_download_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_download_row.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_download_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_up.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\start_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sexual_relationships.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_sexual_relationships.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nutrition_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_nutrition_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_away_from_baby.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_away_from_baby.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breast_engorgment_pnc_mother.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_breast_engorgment_pnc_mother.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postpartum_exercises_next_two.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postpartum_exercises_next_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hiv_negative_status.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_hiv_negative_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_feedback_row.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_feedback_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cchlogin.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\fragment_cchlogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postnatal_care_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postnatal_care_counselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_persistent_diarrhoea.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_persistent_diarrhoea.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ask_fever_yes.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_ask_fever_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coverage_add_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\coverage_add_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ask_records_yes.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_ask_records_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_personal_hygiene_practicess.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_personal_hygiene_practicess.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postpartum_exercises_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postpartum_exercises_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_some_dehydration_no.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_some_dehydration_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_swelling_on_head.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_swelling_on_head.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_unusual_appearance.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_unusual_appearance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nutrition_4star_diet.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_nutrition_4star_diet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_treatment_unomplicate_malaria_preg_next_2.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_treatment_unomplicate_malaria_preg_next_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first_trimester_malaria.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_first_trimester_malaria.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_poor_attachement.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_poor_attachement.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_results.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_text_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\listview_text_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breast_attachement_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_breast_attachement_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_management_danger_signs.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_management_danger_signs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mother_not_taking_arv.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mother_not_taking_arv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_self_care_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_self_care_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_low_birth_weight.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_low_birth_weight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\events_detail_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\events_detail_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_convulsion.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_convulsion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_treating_uncomplicated_malaria.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_treating_uncomplicated_malaria.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_what_to_expect_during_labour.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_what_to_expect_during_labour.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diarrhoea_no_dehydration_next_two.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_diarrhoea_no_dehydration_next_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_anaemia_take_action.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_no_anaemia_take_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_planner_options.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_event_planner_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pdf_file_password.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\pdf_file_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_no_anaemia.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_no_anaemia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_view_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\image_view_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_low_weight_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_low_weight_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_ref_malaria_para_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_ref_malaria_para_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_urine.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_no_urine.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_low_temperature.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_low_temperature.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download_media.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_download_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_newborn_emergency.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_newborn_emergency.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_resource.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_resource.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cchlogin.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_cchlogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_other_serious_condition.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_other_serious_condition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_keeping_baby_warm.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_keeping_baby_warm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\webview.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tt_immunization_schedule.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_tt_immunization_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nutrition.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_nutrition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\severe_jaundice_description.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\severe_jaundice_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_serious_conditions.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_no_serious_conditions.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_jaundice.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_no_jaundice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mother_taking_arv.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mother_taking_arv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diarrhoea.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_diarrhoea.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_low_birth_weight_next_three.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_low_birth_weight_next_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pregnancy_danger_signs.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_pregnancy_danger_signs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ask_malaria_trimester.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_ask_malaria_trimester.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seen_at_healthcare_facility.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_seen_at_healthcare_facility.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\routines_detail_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\routines_detail_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_multiselect.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_multiselect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_achievements_paginated.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_achievements_paginated.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nutrition_counselling_next_two.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_nutrition_counselling_next_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_heavy_bleeding.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_heavy_bleeding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_low_birth_weight_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_low_birth_weight_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mng_danger_sign_heavy_bleeding.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mng_danger_sign_heavy_bleeding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dosage_calculator.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_dosage_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_screen_gridview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\main_screen_gridview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hiv_status.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_hiv_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postpartum_exercises_next_four.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postpartum_exercises_next_four.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mother_pnc_breast_crack_sore_nipple.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mother_pnc_breast_crack_sore_nipple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_points.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_points.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coverage_expandable_child_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\coverage_expandable_child_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\events_detail_pager_layout.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\events_detail_pager_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hiv_positive_yes.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_hiv_positive_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\achievements_target_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\achievements_target_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_malaria_test_negative.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_malaria_test_negative.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second_trimester_malaria.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_second_trimester_malaria.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mng_danger_sign_gen_takeaction.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mng_danger_sign_gen_takeaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cch_activity_home.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\cch_activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_couselling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_couselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_treating_bloody_diarrhoea.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_treating_bloody_diarrhoea.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_encounter.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_encounter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chps_two_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_chps_two_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_hiv_care.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_hiv_care.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_treating_uncomplicated_malaria_next_two.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_treating_uncomplicated_malaria_next_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_severe_malaria.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_severe_malaria.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_add_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\event_add_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mother_pnc_soft_uterus_yes_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mother_pnc_soft_uterus_yes_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_facility_targets_view.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_facility_targets_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_update_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\event_update_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\points_list_row.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\points_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_acuteemergencies_bleeding.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_acuteemergencies_bleeding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_psychosocial_support.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_psychosocial_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nutrition_counselling_next_three_activity.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_nutrition_counselling_next_three_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\update_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shock_anc.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_shock_anc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_management_danger_signs_next2.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_management_danger_signs_next2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\square_date_cell.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\square_date_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gestation.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_gestation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tag_row_child.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\tag_row_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_treatment_unomplicate_malaria_preg_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_treatment_unomplicate_malaria_preg_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_positive_malaria.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_positive_malaria.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_records_ask.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_records_ask.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feeding_sick_baby.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_feeding_sick_baby.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_local_infections_training.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_local_infections_training.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_screen.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_main_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_severe_anaemia_take_action.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_severe_anaemia_take_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hiv_positive_no.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_hiv_positive_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_other_serious_condition_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_other_serious_condition_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_list_row.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_complication_readiness_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_complication_readiness_counselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cracked_nipples_pnc_mother.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_cracked_nipples_pnc_mother.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_self_care.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_self_care.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_target_details_.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_target_details_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_treating_local_infection_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_treating_local_infection_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mother_must_remember.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mother_must_remember.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diarrhoea_no_dehydration.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_diarrhoea_no_dehydration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\survey_popup_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\survey_popup_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_treating_diarrhoea.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_treating_diarrhoea.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_exclusive_breastfeeding_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_exclusive_breastfeeding_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kangaroo_care_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_kangaroo_care_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_express_breastmilk.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_express_breastmilk.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hiv_infection.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_hiv_infection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\references_download_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\references_download_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_essay.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_essay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_club_foot.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_club_foot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\point_of_care_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\point_of_care_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\learning_add_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\learning_add_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breastfeeding.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_breastfeeding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_soft_uterus_two_yes.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_soft_uterus_two_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_danger_signs_in_mother.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_danger_signs_in_mother.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diagnostic_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\diagnostic_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_safe_preparation_food.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_safe_preparation_food.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_eye_infection.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_eye_infection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_newborn_danger_signs.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_newborn_danger_signs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_malaria_prevention_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_malaria_prevention_counselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_when_return_pnc.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_when_return_pnc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mother_pnc_soft_uterus.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mother_pnc_soft_uterus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_month_options.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_month_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_trimester_counselling_answer_no.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\first_trimester_counselling_answer_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\facility_target_achievement_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\facility_target_achievement_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\textview_for_spinner.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\textview_for_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_difficulty_breathing_anc.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_difficulty_breathing_anc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hypothermia.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_hypothermia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cleft_palate.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_cleft_palate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postpartum_exercises.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postpartum_exercises.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_estimate_trimester.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_estimate_trimester.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_no_feeding_problems.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_no_feeding_problems.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_pagenumber.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\dialog_pagenumber.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_severe_anaemia.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_severe_anaemia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breast_counselling_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_breast_counselling_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anc_drug_substance_abuse.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anc_drug_substance_abuse.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\achievements_learning_target_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\achievements_learning_target_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breast_engorgment_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_breast_engorgment_counselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_returning_for_care_next_two.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_returning_for_care_next_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hiv_positive_status.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_hiv_positive_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_management_danger_signs_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_management_danger_signs_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_reminder_list_row.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\schedule_reminder_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_danger_signs.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_danger_signs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\routines_detail_pager_layout.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\routines_detail_pager_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\facility_target_bulk_update_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\facility_target_bulk_update_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breast_problems_pnc_mother_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_breast_problems_pnc_mother_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mng_danger_sign_cyanosis.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_mng_danger_sign_cyanosis.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_light_bleeding.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_light_bleeding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ask_records.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_ask_records.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_message.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\user_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_just_jaundice.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_just_jaundice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_metapage.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_course_metapage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_malaria_test_not_done.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_malaria_test_not_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_update.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_event_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rest_and_activity.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_rest_and_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_asymmetrical_limb.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_asymmetrical_limb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_targets.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_update_targets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_target_bulk_update.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_target_bulk_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breastfeeding_low_birth_weight.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_breastfeeding_low_birth_weight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_umbilicus_infection.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_umbilicus_infection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_previous_visit.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_previous_visit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\event_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_family_planning_calculators.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_family_planning_calculators.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\past_event_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\past_event_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_new.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_login_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_returning_for_care_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_returning_for_care_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_difficulty_breathing.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_difficulty_breathing.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_examine_patient.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_examine_patient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anaemia_ask.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_anaemia_ask.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diarrhoea_no_dehydration_next.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_diarrhoea_no_dehydration_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weekday_textview.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\weekday_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receive_other_foods.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_receive_other_foods.xml"
+    }
+]

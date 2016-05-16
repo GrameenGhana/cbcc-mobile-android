@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <Button
+                android:id="@+id/button_update"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.77"
+                android:drawableLeft="@drawable/ic_action_refresh"
+                android:text="Update"
+                android:textColor="@color/TextColorWine" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="20dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_viewCalendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_view_button"
+                android:text="View Calendar"
+                android:textColor="@color/TextColorWine" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/calendarEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ButtonBackgroundGrey"
+            android:divider="@color/White"
+            android:dividerHeight="2dp" >
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

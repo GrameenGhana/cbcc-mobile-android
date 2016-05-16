@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_marquee"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="@color/BorderBrown"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_marquee"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <android.support.v4.view.ViewPager
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_marquee" >
+            </android.support.v4.view.ViewPager>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="@color/BorderBrown"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_mainScreenMenu"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:layout_weight="1"
+        android:dividerHeight="2dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:listSelector="@color/BackgroundBrown"
+        android:typeface="serif" >
+
+    </ListView>
+
+</LinearLayout>

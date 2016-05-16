@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Does the baby have any signs of other severe disease? "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/TextBrown" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <Button
+            android:id="@+id/button_yes"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.46"
+            android:background="@color/Red"
+            android:text="Yes"
+            android:textColor="@color/White"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp" />
+
+        <Button
+            android:id="@+id/button_no"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Curry"
+            android:text="No"
+            android:textColor="@color/White"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

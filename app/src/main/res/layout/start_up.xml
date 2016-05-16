@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:gravity="center"
+        android:padding="0dip"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/splash_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="5dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="100dp"
+                android:src="@drawable/app_icon" />
+			
+             <TextView
+            android:id="@+id/textView_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="100dp"
+            android:text="C"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColorGreen"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="100dp"
+            android:text="H"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColorGreen"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="100dp"
+            android:text="N"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColorGreen"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+         <TextView
+            android:id="@+id/textView_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingRight="0dp"
+            android:text="on the go"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/TextColorGreen"
+            android:textSize="30sp"
+            android:typeface="serif" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/start_up_progress"
+            style="@style/SmallTextDark"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dip"
+            android:text="@string/loading"
+            android:textColor="@color/highlight_light" />
+
+    </LinearLayout>
+
+</LinearLayout>

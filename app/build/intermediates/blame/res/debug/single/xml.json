@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\xml\\prefs.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\xml\\prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\xml\\searchable.xml"
+    }
+]

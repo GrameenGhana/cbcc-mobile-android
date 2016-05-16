@@ -1,0 +1,268 @@
+[
+    {
+        "outputFile": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 326
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 301,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 331,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 759
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\values-v14\\styles_oppia.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 877,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 764,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 912
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\values-v14\\styles_oppia.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1322,
+                        "endLine": 28,
+                        "endColumn": 12,
+                        "endOffset": 1472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 917,
+                    "endColumn": 70,
+                    "endOffset": 983
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 818,
+                        "endColumn": 70,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 988,
+                    "endColumn": 82,
+                    "endOffset": 1066
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 889,
+                        "endColumn": 82,
+                        "endOffset": 967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1071,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1476
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 972,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 1377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1481,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1898
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1382,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1903,
+                    "endColumn": 119,
+                    "endOffset": 2018
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2040,
+                        "endColumn": 119,
+                        "endOffset": 2155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2023,
+                    "endColumn": 62,
+                    "endOffset": 2081
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2160,
+                        "endColumn": 62,
+                        "endOffset": 2218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2086,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 2235
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2223,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2240,
+                    "endColumn": 62,
+                    "endOffset": 2298
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2377,
+                        "endColumn": 62,
+                        "endOffset": 2435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2303,
+                    "endColumn": 131,
+                    "endOffset": 2430
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2440,
+                        "endColumn": 131,
+                        "endOffset": 2567
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2435,
+                    "endLine": 43,
+                    "endColumn": 12,
+                    "endOffset": 2821
+                },
+                "from": {
+                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\values-v14\\styles_example.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 799,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1185
+                    }
+                }
+            }
+        ]
+    }
+]
