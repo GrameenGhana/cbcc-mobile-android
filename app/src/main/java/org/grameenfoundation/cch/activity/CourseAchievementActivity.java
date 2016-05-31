@@ -16,6 +16,7 @@ import org.digitalcampus.oppia.model.Course;
 import org.grameenfoundation.cch.model.CourseAchievments;
 import org.grameenfoundation.adapters.CourseAchievementsAdapter;
 import org.grameenfoundation.cch.utils.TextProgressBar;
+import org.grameenfoundation.poc.BaseActivity;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -36,7 +37,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class CourseAchievementActivity extends ActionBarActivity {
+public class CourseAchievementActivity extends BaseActivity {
 
 	private ListView Listview;
 	private Context mContext;

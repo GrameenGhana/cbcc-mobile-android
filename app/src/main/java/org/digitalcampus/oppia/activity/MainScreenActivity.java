@@ -124,14 +124,10 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
 			dbh.alterTables();
 			dbh.alterCourseTable();
 			dbh.updateDateDefault();
-			dbh.alterEventTable();
 			dbh.alterUserFaciityTable();
 			dbh.alterUserTableDistrict();
 			dbh.alterUserTableForSubdistrict();
 			dbh.alterUserTableForZone();
-			dbh.updateEventDetailDefault();
-			dbh.alterOtherTable();
-			dbh.updateOtherDetailDefault();
 			dbh.alterUserTable(); 
 			dbh.alterCourseTableGroup();
 			dbh.alterUserTableDistrict();

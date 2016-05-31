@@ -55,14 +55,7 @@ public class AchievementCenterActivity extends BaseActivity {
 	    String[] months = new DateFormatSymbols().getMonths();
 	    String[] years = {"2014","2015","2016","2017","2018","2019","2020","2021","2022"};
 	    spinner_years=(Spinner) findViewById(R.id.spinner_years);
-	    /*
-	    String[] items={"November 2014","December 2014",
-	    				"January 2015","February 2015",
-	    				"March 2015","April 2015",
-	    				"May 2015","June 2015",
-	    				"July 2015","August 2015",
-	    				"September 2015","October 2015",
-	    				"November 2015","December 2015"};*/
+
 	    prefs = PreferenceManager.getDefaultSharedPreferences(AchievementCenterActivity.this);
 	    ArrayAdapter<String> adapter=new ArrayAdapter<String>(AchievementCenterActivity.this,android.R.layout.simple_spinner_item,months);
 	    ArrayAdapter<String> adapter_years=new ArrayAdapter<String>(AchievementCenterActivity.this,android.R.layout.simple_spinner_item,years);
@@ -80,53 +73,40 @@ public class AchievementCenterActivity extends BaseActivity {
 				if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("January")){
 					month=0;
 					month_text="January";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("February")){
 					month=1	;
 					month_text="February";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("March")){
 					month=2	;
 					month_text="March";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("April")){
 					month=3	;
 					month_text="April";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("May")){
 					month=4	;
 					month_text="May";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("June")){
 					month=5	;
 					month_text="June";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("July")){
 					month=6;
-					month_text="June";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
+					month_text="July";
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("August")){
 					month=7;
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
+					month_text="August";
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("September")){
 					month=8;
 					month_text="September";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("October")){
 					month=9;
 					month_text="October";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("November")){
 					month=10;
 					month_text="November";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
 				}else if(spinner_categories.getSelectedItem().toString().equalsIgnoreCase("December")){
 					month=11;
 					month_text="December";
-					//year=Integer.parseInt(spinner_years.getSelectedItem().toString());	
 				}
-
-				
 			}
 
 			@Override
@@ -173,29 +153,14 @@ public class AchievementCenterActivity extends BaseActivity {
 				 prefs = PreferenceManager.getDefaultSharedPreferences(AchievementCenterActivity.this);
 				String name=prefs.getString("first_name", "name");
 				AchievementsTask task=new AchievementsTask(AchievementCenterActivity.this);
-				task.execute(new String[] { getResources().getString(R.string.serverDefaultAddress)+"/"+MobileLearning.CCH_USER_ACHIEVEMENTS_PATH+"4761"});
+				task.execute(new String[] { getResources().getString(R.string.serverDefaultAddress)+"/"+MobileLearning.CCH_USER_ACHIEVEMENTS_PATH+name});
 			
 			}else {
 				Crouton.makeText(AchievementCenterActivity.this, "Check internet connection!", Style.ALERT).show();
 			}
 			}
 		});
-	    /*
-	    listView.setOnItemClickListener(new OnItemClickListener(){
 
-			@Override
-			public void onItemClick(AdapterView<?> parent, View view,
-					int position, long id) {
-				Intent intent;
-				switch(position){
-				case 0:
-					intent=new Intent(AchievementCenterActivity.this,OverallCourseAchievementsActivity.class);
-					startActivity(intent);
-					break;
-				}
-			}
-	    	
-	    });*/
 	}
 
 }

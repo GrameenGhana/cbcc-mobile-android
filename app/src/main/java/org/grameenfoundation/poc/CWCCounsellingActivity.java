@@ -1,7 +1,6 @@
 package org.grameenfoundation.poc;
 
 import java.io.File;
-import java.io.ObjectOutputStream.PutField;
 import java.util.ArrayList;
 
 import org.digitalcampus.mobile.learningGF.R;
@@ -9,17 +8,10 @@ import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.application.MobileLearning;
 import org.digitalcampus.oppia.utils.UIUtils;
 import org.grameenfoundation.cch.model.POCSections;
-import org.grameenfoundation.cch.popupquestions.POCDynamicActivity;
-import org.grameenfoundation.cch.tasks.DownloadPOCContentTask;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import de.keyboardsurfer.android.widget.crouton.Crouton;
-import de.keyboardsurfer.android.widget.crouton.Style;
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -27,7 +19,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;

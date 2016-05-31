@@ -4,6 +4,7 @@ package org.grameenfoundation.cch.activity;
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.service.TrackerService;
+import org.grameenfoundation.poc.BaseActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -29,7 +30,7 @@ import android.view.KeyEvent;
 
 
 
-public class FacilityTargetsActivity extends ActionBarActivity implements ActionBar.TabListener, OnSharedPreferenceChangeListener{
+public class FacilityTargetsActivity extends BaseActivity implements ActionBar.TabListener, OnSharedPreferenceChangeListener{
 	 private DbHelper dbh;
 	 private static Context mContext;
 

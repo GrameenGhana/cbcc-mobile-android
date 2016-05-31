@@ -16,6 +16,7 @@ import org.grameenfoundation.cch.caldroid.CaldroidListener;
 import org.grameenfoundation.cch.model.EventTargets;
 import org.grameenfoundation.cch.model.Validation;
 import org.grameenfoundation.cch.utils.MaterialSpinner;
+import org.grameenfoundation.poc.BaseActivity;
 import org.joda.time.DateTime;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -54,7 +55,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class TargetSettingActivity extends AppCompatActivity implements OnSharedPreferenceChangeListener{
+public class TargetSettingActivity extends BaseActivity implements OnSharedPreferenceChangeListener{
 	private Context mContext;															
 	private DbHelper db;
 	 public static final String ARG_SECTION_NUMBER = "section_number";       
@@ -96,7 +97,7 @@ public class TargetSettingActivity extends AppCompatActivity implements OnShared
 	    db=new DbHelper(mContext);
 	    currentDate=new DateTime();
 	    start_time=System.currentTimeMillis();
-	   button_show=(Button) findViewById(R.id.button_show);
+	    button_show=(Button) findViewById(R.id.button_show);
 	   	editText_otherCategory=(EditText) findViewById(R.id.editText_dialogOtherName);
 		spinner_otherPeriod=(MaterialSpinner) findViewById(R.id.spinner_dialogOtherPeriod);
 		String[] items=getResources().getStringArray(R.array.ReminderFrequency);

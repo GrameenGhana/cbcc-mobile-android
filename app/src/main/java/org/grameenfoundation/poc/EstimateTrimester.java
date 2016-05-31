@@ -13,6 +13,10 @@ import org.grameenfoundation.cch.caldroid.CaldroidFragment;
 import org.grameenfoundation.cch.caldroid.CaldroidListener;
 import org.grameenfoundation.cch.model.WebAppInterface;
 import org.grameenfoundation.cch.utils.CalendarViewScrollable;
+import org.joda.time.DateTime;
+import org.joda.time.Days;
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -139,27 +143,24 @@ public class EstimateTrimester extends BaseActivity {
 			@Override
 			public void onClick(View v) {
 				if(newDate!=null){
-					daysBetween();
-					calculateDueDate();
+					DateTime todaysdate = new DateTime();
+					DateTime selectedDate=new DateTime(calendar.getYear(), calendar.getMonth()+1, calendar.getDayOfMonth(), 0, 0);
+					if(selectedDate.isAfter(todaysdate)){
+						Crouton.makeText(EstimateTrimester.this, "Select a date in the past", Style.ALERT).show();
+					}else{
+						daysBetween();
+						calculateDueDate();
+					}
+
 				}else{
 					Crouton.makeText(EstimateTrimester.this, "Please select a date", Style.ALERT).show();	
 				}
-				
 			}
 	    	
 	    });
 	    
 	    button_proceed=(Button) findViewById(R.id.button_proceed);
-	    button_proceed.setOnClickListener(new OnClickListener(){
-
-			@Override
-			public void onClick(View v) {
-				Intent intent=new Intent(EstimateTrimester.this,ExamineThePatientActivity.class);
-				startActivity(intent);
-				
-			}
-	    	
-	    });
+	    button_proceed.setVisibility(View.GONE);
 	    textView_estimatedWeeks=(TextView) findViewById(R.id.textView_estimatedWeeks);
 	    textView_estimatedTrimester=(TextView) findViewById(R.id.textView_estimatedTrimester);
 	    
@@ -168,70 +169,61 @@ public class EstimateTrimester extends BaseActivity {
 	}
 	
 	public void daysBetween(){
-		SimpleDateFormat dfDate  = new SimpleDateFormat("dd/MM/yyyy");
-		newDate=formatter2.format(getDateFromDatePicker(calendar));
-		Calendar today=Calendar.getInstance();
-		String now=dfDate.format(today.getTime());
-		Date start = null;
-		Date end = null;
-
 		try {
-			start = new Date();
-			if(newDate!=null){
-				end=dfDate.parse(newDate);
+			SimpleDateFormat dfDate = new SimpleDateFormat("dd/MM/yyyy");
+			DateTimeFormatter formatter = DateTimeFormat.forPattern("dd/MM/yyyy");
+			newDate = formatter2.format(getDateFromDatePicker(calendar));
+			DateTime todaysdate = new DateTime();
+			System.out.println(todaysdate.toString(formatter));
+			DateTime selectedDate = new DateTime(calendar.getYear(), calendar.getMonth()+1, calendar.getDayOfMonth(), 0, 0);
+
+			long diff = Days.daysBetween(selectedDate, todaysdate).getDays();
+			int days = (int) (diff / (1000 * 60 * 60 * 24));
+			System.out.println(String.valueOf(diff));
+			if (diff < 90) {
+				textView_estimatedTrimester.setText("1st Trimester");
+			} else if (diff > 89 && diff < 180) {
+				textView_estimatedTrimester.setText("2nd Trimester");
+			} else if (diff > 180) {
+				textView_estimatedTrimester.setText("3rd Trimester");
 			}
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		long diff=start.getTime() - end.getTime();
-		int days=(int) (diff/(1000*60*60*24));
-		System.out.println(String.valueOf(days));
-		if(days<90){
-			textView_estimatedTrimester.setText("1st Trimester");
-		}else if(days>89 && days<180){
-			textView_estimatedTrimester.setText("2nd Trimester");
-		}else if(days>180){
-			textView_estimatedTrimester.setText("3rd Trimester");
-		}
 		/*
 		if(days<1){
 			textView_estimatedTrimester.setTextColor(Color.RED);
 			textView_estimatedTrimester.setText("Please select a date in the past to proceed");
 		}*/
-		if(days>300){
-			textView_estimatedTrimester.setTextColor(Color.RED);
-			textView_estimatedTrimester.setText("Your client should have delivered by now");
-		}
-		
-		double weeks=Math.ceil(days/7);
-		if(weeks>1){
-			String week_value=String.format("%.0f",weeks);
-			textView_estimatedWeeks.setText(week_value +" weeks");	
-		}else{
-			if(weeks==1){
-				String week_value=String.format("%.0f",weeks);
-				textView_estimatedWeeks.setText(week_value +" week");		
-			}else{
-				if(weeks<1){
-					textView_estimatedWeeks.setText("Less than a week");			
+			if (diff > 300) {
+				textView_estimatedTrimester.setTextColor(Color.RED);
+				textView_estimatedTrimester.setText("Your client should have delivered by now");
+			}
+
+			double weeks = Math.ceil(diff / 7);
+			if (weeks > 1) {
+				String week_value = String.format("%.0f", weeks);
+				textView_estimatedWeeks.setText(week_value + " weeks");
+			} else {
+				if (weeks == 1) {
+					String week_value = String.format("%.0f", weeks);
+					textView_estimatedWeeks.setText(week_value + " week");
+				} else {
+					if (weeks < 1) {
+						textView_estimatedWeeks.setText("Less than a week");
+					}
 				}
 			}
+		}catch (Exception e){
+			e.printStackTrace();
 		}
 	}
 	
 	public void calculateDueDate(){
-		SimpleDateFormat formatter  = new SimpleDateFormat("dd/MM/yyyy");
-		SimpleDateFormat formatter2  = new SimpleDateFormat("dd-MMM-yyyy");
-		 Calendar cal = Calendar.getInstance();
-    	 try {
-			cal.setTime(formatter.parse(newDate));
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-    	 cal.add(Calendar.DATE,280);
-    	 estimated_due_date=formatter2.format(cal.getTime());
+
+		DateTimeFormatter formatter = DateTimeFormat.forPattern("dd-MM-yyyy");
+		DateTime selectedDate=new DateTime(calendar.getYear(), calendar.getMonth()+1, calendar.getDayOfMonth(), 0, 0);
+
+		 selectedDate.plusDays(280);
+    	// cal.add(Calendar.DATE,280);
+    	 estimated_due_date=selectedDate.toString(formatter);
     	 textView_estimatedDueDate.setText(estimated_due_date);
 	}
 	public static java.util.Date getDateFromDatePicker(DatePicker datePicker){

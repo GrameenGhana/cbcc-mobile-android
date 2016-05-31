@@ -8,6 +8,7 @@ import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.model.Course;
 import org.digitalcampus.oppia.model.Scores;
 import org.grameenfoundation.cch.model.CourseAchievments;
+import org.grameenfoundation.poc.BaseActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -35,7 +36,7 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-public class CourseDetailActivity extends ActionBarActivity {
+public class CourseDetailActivity extends BaseActivity {
 
 	private ExpandableListView expandableListview;
 	private Context mContext;

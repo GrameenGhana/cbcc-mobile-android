@@ -3,10 +3,11 @@ package org.grameenfoundation.poc;
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.application.MobileLearning;
+import org.digitalcampus.oppia.utils.UIUtils;
+import org.grameenfoundation.cch.model.POCSections;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,10 +16,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import java.io.File;
+import java.util.ArrayList;
 
 public class DiagnosticToolActivity extends BaseActivity implements OnItemClickListener{
 
@@ -28,6 +32,8 @@ public class DiagnosticToolActivity extends BaseActivity implements OnItemClickL
 	private Long start_time;
 	private Long end_time;
 	private JSONObject json;
+	private ArrayList<POCSections> list;
+	private String first_file;
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -38,6 +44,12 @@ public class DiagnosticToolActivity extends BaseActivity implements OnItemClickL
 	    start_time=System.currentTimeMillis();
         getSupportActionBar().setTitle("Point of Care");
         getSupportActionBar().setSubtitle("ANC Diagnostic");
+		listView_encounter=(ListView) findViewById(R.id.listView_encounter);
+		listView_encounter.setOnItemClickListener(this);
+		list=new ArrayList<POCSections>();
+		list=dbh.getPocSections("ANC Diagnostic");
+		ListAdapter adapter=new ListAdapter(mContext, list);
+		listView_encounter.setAdapter(adapter);
 	    json=new JSONObject();
 	    try {
 			json.put("page", "ANC Diagnostic");
@@ -49,59 +61,51 @@ public class DiagnosticToolActivity extends BaseActivity implements OnItemClickL
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
-	    listView_encounter=(ListView) findViewById(R.id.listView_encounter);
-	    listView_encounter.setOnItemClickListener(this);
+	  /*
 	    String[] conditions={"Emergencies","Records and History","Management of Danger Signs","Malaria","Anaemia"};
 	    ListAdapter adapter=new ListAdapter(mContext, conditions);
-	    listView_encounter.setAdapter(adapter);
+	    listView_encounter.setAdapter(adapter);*/
 	}
 
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
-		Intent intent;
-		switch(position){
-		case 0:
-			intent=new Intent(mContext, AcuteEmergenciesActivity.class);
+		File folder=new File(list.get(position).getSectionUrl());
+		if(folder.exists()){
+			File[] listOfFiles = folder.listFiles();
+			for(int i=0;i<listOfFiles.length;i++){
+				String filename=listOfFiles[i].getName();
+				int pos=filename.lastIndexOf(".");
+				if(pos>0){
+					filename=filename.substring(0,pos);
+				}
+				if(filename.endsWith("1")){
+					first_file=filename;
+				}
+			}
+			Intent intent;
+			intent=new Intent(mContext, POCDynamicActivity.class);
+			intent.putExtra("shortname", list.get(position).getSectionShortname());
+			intent.putExtra("link", list.get(position).getSectionShortname()+File.separator+first_file);
 			startActivity(intent);
 			overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-			break;
-		case 1:
-			intent=new Intent(mContext, ANCRecordsAndHistoryActivity.class);
-			startActivity(intent);
-			overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-			break;
-		case 2:
-			intent=new Intent(mContext, ExamineThePatientActivity.class);
-			startActivity(intent);
-			overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-			break;
-		case 3:
-			intent=new Intent(mContext, AskMalariaFeverActivity.class);
-			startActivity(intent);
-			overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-			break;
-		case 4:
-			intent=new Intent(mContext, AnaemiaAskActivity.class);
-			startActivity(intent);
-			overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-			break;
+		}else{
+			UIUtils.showAlert(mContext, "Alert", "Click on load content to proceed");
 		}
-		
 	}
-	
+
 	class ListAdapter extends BaseAdapter{
 		Context mContext;
-		String[] items;
-		 public LayoutInflater minflater;
-		public ListAdapter(Context mContext,String[] items){
+		ArrayList<POCSections> items;
+		public LayoutInflater minflater;
+		public ListAdapter(Context mContext,ArrayList<POCSections>items){
 			this.mContext=mContext;
 			this.items=items;
-			 minflater = LayoutInflater.from(mContext);
+			minflater = LayoutInflater.from(mContext);
 		}
 		@Override
 		public int getCount() {
-			return items.length;
+			return items.size();
 		}
 
 		@Override
@@ -117,15 +121,21 @@ public class DiagnosticToolActivity extends BaseActivity implements OnItemClickL
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			if( convertView == null ){
-			      
-				  convertView = minflater.inflate(R.layout.other_listview_single,parent, false);
-			    }
-			 TextView text=(TextView) convertView.findViewById(R.id.textView_otherCategory);
-			 text.setText(items[position]);
-			 
-			    return convertView;
+				convertView = minflater.inflate(R.layout.other_listview_single,parent, false);
+			}
+			ImageView image=(ImageView) convertView.findViewById(R.id.imageView1);
+			File file=new File(items.get(position).getSectionUrl());
+			if(file.exists()){
+				image.setImageDrawable(getResources().getDrawable(R.drawable.ic_special_bullet));
+			}else{
+				image.setImageDrawable(getResources().getDrawable(R.drawable.ic_special_bullet_downloaded));
+			}
+			TextView text=(TextView) convertView.findViewById(R.id.textView_otherCategory);
+			text.setText(items.get(position).getSectionName());
+
+			return convertView;
 		}
-		
+
 	}
 	public void onBackPressed()
 	{

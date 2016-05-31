@@ -7,16 +7,15 @@
 package org.grameenfoundation.cch.popupquestions;
 
 import org.digitalcampus.mobile.learningGF.R;
+import org.grameenfoundation.poc.POCDynamicActivity;
 
 import android.content.Context;
 import android.content.Intent;
-import android.provider.UserDictionary.Words;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 
 public class XmlGuiButton extends LinearLayout {

@@ -152,7 +152,6 @@ public class AchievementSummaryActivity extends BaseActivity {
 		int totalNumber=totalNumberOfEvents.size();
 		String percentage;
 		if(totalNumber>0){
-			System.out.println("Number of events completed in: "+String.valueOf(eventsNumberCompleted));
 			Double  percentage_completed=((double)eventsNumberCompleted/totalNumber) *100;
 			percentage=String.format("%.0f", percentage_completed);
 		}else{
@@ -169,64 +168,19 @@ public class AchievementSummaryActivity extends BaseActivity {
 		int totalNumber=totalNumberOfEvents.size();
 		String percentage;
 		if(totalNumber>0){
-			System.out.println("Number of events to do in: "+String.valueOf(numberTodo));
-			System.out.println("Number of events total: "+String.valueOf(totalNumber));
-		Double percentage_completed=((double)numberTodo/totalNumber) *100;
-		percentage=String.format("%.0f", percentage_completed);
+			Double percentage_completed=((double)numberTodo/totalNumber) *100;
+			percentage=String.format("%.0f", percentage_completed);
 		}else{
 			percentage="0";
 		}
 		return percentage;
 	}
-	
-	private String calculateTargetsCompleted(){
-		completedOtherTargets=db.getTargetsBasedOnStatus(MobileLearning.CCH_TARGET_STATUS_UPDATED, MobileLearning.CCH_TARGET_TYPE_OTHER,month+1, year);
-		completedFacilityTargets=db.getListOfFacilityTargetsForAchievements(MobileLearning.CCH_TARGET_STATUS_UPDATED,month_text, year);
-		unCompletedFacilityTargets=db.getListOfFacilityTargetsForAchievements(MobileLearning.CCH_TARGET_STATUS_NEW,month_text, year);
-	    totalOtherTargets=db.getTargetsForAchievements(MobileLearning.CCH_TARGET_TYPE_OTHER,month+1, year);
-	    totalFacilityTargets=completedFacilityTargets.size()+unCompletedFacilityTargets.size();
-	    
-		numberCompleted=completedLearningTargets+completedOtherTargets+completedFacilityTargets.size();
-		int totalNumber=totalOtherTargets+totalFacilityTargets;
-		System.out.println("Total Targets:"+String.valueOf(totalNumber));
-		String percentage;
-		if(totalNumber>0){
-		Double  percentage_completed=((double)numberCompleted/totalNumber) *100;
-		percentage=String.format("%.0f", percentage_completed);
-		}else{
-			percentage="0";	
-		}
-		return percentage;
-	}
-	
-	private String calculateTargetsTodo(){
-		
-	    futureOtherTargets=db.getTargetsBasedOnStatus(MobileLearning.CCH_TARGET_STATUS_NEW,MobileLearning.CCH_TARGET_TYPE_OTHER, month+1, year);
-	    completedFacilityTargets=db.getListOfFacilityTargetsForAchievements(MobileLearning.CCH_TARGET_STATUS_UPDATED,month_text, year);
-	    unCompletedFacilityTargets=db.getListOfFacilityTargetsForAchievements(MobileLearning.CCH_TARGET_STATUS_NEW,month_text, year);
-	    
-	    totalOtherTargets=db.getTargetsForAchievements(MobileLearning.CCH_TARGET_TYPE_OTHER,month+1, year);
-	    totalFacilityTargets=completedFacilityTargets.size()+unCompletedFacilityTargets.size();
-	    
-		numberCompleted=completedLearningTargets+completedOtherTargets+completedFacilityTargets.size();
-		numberFuture=futureLearningTargets+futureOtherTargets+unCompletedFacilityTargets.size();
-		int totalNumber=totalOtherTargets+totalFacilityTargets;
-		String percentage;
-		
-		if(totalNumber>0){
-		Double  percentage_completed=((double)numberFuture/totalNumber) *100;
-		percentage=String.format("%.0f", percentage_completed);
-		}else{
-			percentage="0";
-		}
-		return percentage;
-	}
+
 	private class GetData extends AsyncTask<Object, Void, Object> {
 		 DbHelper db=new DbHelper(AchievementSummaryActivity.this);
-		private String eventsCompleted;
-		private String eventsTodo;
-		private String targetsCompleted;
-		private String targetTodo;
+		 private String eventsCompleted;
+		 private String eventsTodo;
+
 		 private ProgressDialog dialog = 
 				   new ProgressDialog(AchievementSummaryActivity.this);
 		 protected void onPreExecute() {
@@ -244,8 +198,6 @@ public class AchievementSummaryActivity extends BaseActivity {
 	          }
 	        eventsCompleted=calculateEventsCompleted();
 	        eventsTodo=calculateEventsTodo();
-	        targetsCompleted=calculateTargetsCompleted();
-	        targetTodo=calculateTargetsTodo();
 	        courseCompleted=Integer.valueOf(db.getCourseProgressCompleted(month+1,year));
 	        courseUncompletedText=100-courseCompleted;
 				return null;
@@ -257,11 +209,7 @@ public class AchievementSummaryActivity extends BaseActivity {
 	    	 if(eventsCompleted!=null && eventsTodo!=null){
 	    		 		textView_eventPercentage.setText(String.valueOf(eventsNumberCompleted)+"     /    "+String.valueOf(numberTodo) );
 	    	        }
-	    	        
-	    	        if(targetsCompleted!=null && targetTodo!=null){
-	    	        	textView_targetsPercentage.setText(String.valueOf(numberCompleted)+ "      /    "+String.valueOf(numberFuture));
-	    	        }
-	    	       
+
 	    	        if(courseCompleted>0){
 	    	        	courseUncompletedText=100-courseCompleted;
 	    	        }else {
@@ -311,10 +259,7 @@ public class AchievementSummaryActivity extends BaseActivity {
 	    	        	BarEntry c1e1 = new BarEntry(Integer.valueOf(calculateEventsCompleted()), 0); 
 	    	        	valsComp1.add(c1e1);
 	    	        }
-	    	        if(calculateTargetsCompleted()!=null){
-	    	        	BarEntry c1e2 = new BarEntry(Integer.valueOf(calculateTargetsCompleted()), 1); 
-	    	        	valsComp1.add(c1e2);
-	    	        }
+
 	    	        if(db.getCourseProgressCompleted(month+1,year)!=null){
 	    	        	if(year<=today.getYear()){
 	    	        		BarEntry c1e3 = new BarEntry(Integer.valueOf(db.getCourseProgressCompleted(month+1,year)), 2); 
@@ -329,11 +274,7 @@ public class AchievementSummaryActivity extends BaseActivity {
 	    	        	BarEntry c2e1 = new BarEntry(Integer.valueOf(calculateEventsTodo()), 0); // 0 == quarter 1
 	    	        	valsComp2.add(c2e1);
 	    	        }
-	    	        if(calculateTargetsTodo()!=null){
-	    	        		BarEntry c2e2 = new BarEntry(Integer.valueOf(calculateTargetsTodo()), 1); // 1 == quarter 2 ...
-	    	        		valsComp2.add(c2e2);
-	    	        }
-	    	        
+
 	    	        if(db.getCourseProgressCompleted(month+1,year)!=null){
 	    	        	if(year<=today.getYear()){
 	    	        		BarEntry c2e3 = new BarEntry(courseUncompletedText, 2); // 1 == quarter 2 ...
@@ -356,7 +297,7 @@ public class AchievementSummaryActivity extends BaseActivity {
 	    	        dataSets.add(setComp2);
 	    	        
 	    	        ArrayList<String> xVals = new ArrayList<String>();
-	    	        xVals.add("Events"); xVals.add("Targets"); xVals.add("Courses"); 
+	    	        xVals.add("Events"); xVals.add("Courses");
 
 	    	        BarData data = new BarData(xVals, dataSets);
 	    	        

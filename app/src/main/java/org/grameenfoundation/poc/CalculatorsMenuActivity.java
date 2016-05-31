@@ -2,7 +2,6 @@ package org.grameenfoundation.poc;
 
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
-import org.grameenfoundation.poc.PostnatalCareSectionActivity.PostnatalSectionsListAdapter;
 import org.json.JSONException;
 import org.json.JSONObject;
 

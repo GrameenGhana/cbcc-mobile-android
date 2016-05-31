@@ -3,6 +3,7 @@ package org.grameenfoundation.cch.activity;
 import org.digitalcampus.mobile.learningGF.R;
 import org.grameenfoundation.cch.model.AgeGroupsFacilityTargetsActivity;
 import org.grameenfoundation.cch.model.SchoolHealthFacilityTargetActivity;
+import org.grameenfoundation.poc.BaseActivity;
 
 import android.app.Activity;
 import android.app.LocalActivityManager;
@@ -13,7 +14,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TabHost;
 
-public class NewFacilityTargetsActivity extends AppCompatActivity {
+public class NewFacilityTargetsActivity extends BaseActivity {
 
 	private TabHost tabHost;
 

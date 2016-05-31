@@ -1,6 +1,7 @@
 package org.grameenfoundation.cch.popupquestions;
 
 import org.digitalcampus.mobile.learningGF.R;
+import org.grameenfoundation.poc.POCDynamicActivity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,11 +13,9 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.LinearLayout.LayoutParams;
 
 public class XmlGuiListView extends LinearLayout {
 	ListView label;

@@ -12,6 +12,7 @@ import org.grameenfoundation.cch.model.MyCalendarEvents;
 import org.grameenfoundation.cch.model.OtherTargetActivity;
 import org.grameenfoundation.cch.model.RoutineActivity;
 import org.grameenfoundation.cch.model.RoutineActivityDetails;
+import org.grameenfoundation.poc.BaseActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -37,7 +38,7 @@ import android.view.KeyEvent;
 
 
 
-public class NewEventPlannerActivity extends AppCompatActivity implements ActionBar.TabListener, OnSharedPreferenceChangeListener{
+public class NewEventPlannerActivity extends BaseActivity implements ActionBar.TabListener, OnSharedPreferenceChangeListener{
 	 private DbHelper dbh;
 	 private static Context mContext;
 
@@ -148,10 +149,7 @@ public class NewEventPlannerActivity extends AppCompatActivity implements Action
                  Locale l = Locale.getDefault();
              	events=new ArrayList<MyCalendarEvents>();
                 c= new CalendarEvents(mContext);
-            	//events=c.readEventsToUpdate(mContext, true);
                 db=new DbHelper(NewEventPlannerActivity.this);
-    		    
-    		
     		 todayOtherId=db.getCount("Daily",MobileLearning.CCH_TARGET_TYPE_OTHER);
     		 thisWeekOtherId=db.getCount("Weekly",MobileLearning.CCH_TARGET_TYPE_OTHER);
     		 thisMonthOtherId=db.getCount("Monthly",MobileLearning.CCH_TARGET_TYPE_OTHER);

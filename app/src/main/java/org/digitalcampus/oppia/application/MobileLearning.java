@@ -41,11 +41,11 @@ import org.acra.*;
 import org.acra.annotation.*;
 import org.acra.sender.HttpSender;
 @ReportsCrashes(
-	    formUri = "https://florencejones.cloudant.com/acra-chnonthego/_design/acra-storage/_update/report",
+	    formUri = "Cloudant",
 	    reportType = HttpSender.Type.JSON,
 	    httpMethod = HttpSender.Method.POST,
-	    formUriBasicAuthLogin = "despecindesproughtedenou",
-	    formUriBasicAuthPassword = "Mhhri81NL6EoTubaDkXGac0J",
+	    formUriBasicAuthLogin = "username",
+	    formUriBasicAuthPassword = "password",
 	    formKey = "", // This is required for backward compatibility but not used
 	    customReportContent = {
 	            ReportField.APP_VERSION_CODE,
@@ -76,6 +76,7 @@ public class MobileLearning extends Application {
 	public static final String POC_DOWNLOAD_PATH = POC_ROOT + "download/";
 	public static final String POC_SERVER_DOWNLOAD_PATH = "cch/yabr3/content/poccms/";
 	public static final String POC_SERVER_CONTENT_DOWNLOAD_PATH = "cch/yabr3/content/poccms/downloadfile?fileName=";
+	public static final String POC_SERVER_REFERENCE_DOWNLOAD_PATH = "cch/yabr3/content/poccms/downloadreference?fileName=";
 	public static final String COURSE_XML = "module.xml";
 	public static final String COURSE_SCHEDULE_XML = "schedule.xml";
 	public static final String COURSE_TRACKER_XML = "tracker.xml";

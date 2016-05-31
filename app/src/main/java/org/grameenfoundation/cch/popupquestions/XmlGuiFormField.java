@@ -20,7 +20,7 @@ public class XmlGuiFormField {
 	String text_property;
 	boolean required;
 	String options;
-	Object obj;			// holds the ui implementation , i.e. the EditText for example
+	public Object obj;			// holds the ui implementation , i.e. the EditText for example
 	private String link;
 	private String group;
 	private String color_code;

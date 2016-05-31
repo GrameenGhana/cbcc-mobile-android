@@ -3,11 +3,11 @@ package org.grameenfoundation.poc;
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.application.MobileLearning;
-import org.grameenfoundation.poc.PostnatalCareCounsellingTopicsActivity.ListAdapter;
+import org.digitalcampus.oppia.utils.UIUtils;
+import org.grameenfoundation.cch.model.POCSections;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,9 +16,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
+
+import java.io.File;
+import java.util.ArrayList;
 
 public class ANCCounsellingTopicsMenuActivity extends BaseActivity {
 
@@ -27,7 +31,9 @@ public class ANCCounsellingTopicsMenuActivity extends BaseActivity {
 	private DbHelper dbh;
 	private Long start_time;
 	private Long end_time;
-	private JSONObject json; 
+	private JSONObject json;
+	private ArrayList<POCSections> list;
+	private String first_file;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
@@ -36,6 +42,11 @@ public class ANCCounsellingTopicsMenuActivity extends BaseActivity {
         getSupportActionBar().setSubtitle("ANC Counselling");
 	    mContext=ANCCounsellingTopicsMenuActivity.this;
 	    dbh=new DbHelper(mContext);
+		listView_counselling=(ListView) findViewById(R.id.listView_counsellingTopics);
+		list=new ArrayList<POCSections>();
+		list=dbh.getPocSections("ANC Counselling");
+		ListAdapter adapter=new ListAdapter(mContext, list);
+		listView_counselling.setAdapter(adapter);
 	    start_time=System.currentTimeMillis();
 	    json=new JSONObject();
 	    try {
@@ -48,7 +59,7 @@ public class ANCCounsellingTopicsMenuActivity extends BaseActivity {
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
-	    listView_counselling=(ListView) findViewById(R.id.listView_counsellingTopics);
+	    /*listView_counselling=(ListView) findViewById(R.id.listView_counsellingTopics);
 	    String[] items={"Birth preparedness & complication readiness",//0
 	    				"Drug & substance abuse",                     //1
 	    				"Encouraging PNC & maternal, newborn care",   //2
@@ -66,127 +77,49 @@ public class ANCCounsellingTopicsMenuActivity extends BaseActivity {
 	    				"What to expect during labour ",              //14
 	    				"When to return for ANC"};                    //15
 	    ListAdapter adapter=new ListAdapter(mContext,items);
-	    listView_counselling.setAdapter(adapter);
+	    listView_counselling.setAdapter(adapter);*/
 	    listView_counselling.setOnItemClickListener(new OnItemClickListener(){
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
-				Intent intent;
-				switch(position){
-				case 0:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "birth_preparedness");
+				File folder = new File(list.get(position).getSectionUrl());
+				if (folder.exists()) {
+					File[] listOfFiles = folder.listFiles();
+					for (int i = 0; i < listOfFiles.length; i++) {
+						String filename = listOfFiles[i].getName();
+						int pos = filename.lastIndexOf(".");
+						if (pos > 0) {
+							filename = filename.substring(0, pos);
+						}
+						if (filename.endsWith("1")) {
+							first_file = filename;
+						}
+					}
+					Intent intent;
+					intent = new Intent(mContext, POCDynamicActivity.class);
+					intent.putExtra("shortname", list.get(position).getSectionShortname());
+					intent.putExtra("link", list.get(position).getSectionShortname() + File.separator + first_file);
 					startActivity(intent);
 					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 1:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "drug_abuse");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 2:
-					intent=new Intent(mContext,EncouragingPNCMenuActivity.class);
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 3:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "establishing_rapport");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 4:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "hiv_care");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 5:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "malaria_prevention");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 6:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "nutrition");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 7:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "personal_hygiene");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 8:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "pregnancy_danger_signs");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 9:
-					intent=new Intent(mContext,PostpartumExercisesActivity.class);
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 10:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "safe_food_preparation");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 11	:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "sti_prevention");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 12	:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "supplementation_during_pregnancy");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 13:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "tt_immunisation");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 14:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "what_expect_during_labour");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 15:
-					intent=new Intent(mContext,ANCCounsellingTopicsGenerlActivity.class);
-					intent.putExtra("value", "when_to_return_anc");
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				
+				} else {
+					UIUtils.showAlert(mContext, "Alert", "Click on load content to proceed");
 				}
 			}
-	    	
 	    });
 	}
 	class ListAdapter extends BaseAdapter{
 		Context mContext;
-		String[] listItems;
-		 public LayoutInflater minflater;
-		
-		public ListAdapter(Context mContext,String[] listItems){
-		this.mContext=mContext;
-		this.listItems=listItems;
-		 minflater = LayoutInflater.from(mContext);
+		ArrayList<POCSections> items;
+		public LayoutInflater minflater;
+		public ListAdapter(Context mContext,ArrayList<POCSections>items){
+			this.mContext=mContext;
+			this.items=items;
+			minflater = LayoutInflater.from(mContext);
 		}
 		@Override
 		public int getCount() {
-			return listItems.length;
+			return items.size();
 		}
 
 		@Override
@@ -202,13 +135,21 @@ public class ANCCounsellingTopicsMenuActivity extends BaseActivity {
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			if( convertView == null ){
-				  convertView = minflater.inflate(R.layout.other_listview_single,parent, false);
-			    }
-			 TextView text=(TextView) convertView.findViewById(R.id.textView_otherCategory);
-			 text.setText(listItems[position]);
-			    return convertView;
+				convertView = minflater.inflate(R.layout.other_listview_single,parent, false);
+			}
+			ImageView image=(ImageView) convertView.findViewById(R.id.imageView1);
+			File file=new File(items.get(position).getSectionUrl());
+			if(file.exists()){
+				image.setImageDrawable(getResources().getDrawable(R.drawable.ic_special_bullet));
+			}else{
+				image.setImageDrawable(getResources().getDrawable(R.drawable.ic_special_bullet_downloaded));
+			}
+			TextView text=(TextView) convertView.findViewById(R.id.textView_otherCategory);
+			text.setText(items.get(position).getSectionName());
+
+			return convertView;
 		}
-		
+
 	}
 	public void onBackPressed()
 	{

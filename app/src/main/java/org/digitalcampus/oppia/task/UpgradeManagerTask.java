@@ -83,7 +83,6 @@ public class UpgradeManagerTask extends AsyncTask<Payload, String, Payload> {
 			payload.setResult(true);
 		}
 			SWReset();
-			ReloadingTargets();
 			 SurveyInitialize();
 			 ReinstallingCourses();
 		return payload;
@@ -141,10 +140,7 @@ public class UpgradeManagerTask extends AsyncTask<Payload, String, Payload> {
 				if (modId != -1) {
 					db.insertActivities(cxr.getActivities(modId));
 					db.insertTrackers(ctxr.getTrackers(),modId);
-				} 
-				
-				// add schedule
-				// put this here so even if the course content isn't updated the schedule will be
+				}
 				db.insertSchedule(csxr.getSchedule());
 				db.updateScheduleVersion(modId, csxr.getScheduleVersion());
 				
@@ -291,49 +287,7 @@ public class UpgradeManagerTask extends AsyncTask<Payload, String, Payload> {
 		}
 		
 	}
-	protected void ReloadingTargets(){
-		ArrayList<EventTargets> event_targets=new ArrayList<EventTargets>();
-		ArrayList<EventTargets> coverage_targets=new ArrayList<EventTargets>();
-		ArrayList<EventTargets> other_targets=new ArrayList<EventTargets>();
-		
-		try{
-			if(db.doesTableExists(db.OTHER_TABLE)){
-				other_targets=db.getAllOtherTargets();
-			}
-		}catch(Exception e){
-			//Toast.makeText(ctx, "Could not process data", Toast.LENGTH_LONG).show();
-			e.printStackTrace();
-		}
-		try{
-	      SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(ctx);
-	      int fix_number = prefs.getInt("target_fix", 0);
-	      if (fix_number==0) {
-	    	  publishProgress("Resetting Staying well");
-	        prefs.edit().putInt("target_fix", 1).commit();
-	       for(int i=0;i<other_targets.size();i++){
-	    	   db.insertTarget(Integer.parseInt(other_targets.get(i).getEventTargetId()),
-	    			   			MobileLearning.CCH_TARGET_TYPE_OTHER, 
-	    			   			other_targets.get(i).getEventTargetName(),
-	    			   			" ", 
-	    			   			other_targets.get(i).getEventTargetPersonalCategory(),
-	    			   			Integer.parseInt(other_targets.get(i).getEventTargetNumber()),
-	    			   			Integer.parseInt(other_targets.get(i).getEventTargetNumberAchieved()),
-	    			   			Integer.parseInt(other_targets.get(i).getEventTargetNumberRemaining()), 
-	    			   			other_targets.get(i).getEventTargetStartDate(),
-	    			   			other_targets.get(i).getEventTargetEndDate(),
-	    			   			other_targets.get(i).getEventTargetPeriod(),
-	    			   			other_targets.get(i).getEventTargetStatus(),
-	    			   			event_targets.get(i).getEventTargetLastUpdated());
-	       }
-	       db.deleteTables(db.OTHER_TABLE);
-	       System.out.println("Fixing TargetSetting");
-	   }
-		}catch(Exception e){
-			//Toast.makeText(ctx, "Oops something went wrong", Toast.LENGTH_LONG).show();
-			e.printStackTrace();
-		}
-		
-	}
+
 	@Override
 	protected void onProgressUpdate(String... obj) {
 		synchronized (this) {

@@ -39,6 +39,7 @@ import org.grameenfoundation.cch.model.EventTargets;
 import org.grameenfoundation.cch.model.FacilityTargets;
 import org.grameenfoundation.cch.model.MyCalendarEvents;
 import org.grameenfoundation.cch.model.POCSections;
+import org.grameenfoundation.cch.model.References;
 import org.grameenfoundation.cch.model.RoutineActivity;
 import org.grameenfoundation.cch.model.Survey;
 import org.grameenfoundation.cch.utils.CCHTimeUtil;
@@ -191,45 +192,7 @@ public class DbHelper extends SQLiteOpenHelper {
 	private static final String CCH_SW_ROUTINE_TODO_ORDER  = "doorder";
 	private static final String CCH_SW_ROUTINE_TODO_TIMEDONE  = "timedone";
 
-	
-	
-	//CCH: Events Table
-		public static final String EVENTS_SET_TABLE="event_set";
-		public static final String COL_EVENT_SET_NAME="event_name";
-		public static final String COL_EVENT_SET_DETAIL="event_detail";
-		public static final String COL_EVENT_PERIOD="event_period";
-		public static final String COL_EVENT_NUMBER="event_number";
-		public static final String COL_EVENT_DURATION="duration";
-		public static final String COL_START_DATE="start_date";
-		public static final String COL_EVENT_DUE_DATE="due_date";
-		public static final String COL_SYNC_STATUS ="sync_status";
-		
-		//CCH: Coverage Table
-		public static final String COVERAGE_SET_TABLE="coverage_set";
-		public static final String COL_COVERAGE_SET_CATEGORY_NAME="category_name";
-		public static final String COL_COVERAGE_SET_CATEGORY_DETAIL="category_detail";
-		public static final String COL_COVERAGE_SET_PERIOD="coverage_period";
-		public static final String COL_COVERAGE_NUMBER="category_number";
-		public static final String COL_COVERAGE_DUE_DATE="due_date";
-		public static final String COL_COVERAGE_DURATION="duration";
-		
-		//CCH: Learning Table
-		public static final String LEARNING_TABLE="learning";
-		public static final String COL_LEARNING_CATEGORY="learning_category";
-		public static final String COL_LEARNING_DESCRIPTION="learning_description";
-		public static final String COL_LEARNING_TOPIC="learning_topic";
-		public static final String COL_LEARNING_PERIOD="learning_period";
-		public static final String COL_LEARNING_DUE_DATE="due_date";
-		public static final String COL_LEARNING_DURATION="duration";
-		
-		//CCH: Other Table
-		public static final String OTHER_TABLE="other";
-		public static final String COL_OTHER_CATEGORY="other_category";
-		public static final String COL_OTHER_NUMBER="other_number";
-		public static final String COL_OTHER_PERIOD="other_period";
-		public static final String COL_OTHER_DUE_DATE="due_date";
-		public static final String COL_OTHER_DURATION="duration";
-		public static final String COL_OTHER_DETAILS="other_detail";//personal or not
+	public static final String COL_SYNC_STATUS ="sync_status";
 		
 		private static final String TEXT_TYPE = " TEXT";
 		private static final String INT_TYPE = " integer";
@@ -319,6 +282,13 @@ public class DbHelper extends SQLiteOpenHelper {
 				public static final String CCH_SUB_SECTION="sub_section";
 				public static final String CCH_DOWNLOAD_URL="download_url";
 				public static final String CCH_POC_UPDATED="updated_at";
+
+	//CCH Learning References  Table
+	public static final String LEARNING_REFERENCES_TABLE="learning_references";
+	public static final String CCH_REFERENCE_DESC="reference_desc";
+	public static final String CCH_SHORTNAME="shortname";
+	public static final String CCH_REFERENCE_URL="reference_url";
+	public static final String CCH_REFERENCE_SIZE="size";
 		
 		//CCH 
 				private static final String USER_GROUP_MEMBERS_TABLE = "group_members";
@@ -353,10 +323,7 @@ public class DbHelper extends SQLiteOpenHelper {
 		//runSWReset(db);
 		
 		/*CHN Target tracking changes*/
-		//createEventsSetTable(db);
-		//createCoverageSetTable(db);
-		//createLearningTable(db);
-		//createOtherTable(db);
+
 		createCalendarEventsTable(db);
 		createJustificationTable(db);
 		createSurveyTable(db);
@@ -365,6 +332,7 @@ public class DbHelper extends SQLiteOpenHelper {
 		createFacilityTargetsUpdateTable(db);
 		createGroupMembersTable(db);
 		createPocSectionTable(db);
+		createLearningReferencesTable(db);
 	}
 
 	
@@ -372,13 +340,21 @@ public class DbHelper extends SQLiteOpenHelper {
 		String m_sql = "create table if not exists " + POC_SECTIONS_TABLE + " (" 
 				+ BaseColumns._ID + " integer primary key autoincrement, "
 				+ CCH_SECTION_NAME + INT_TYPE + COMMA_SEP 
-				+ CCH_SECTION_SHORTNAME + TEXT_TYPE + COMMA_SEP 
+				+ CCH_SECTION_SHORTNAME + TEXT_TYPE + COMMA_SEP
 				+ CCH_SECTION_URL + TEXT_TYPE + COMMA_SEP
 				+ CCH_DOWNLOAD_URL + TEXT_TYPE + COMMA_SEP
 				+ CCH_SUB_SECTION + " text)";
 		db.execSQL(m_sql);
 	}
-	
+	public void createLearningReferencesTable(SQLiteDatabase db){
+		String m_sql = "create table if not exists " + LEARNING_REFERENCES_TABLE + " ("
+				+ BaseColumns._ID + " integer primary key autoincrement, "
+				+ CCH_REFERENCE_DESC + TEXT_TYPE + COMMA_SEP
+				+ CCH_SHORTNAME + TEXT_TYPE + COMMA_SEP
+				+ CCH_REFERENCE_URL + TEXT_TYPE + COMMA_SEP
+				+ CCH_REFERENCE_SIZE + " text)";
+		db.execSQL(m_sql);
+	}
 	public void createSurveyTable(SQLiteDatabase db){
 		String m_sql = "create table if not exists " + SURVEY_TABLE + " (" 
 				+ BaseColumns._ID + " integer primary key autoincrement, "
@@ -470,19 +446,19 @@ public class DbHelper extends SQLiteOpenHelper {
 				+ COURSE_C_DATE + " text)";
 		db.execSQL(m_sql);
 	}
-	
+
 	/*public void createCourseGroupTable(SQLiteDatabase db){
-		String m_sql = "create table if not exists" + COURSE_GROUP_TABLE + 
+		String m_sql = "create table if not exists" + COURSE_GROUP_TABLE +
 				" (" + COURSE_C_ID + " integer primary key autoincrement, "
 				+ COURSE_C_VERSIONID + " int, "
-				+ COURSE_C_TITLE + " text, " 
+				+ COURSE_C_TITLE + " text, "
 				+ COURSE_C_SHORTNAME + " text,"
 				+ COURSE_C_GROUP + " text,"
 				+ COURSE_C_DATE + " text)";
 		db.execSQL(m_sql);
 	}*/
-	
-	
+
+
 	public void createActivityTable(SQLiteDatabase db){
 		String a_sql = "create table " + ACTIVITY_TABLE + " (" + 
 									ACTIVITY_C_ID + " integer primary key autoincrement, " + 
@@ -619,10 +595,6 @@ public void createCourses(SQLiteDatabase db){
 			db.execSQL("drop table if exists " + TRACKER_LOG_TABLE);
 			db.execSQL("drop table if exists " + QUIZRESULTS_TABLE);
 			db.execSQL("drop table if exists " + CCH_TRACKER_TABLE);
-			db.execSQL("drop table if exists " + EVENTS_SET_TABLE);
-			db.execSQL("drop table if exists " + COVERAGE_SET_TABLE);
-			db.execSQL("drop table if exists " + LEARNING_TABLE);
-			db.execSQL("drop table if exists " + OTHER_TABLE);
 			db.execSQL("drop table if exists " + JUSTIFICATION_TABLE);
 			db.execSQL("drop table if exists " + CALENDAR_EVENTS_TABLE);
 			db.execSQL("drop table if exists " + CCH_SW_TABLE);
@@ -633,16 +605,7 @@ public void createCourses(SQLiteDatabase db){
 			createCCHTrackerTable(db);
 			createUserTable(db);
 			createFacilityTargetsUpdateTable(db);
-			//createEventsSetTable(db);
-			//createCoverageSetTable(db);
-			//createLearningTable(db);
-			//createOtherTable(db);
-			//createJustificationTable(db);
-			//createStayingWellTable(db);
 			createTargetsTable(db);
-			//createCalendarEventsTable(db);
-			//runSWReset(db);
-
 			return;
 		}
 		
@@ -934,6 +897,24 @@ public void createCourses(SQLiteDatabase db){
 		return true;
 		
 	}
+	public boolean updatePOCSection(String updated_at, String shortname){
+		SQLiteDatabase db = this.getWritableDatabase();
+		if(doesTableExists(POC_SECTIONS_TABLE)){
+			try{
+				String strQuery = "Update "+POC_SECTIONS_TABLE+" set "
+						+CCH_POC_UPDATED+" ='"+updated_at+"'"
+
+						+" where "+CCH_SECTION_SHORTNAME+" ='"+shortname+"'"
+						;
+				db.execSQL(strQuery);
+
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+		return true;
+
+	}
 	
 	public boolean updateSurveyData(String legal,String profile,String response,String plan,String datetime){
 		SQLiteDatabase db = this.getWritableDatabase();
@@ -968,49 +949,6 @@ public void createCourses(SQLiteDatabase db){
 				}
 		c.close();
 		
-			}catch(Exception e){
-				e.printStackTrace();
-			}
-		}
-		return true;
-		
-	}
-	public boolean alterEventTable(){
-		SQLiteDatabase db = this.getWritableDatabase();
-		if(doesTableExists(EVENTS_SET_TABLE)){
-			try{
-		Cursor c = db.rawQuery("PRAGMA table_info("+EVENTS_SET_TABLE+")",null);
-		c.moveToFirst();
-		if(c.getCount()==12){
-			System.out.println("Columns up to date!");
-			
-		}else{
-			String sql = "ALTER TABLE " + EVENTS_SET_TABLE + " ADD COLUMN " + COL_EVENT_SET_DETAIL  + " TEXT NULL;";
-			db.execSQL(sql);
-		}
-		c.close();
-		
-			}catch(Exception e){
-				e.printStackTrace();
-			}
-		}
-		return true;
-		
-	}
-	public boolean alterOtherTable(){
-		SQLiteDatabase db = this.getWritableDatabase();
-		if(doesTableExists(OTHER_TABLE)){
-			try{
-				Cursor c = db.rawQuery("PRAGMA table_info("+OTHER_TABLE+")",null);
-				c.moveToFirst();
-				if(c.getCount()==12){
-			
-				}else{
-					String sql = "ALTER TABLE " + OTHER_TABLE + " ADD COLUMN " + COL_OTHER_DETAILS  + " TEXT NULL;";
-					db.execSQL(sql);
-				}
-				c.close();
-				
 			}catch(Exception e){
 				e.printStackTrace();
 			}
@@ -1213,7 +1151,6 @@ public void createCourses(SQLiteDatabase db){
 		return true;
 		
 	}
-	
 	public boolean updateDateDefault(){
 		SQLiteDatabase db = this.getWritableDatabase();
 		if(doesTableExists(COURSE_TABLE)){
@@ -1228,35 +1165,7 @@ public void createCourses(SQLiteDatabase db){
 		return true;
 		
 	}
-	
-	public boolean updateEventDetailDefault(){
-		SQLiteDatabase db = this.getWritableDatabase();
-		if(doesTableExists(EVENTS_SET_TABLE)){
-			try{
-				String strQuery = "Update "+EVENTS_SET_TABLE+" set "+COL_EVENT_SET_DETAIL+" ="+"'Event'"+" where "+ COL_EVENT_SET_DETAIL+ " IS NULL";
-				db.execSQL(strQuery);
-				
-			}catch(Exception e){
-				e.printStackTrace();
-			}
-		}
-		return true;
-		
-	}
-	public boolean updateOtherDetailDefault(){
-		SQLiteDatabase db = this.getWritableDatabase();
-		if(doesTableExists(OTHER_TABLE)){
-			try{
-				String strQuery = "Update "+OTHER_TABLE+" set "+COL_OTHER_DETAILS+" ="+"'not_personal'"+" where "+ COL_OTHER_DETAILS+ " IS NULL";
-				db.execSQL(strQuery);
-				
-			}catch(Exception e){
-				e.printStackTrace();
-			}
-		}
-		return true;
-	}
-	
+
 	public long insertTarget(int old_id,String target_type,String target_name, String target_detail, String target_category, int target_no, int target_no_achieved, int target_remaining,String start_date,String due_date,String reminder,String status,String last_updated){
 		SQLiteDatabase db = this.getWritableDatabase();
 		createTargetsTable(db);
@@ -1298,6 +1207,21 @@ public void createCourses(SQLiteDatabase db){
 						newRowId = db.insert(POC_SECTIONS_TABLE, null, values);
 					}
 					return newRowId;
+	}
+	public long insertReference(String name,String shortname, String url,String size){
+		SQLiteDatabase db = this.getWritableDatabase();
+		createLearningReferencesTable(db);
+		ContentValues values = new ContentValues();
+		values.put(CCH_REFERENCE_DESC,name);
+		values.put(CCH_SHORTNAME,shortname);
+		values.put(CCH_REFERENCE_URL,url);
+		values.put(CCH_REFERENCE_SIZE,size);
+		long newRowId;
+		newRowId = db.update(LEARNING_REFERENCES_TABLE, values, CCH_SHORTNAME + "='" + shortname+"'", null);
+		if(newRowId==0){
+			newRowId = db.insert(LEARNING_REFERENCES_TABLE, null, values);
+		}
+		return newRowId;
 	}
 	public long insertUserGroupMembers(String username,String firstname, String lastname,
 											String district,String subdistrict,String facility,String zone){
@@ -2438,6 +2362,7 @@ return newRowId;
 						sections.setSectionShortname(c.getString(c.getColumnIndex(CCH_SECTION_SHORTNAME)));
 						sections.setSectionUrl(c.getString(c.getColumnIndex(CCH_SECTION_URL)));
 						sections.setSubSection(c.getString(c.getColumnIndex(CCH_SUB_SECTION)));
+						sections.setUpdated(c.getString(c.getColumnIndex(CCH_POC_UPDATED)));
 						   list.add(sections);
 					
 				   c.moveToNext();
@@ -2451,6 +2376,39 @@ return newRowId;
 			createPocSectionTable(db);
 		}
 			return list;	
+	}
+	public ArrayList<References> getReferences()
+	{	SQLiteDatabase db = this.getReadableDatabase();
+		ArrayList<References> list=new ArrayList<References>();
+
+		if(doesTableExists(LEARNING_REFERENCES_TABLE)){
+			String strQuery="select * from "+LEARNING_REFERENCES_TABLE
+					;
+
+			Cursor c = db.rawQuery(strQuery, null);
+			c.moveToFirst();
+			while (c.isAfterLast()==false) {
+				References r = new References();
+
+				try{
+					r.setReference_name(c.getString(c.getColumnIndex(CCH_REFERENCE_DESC)));
+					r.setReference_shortname(c.getString(c.getColumnIndex(CCH_SHORTNAME)));
+					r.setReference_size(c.getString(c.getColumnIndex(CCH_REFERENCE_SIZE)));
+					r.setReference_url(c.getString(c.getColumnIndex(CCH_REFERENCE_URL)));
+
+					list.add(r);
+
+					c.moveToNext();
+				}catch(Exception e){
+					e.printStackTrace();
+				}
+			}
+			c.close();
+
+		}else{
+			createPocSectionTable(db);
+		}
+		return list;
 	}
 	public ArrayList<POCSections> getPocSection(String shortname)
 	{	SQLiteDatabase db = this.getReadableDatabase();
@@ -2472,6 +2430,7 @@ return newRowId;
 						sections.setSectionShortname(c.getString(c.getColumnIndex(CCH_SECTION_SHORTNAME)));
 						sections.setSectionUrl(c.getString(c.getColumnIndex(CCH_SECTION_URL)));
 						sections.setSubSection(c.getString(c.getColumnIndex(CCH_SUB_SECTION)));
+						sections.setUpdated(c.getString(c.getColumnIndex(CCH_POC_UPDATED)));
 						   list.add(sections);
 					
 				   c.moveToNext();
@@ -2485,6 +2444,41 @@ return newRowId;
 			createPocSectionTable(db);
 		}
 			return list;	
+	}
+	public ArrayList<POCSections> getPocSubSection(String subsections)
+	{	SQLiteDatabase db = this.getReadableDatabase();
+		ArrayList<POCSections> list=new ArrayList<POCSections>();
+
+		if(doesTableExists(POC_SECTIONS_TABLE)){
+			String strQuery="select * from "+POC_SECTIONS_TABLE
+					+" where "+CCH_SUB_SECTION
+					+" like '%"+subsections+"%'";
+
+			Cursor c = db.rawQuery(strQuery, null);
+			c.moveToFirst();
+			while (c.isAfterLast()==false) {
+				POCSections sections = new POCSections();
+
+				try{
+					sections.setSectionId(c.getString(c.getColumnIndex(BaseColumns._ID)));
+					sections.setSectionName(c.getString(c.getColumnIndex(CCH_SECTION_NAME)));
+					sections.setSectionShortname(c.getString(c.getColumnIndex(CCH_SECTION_SHORTNAME)));
+					sections.setSectionUrl(c.getString(c.getColumnIndex(CCH_SECTION_URL)));
+					sections.setSubSection(c.getString(c.getColumnIndex(CCH_SUB_SECTION)));
+					sections.setUpdated(c.getString(c.getColumnIndex(CCH_POC_UPDATED)));
+					list.add(sections);
+
+					c.moveToNext();
+				}catch(Exception e){
+					e.printStackTrace();
+				}
+			}
+			c.close();
+
+		}else{
+			createPocSectionTable(db);
+		}
+		return list;
 	}
 	public ArrayList<POCSections> getPocSections()
 	{	SQLiteDatabase db = this.getReadableDatabase();
@@ -3167,33 +3161,7 @@ return newRowId;
 		   
 		   return u;
    }
-	
 
-
-public long findItemCount(String table, String searchedBy,
-			String searchValue) {
-		
-		return findItemCount(table, searchedBy, searchValue, COL_EVENT_DUE_DATE);
-	}
-
-	public long findItemCount(String table, String searchedBy,
-			String searchValue,String dueDateCol) {
-		SQLiteDatabase db = this.getReadableDatabase();
-		if(doesTableExists(TARGET_TABLE)){
-			String strQuery = "select count(" + BaseColumns._ID + ")as cnt from "
-				+ table + " where " + searchedBy + " = '" + searchValue + "' "
-				+ " and "+CCH_STATUS+ " = '"+MobileLearning.CCH_TARGET_STATUS_NEW+"' ";
-		try {
-			Cursor c = db.rawQuery(strQuery, null);
-			c.moveToFirst();
-			return c.getLong(0);
-		} catch (Exception e) {
-
-		}
-		}
-		return 0l;
-	}
-	
 	public long findTargetCount(String table, String searchedBy,
 			String searchValue,String dueDateCol,String targetType) {
 		SQLiteDatabase db = this.getReadableDatabase();
@@ -3217,77 +3185,6 @@ public long findItemCount(String table, String searchedBy,
 
 		return findTargetCount(TARGET_TABLE, CCH_REMINDER, duration,CCH_DUE_DATE,target_type);
 	}
-
-	public long getCoverageCount(String duration) {
-
-		return findItemCount(COVERAGE_SET_TABLE, COL_COVERAGE_SET_PERIOD,
-				duration,COL_COVERAGE_DUE_DATE);
-	}
-
-	public long getLearningCount(String duration) {
-
-		return findItemCount(LEARNING_TABLE, COL_LEARNING_PERIOD, duration,COL_LEARNING_DUE_DATE);
-	}
-	
-	public long getOtherCount(String duration) {
-
-		return findItemCount(OTHER_TABLE, COL_OTHER_PERIOD, duration,COL_OTHER_DUE_DATE);
-	}
-	
-	
-	public long findItemIdCount(String table, String searchedBy,
-			String searchValue) {
-		
-		return findItemCount(table, searchedBy, searchValue, COL_EVENT_DUE_DATE);
-	}
-
-	public long findItemIdCount(String table, String searchedBy,
-			String searchValue,String startDateCol) {
-		ArrayList<EventTargets> list=new ArrayList<EventTargets>();	 
-		 SimpleDateFormat dateFormat = new SimpleDateFormat(
-	                "dd-MM-yyyy", Locale.getDefault());
-		 long starDateAsTimestamp = 0;
-		long today = 0;
-		Date date1 = null;
-		Date date2=null;
-		SQLiteDatabase db = this.getReadableDatabase();
-		if(doesTableExists(TARGET_TABLE)){
-		String strQuery = "select count(" + BaseColumns._ID + ")as cnt, "+CCH_START_DATE+" from "
-				+ table + " where " + searchedBy + " = '" + searchValue + "' "
-						+ " and "+COL_SYNC_STATUS+ " = '"+"new_record"+"' ";
-		
-		try {
-			Cursor c = db.rawQuery(strQuery, null);
-			c.moveToFirst();
-			int total_targets = 0;
-			while (c.isAfterLast()==false) {
-				EventTargets event_targets = new EventTargets();
-				date1 = new SimpleDateFormat("dd-MM-yyyy").parse(c.getString(c.getColumnIndex(COL_START_DATE)));
-				date2= new SimpleDateFormat("dd-MM-yyyy").parse(getDate());
-				starDateAsTimestamp=date1.getTime();
-				today=date2.getTime();
-				if(starDateAsTimestamp<=today){
-					event_targets.setEventTargetStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
-					list.add(event_targets);
-					total_targets=list.size();
-				}
-				   c.moveToNext();						
-			}
-			c.close();
-			
-			return total_targets;
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		}
-		return 0l;
-	}
-
-	public long getIdCount(String duration) {
-
-		return findItemIdCount(TARGET_TABLE, CCH_REMINDER, duration,CCH_START_DATE);
-	}
-
 
 	
 	private void insertDefaultRoutineValues(SQLiteDatabase db) 
@@ -3652,10 +3549,10 @@ return 1;
 		
 	}
 	
-	public boolean deletePOC(){
+	public boolean deletePOC(String section){
 		SQLiteDatabase db = this.getWritableDatabase(); 
 		if(doesTableExists(POC_SECTIONS_TABLE)){
-		 String deleteQuery="Delete from "+POC_SECTIONS_TABLE;
+		 String deleteQuery="Delete from "+POC_SECTIONS_TABLE+" where "+CCH_SUB_SECTION+" like '%"+section+"%'";
 	      db.execSQL(deleteQuery);
 		}
 		return true;
@@ -4720,7 +4617,7 @@ return true;
 						events.setEventDescription(c.getString(c.getColumnIndex(COL_DESCRIPTION)));
 						events.setEventComment(c.getString(c.getColumnIndex(COL_COMMENTS)));
 						events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-						events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+						events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 						   list.add(events);
 					
 				   c.moveToNext();
@@ -4741,7 +4638,7 @@ return true;
 		
 		if(doesTableExists(CALENDAR_EVENTS_TABLE)){
 		String strQuery="select * from "+CALENDAR_EVENTS_TABLE
-						+" ORDER BY "+ COL_START_DATE+ " DESC";
+						+" ORDER BY "+ COL_STARTDATE+ " DESC";
 		
 			Cursor c = db.rawQuery(strQuery, null);
 			c.moveToFirst();
@@ -4750,7 +4647,7 @@ return true;
 				String dformat ="MMM-dd hh:mm a";
 		 	       SimpleDateFormat formatter = new SimpleDateFormat(dformat);
 		 	       Calendar calendar = Calendar.getInstance();
-				calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+				calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 		 	    	String d =formatter.format(calendar.getTime());
 		 	    	formatter.format(calendar.getTime());
 					try{
@@ -4762,7 +4659,7 @@ return true;
 						events.setEventCategory(c.getString(c.getColumnIndex(COL_CATEGORY)));
 						events.setEventComment(c.getString(c.getColumnIndex(COL_COMMENTS)));
 						events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-						events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+						events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 						events.setEventTime(d);
 						   list.add(events);
 					
@@ -5556,92 +5453,7 @@ return true;
 			    return false;
 			}
 // Transforming target setting			
-			public ArrayList<EventTargets> getAllEventTargets() 
-			{	
-				SQLiteDatabase db = this.getReadableDatabase();
-				ArrayList<EventTargets> list=new ArrayList<EventTargets>();	 
-				String strQuery="select * from "+EVENTS_SET_TABLE;	
-					Cursor c = db.rawQuery(strQuery, null);
-					c.moveToFirst();
-					
-					while (c.isAfterLast()==false) {
-						EventTargets event_targets = new EventTargets();
-						event_targets.setEventTargetName(c.getString(c.getColumnIndex(COL_EVENT_SET_NAME)));
-						event_targets.setEventTargetNumber(c.getString(c.getColumnIndex(COL_EVENT_NUMBER)));
-						event_targets.setEventTargetNumberAchieved(c.getString(c.getColumnIndex(COL_NUMBER_ACHIEVED)));
-						event_targets.setEventTargetStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
-						event_targets.setEventTargetId(c.getString(c.getColumnIndex(BaseColumns._ID)));
-						event_targets.setEventTargetEndDate(c.getString(c.getColumnIndex(COL_EVENT_DUE_DATE)));
-						event_targets.setEventTargetLastUpdated(c.getString(c.getColumnIndex(COL_LAST_UPDATED)));
-						event_targets.setEventTargetPeriod(c.getString(c.getColumnIndex(COL_EVENT_PERIOD)));
-						event_targets.setEventTargetStatus(c.getString(c.getColumnIndex(COL_SYNC_STATUS)));
-						event_targets.setEventTargetDetail(c.getString(c.getColumnIndex(COL_EVENT_SET_DETAIL)));
-						event_targets.setEventTargetNumberRemaining(c.getString(c.getColumnIndex(COL_NUMBER_REMAINING)));
-						   list.add(event_targets);
-						   c.moveToNext();						
-					}
-					c.close();
-					
-					return list;	
-			}
-			
-			
-			public ArrayList<EventTargets> getAllCoverageTargets() 
-			{	
-				SQLiteDatabase db = this.getReadableDatabase();
-				ArrayList<EventTargets> list=new ArrayList<EventTargets>();	 
-				String strQuery="select * from "+COVERAGE_SET_TABLE;	
-					Cursor c = db.rawQuery(strQuery, null);
-					c.moveToFirst();
-					
-					while (c.isAfterLast()==false) {
-						EventTargets event_targets = new EventTargets();
-						event_targets.setEventTargetName(c.getString(c.getColumnIndex(COL_COVERAGE_SET_CATEGORY_NAME)));
-						event_targets.setEventTargetNumber(c.getString(c.getColumnIndex(COL_COVERAGE_NUMBER)));
-						event_targets.setEventTargetNumberAchieved(c.getString(c.getColumnIndex(COL_NUMBER_ACHIEVED)));
-						event_targets.setEventTargetStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
-						event_targets.setEventTargetId(c.getString(c.getColumnIndex(BaseColumns._ID)));
-						event_targets.setEventTargetEndDate(c.getString(c.getColumnIndex(COL_COVERAGE_DUE_DATE)));
-						event_targets.setEventTargetLastUpdated(c.getString(c.getColumnIndex(COL_LAST_UPDATED)));
-						event_targets.setEventTargetPeriod(c.getString(c.getColumnIndex(COL_COVERAGE_SET_PERIOD)));
-						event_targets.setEventTargetStatus(c.getString(c.getColumnIndex(COL_SYNC_STATUS)));
-						event_targets.setEventTargetDetail(c.getString(c.getColumnIndex(COL_COVERAGE_SET_CATEGORY_DETAIL)));
-						event_targets.setEventTargetNumberRemaining(c.getString(c.getColumnIndex(COL_NUMBER_REMAINING)));
-						   list.add(event_targets);
-						   c.moveToNext();						
-					}
-					c.close();
-					
-					return list;	
-			}
-			
-			public ArrayList<EventTargets> getAllOtherTargets() 
-			{		SQLiteDatabase db = this.getReadableDatabase();
-				ArrayList<EventTargets> list=new ArrayList<EventTargets>();	 
-				String strQuery="select * from "+OTHER_TABLE;	
-					Cursor c = db.rawQuery(strQuery, null);
-					c.moveToFirst();
-					
-					while (c.isAfterLast()==false) {
-						EventTargets event_targets = new EventTargets();
-						event_targets.setEventTargetName(c.getString(c.getColumnIndex(COL_OTHER_CATEGORY)));
-						event_targets.setEventTargetNumber(c.getString(c.getColumnIndex(COL_OTHER_NUMBER)));
-						event_targets.setEventTargetNumberAchieved(c.getString(c.getColumnIndex(COL_NUMBER_ACHIEVED)));
-						event_targets.setEventTargetStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
-						event_targets.setEventTargetId(c.getString(c.getColumnIndex(BaseColumns._ID)));
-						event_targets.setEventTargetEndDate(c.getString(c.getColumnIndex(COL_OTHER_DUE_DATE)));
-						event_targets.setEventTargetLastUpdated(c.getString(c.getColumnIndex(COL_LAST_UPDATED)));
-						event_targets.setEventTargetPeriod(c.getString(c.getColumnIndex(COL_OTHER_PERIOD)));
-						event_targets.setEventTargetStatus(c.getString(c.getColumnIndex(COL_SYNC_STATUS)));
-						event_targets.setEventTargetPersonalCategory(c.getString(c.getColumnIndex(COL_OTHER_DETAILS)));
-						event_targets.setEventTargetNumberRemaining(c.getString(c.getColumnIndex(COL_NUMBER_REMAINING)));
-						   list.add(event_targets);
-						   c.moveToNext();						
-					}
-					c.close();
-					
-					return list;	
-			}
+
 			public ArrayList<MyCalendarEvents> getTodaysEvents() {
 			SQLiteDatabase db = this.getReadableDatabase();
 			ArrayList<MyCalendarEvents> list=new ArrayList<MyCalendarEvents>();	
@@ -5655,11 +5467,11 @@ return true;
 				c.moveToFirst();
 				while (c.isAfterLast()==false) {
 					MyCalendarEvents events = new MyCalendarEvents();
-					 calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+					 calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 			 	    	String d =formatter.format(calendar.getTime());
 			 	    	formatter.format(calendar.getTime());
 			 	    	LocalDate now = new LocalDate();
-			 	    	LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+			 	    	LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 					// if ((now.getDayOfMonth()==previous.getDayOfMonth())
 						//	 &&(now.getMonthOfYear()==previous.getMonthOfYear())
 							// &&(now.getYear()==previous.getYear()));
@@ -5674,7 +5486,7 @@ return true;
 							events.setEventComment(c.getString(c.getColumnIndex(COL_COMMENTS)));
 							events.setEventJustification(c.getString(c.getColumnIndex(COL_JUSTIFICATION)));
 							events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-							events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+							events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 							events.setEventTime(d);
 							   list.add(events);
 						}catch(Exception e){
@@ -5705,10 +5517,10 @@ return true;
 					c.moveToFirst();
 					while (c.isAfterLast()==false) {
 						MyCalendarEvents events = new MyCalendarEvents();
-						calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+						calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 			 	    	String d =formatter.format(calendar.getTime());
 			 	    	formatter.format(calendar.getTime());
-			 	    	LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+			 	    	LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 			 	    	LocalDate lastmonth = new LocalDate().minusMonths(1);
 						
 						if((previous.getMonthOfYear()==lastmonth.getMonthOfYear())
@@ -5726,7 +5538,7 @@ return true;
 								events.setEventComment(c.getString(c.getColumnIndex(COL_COMMENTS)));
 								events.setEventJustification(c.getString(c.getColumnIndex(COL_JUSTIFICATION)));
 								events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-								events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+								events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 								events.setEventTime(d);
 								   list.add(events);
 							}catch(Exception e){
@@ -5758,17 +5570,15 @@ return true;
 					c.moveToFirst();
 					while (c.isAfterLast()==false) {
 						MyCalendarEvents events = new MyCalendarEvents();
-						calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+						calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 			 	    	String d =formatter.format(calendar.getTime());
 			 	    	formatter.format(calendar.getTime());
-			 	    	LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+			 	    	LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 			 	    	LocalDate lastmonth = new LocalDate().minusMonths(1);
 						
 						if((previous.getMonthOfYear()==lastmonth.getMonthOfYear())
 								&&(previous.getYear()==lastmonth.getYear())){
-							
-						 //if (isPastLastMonth(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE)))).equals("true"));
-			        	  // {
+
 							try{
 								events.setEventType(c.getString(c.getColumnIndex(COL_EVENTTYPE)));
 								events.setEventLocation(c.getString(c.getColumnIndex(COL_LOCATION)));
@@ -5779,7 +5589,7 @@ return true;
 								events.setEventCategory(c.getString(c.getColumnIndex(COL_CATEGORY)));
 								events.setEventJustification(c.getString(c.getColumnIndex(COL_JUSTIFICATION)));
 								events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-								events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+								events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 								events.setEventTime(d);
 								   list.add(events);
 							}catch(Exception e){
@@ -5809,11 +5619,11 @@ return true;
 					c.moveToFirst();
 					while (c.isAfterLast()==false) {
 						MyCalendarEvents events = new MyCalendarEvents();
-						events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
-						 calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+						events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
+						 calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 				 	    	String d =formatter.format(calendar.getTime());
 				 	    	formatter.format(calendar.getTime());
-				 	    	LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+				 	    	LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 				 	    	LocalDate now = new LocalDate().minusDays(2);
 				 	    	DateTime today=new DateTime();
 				 	    	if(previous.getDayOfMonth()<=now.getDayOfMonth()
@@ -5831,7 +5641,7 @@ return true;
 								events.setEventComment(c.getString(c.getColumnIndex(COL_COMMENTS)));
 								events.setEventCategory(c.getString(c.getColumnIndex(COL_CATEGORY)));
 								events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-								events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+								events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 								events.setEventTime(d);
 								   list.add(events);
 						   
@@ -5866,11 +5676,11 @@ return true;
 					c.moveToFirst();
 					while (c.isAfterLast()==false) {
 						MyCalendarEvents events = new MyCalendarEvents();
-						events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
-						 calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+						events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
+						 calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 				 	    	String d =formatter.format(calendar.getTime());
 				 	    	formatter.format(calendar.getTime());
-				 	    	LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+				 	    	LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 				 	    	LocalDate now = new LocalDate().minusDays(2);
 				 	    	DateTime today=new DateTime();
 							if(previous.getDayOfMonth()<=now.getDayOfMonth()
@@ -5889,7 +5699,7 @@ return true;
 								events.setEventJustification(c.getString(c.getColumnIndex(COL_JUSTIFICATION)));
 								events.setEventComment(c.getString(c.getColumnIndex(COL_COMMENTS)));
 								events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-								events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+								events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 								events.setEventTime(d);
 								   list.add(events);
 						   
@@ -5921,10 +5731,10 @@ return true;
 					c.moveToFirst();
 					while (c.isAfterLast()==false) {
 						MyCalendarEvents events = new MyCalendarEvents();
-						 calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+						 calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 				 	    	String d =formatter.format(calendar.getTime());
 				 	    	formatter.format(calendar.getTime());
-			    			LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+			    			LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 			    			LocalDate now = new LocalDate().minusDays(1);
 		    				try{
 			    			if((now.getDayOfMonth()==previous.getDayOfMonth())
@@ -5939,7 +5749,7 @@ return true;
 								events.setEventCategory(c.getString(c.getColumnIndex(COL_CATEGORY)));
 								events.setEventJustification(c.getString(c.getColumnIndex(COL_JUSTIFICATION)));
 								events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-								events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+								events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 								events.setEventTime(d);
 								  list.add(events);
 					        	   
@@ -5974,10 +5784,10 @@ return true;
 					c.moveToFirst();
 					while (c.isAfterLast()==false) {
 						MyCalendarEvents events = new MyCalendarEvents();
-						 calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+						 calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 				 	    	String d =formatter.format(calendar.getTime());
 				 	    	formatter.format(calendar.getTime());
-			    			LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+			    			LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 			    			LocalDate now = new LocalDate().minusDays(1);
 		    				try{
 			    			if((now.getDayOfMonth()==previous.getDayOfMonth())
@@ -5992,7 +5802,7 @@ return true;
 								events.setEventCategory(c.getString(c.getColumnIndex(COL_CATEGORY)));
 								events.setEventJustification(c.getString(c.getColumnIndex(COL_JUSTIFICATION)));
 								events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-								events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+								events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 								events.setEventTime(d);
 								  list.add(events);
 					        	   
@@ -6025,10 +5835,10 @@ return true;
 					c.moveToFirst();
 					while (c.isAfterLast()==false) {
 						MyCalendarEvents events = new MyCalendarEvents();
-						calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+						calendar.setTimeInMillis(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 				 	    String d =formatter.format(calendar.getTime());
 				 	    formatter.format(calendar.getTime());
-				 	   LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_START_DATE))));
+				 	   LocalDate previous = new LocalDate(Long.parseLong(c.getString(c.getColumnIndex(COL_STARTDATE))));
 				 	  LocalDate now = new LocalDate().plusDays(1);
 						if((now.getDayOfMonth()==previous.getDayOfMonth())
 								&&(now.getMonthOfYear()==previous.getMonthOfYear())
@@ -6044,7 +5854,7 @@ return true;
 								events.setEventCategory(c.getString(c.getColumnIndex(COL_CATEGORY)));
 								events.setEventJustification(c.getString(c.getColumnIndex(COL_JUSTIFICATION)));
 								events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-								events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+								events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 								events.setEventTime(d);
 								   list.add(events);
 							}catch(Exception e){
@@ -6073,10 +5883,10 @@ return true;
 					c.moveToFirst();
 					while (c.isAfterLast()==false) {
 						MyCalendarEvents events = new MyCalendarEvents();
-						calendar.setTimeInMillis(Long.valueOf(c.getString(c.getColumnIndex(COL_START_DATE))));
+						calendar.setTimeInMillis(Long.valueOf(c.getString(c.getColumnIndex(COL_STARTDATE))));
 				 	    String d =formatter.format(calendar.getTime());
 				 	    formatter.format(calendar.getTime());
-				 	   LocalDate previous = new LocalDate(Long.valueOf(c.getString(c.getColumnIndex(COL_START_DATE))));
+				 	   LocalDate previous = new LocalDate(Long.valueOf(c.getString(c.getColumnIndex(COL_STARTDATE))));
 				 	  LocalDate now = new LocalDate().plusDays(2);
 						if((previous.getMonthOfYear()>now.getMonthOfYear())
 								&&(previous.getYear()>=now.getYear())){
@@ -6091,7 +5901,7 @@ return true;
 								events.setEventComment(c.getString(c.getColumnIndex(COL_COMMENTS)));
 								events.setEventJustification(c.getString(c.getColumnIndex(COL_JUSTIFICATION)));
 								events.setEventEndDate(c.getString(c.getColumnIndex(COL_ENDDATE)));
-								events.setEventStartDate(c.getString(c.getColumnIndex(COL_START_DATE)));
+								events.setEventStartDate(c.getString(c.getColumnIndex(COL_STARTDATE)));
 								events.setEventTime(d);
 								   list.add(events);
 							}catch(Exception e){

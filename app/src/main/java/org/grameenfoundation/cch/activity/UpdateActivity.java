@@ -116,38 +116,7 @@ public class UpdateActivity extends BaseActivity {
 		 question=(RadioGroup) findViewById(R.id.radioGroup_learning);
 		 question2=(RadioGroup) findViewById(R.id.radioGroup_justify);
 		 radioGroup_group=(RadioGroup) findViewById(R.id.radioGroup_groups);
-		// groupmembernames=new ArrayList<String>();
-		 //groupmembernames=db.getAllGroupMembers();
-		// Collections.sort(groupmembernames,String.CASE_INSENSITIVE_ORDER);
-		 /*
-		 group_spinner = (MultiSelectSpinner) findViewById(R.id.spinner1);
-	        //group_spinner.setAdapter(adapter, false, onSelectedListener);
-	        group_spinner.setItems(groupmembernames, "Select group members", -1, new MultiSpinnerListener() {
-				
-				@Override
-				public void onItemsSelected(boolean[] selected) {
-					
-					// your operation with code...
-					for(int i=0; i<selected.length; i++) {
-						if(selected[i]) {
-							Log.i("TAG", i + " : "+ groupmembernames.get(i));
-						}
-					}
-				}
-			});
-	        
-	        radioGroup_group.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-				
-				@Override
-				public void onCheckedChanged(RadioGroup group, int checkedId) {
-					if(checkedId==R.id.radio_yesGroup){
-						group_spinner.setVisibility(View.VISIBLE);
-					}else{
-						group_spinner.setVisibility(View.GONE);
-					}
-					
-				}
-			});*/
+
 		 question2.check(R.id.radio_no2);
 		start_time=System.currentTimeMillis();
 		String[] items=getResources().getStringArray(R.array.Justification);
@@ -278,14 +247,11 @@ public class UpdateActivity extends BaseActivity {
 			String next="<font color='#520000'>"+name+"</font>";
 			String next_two="<font color='#53AB20'>"+reminderValue(period)+" </font>";
 			message.setText(Html.fromHtml(first+next+next_two));
-			//message.setText(name);
 			String one="<font color='#53AB20'>So far you have completed </font>";
 			String two="<font color='#520000'>"+number_achieved_from_previous+" </font>";
 			String three="<font color='#53AB20'>"+" out of "+"</font>";
 			String four="<font color='#520000'>"+number+"</font>";
 			status.setText(Html.fromHtml(one+two+three+four));
-			//status.setText("So far you have completed "+number_achieved_from_previous+" out of "+number);
-			
 		}
 		start_date.setText(startDate);
 		due_date.setText(dueDate);

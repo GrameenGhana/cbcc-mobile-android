@@ -30,15 +30,17 @@ import android.util.Log;
 
 public class POCContentLoaderTask extends AsyncTask<String, String, String> {
 	private Context ctx;
+	private String subsection;
 	public static final int DIALOG_DOWNLOAD_PROGRESS = 0;
 	private DbHelper dbh;
 	 private ProgressDialog mProgressDialog;
 	private JSONArray contentArray;
 	 
 	
-	public POCContentLoaderTask(Context ctx) {
+	public POCContentLoaderTask(Context ctx, String subsection) {
 		this.ctx = ctx;
 		this.dbh = new DbHelper(ctx);
+		this.subsection=subsection;
 	}
 	@Override
 	protected void onPreExecute() {
@@ -81,7 +83,7 @@ public class POCContentLoaderTask extends AsyncTask<String, String, String> {
 		protected void onPostExecute(String unused) {
 			System.out.println(unused);
 			mProgressDialog.setMessage("Content successfully downloaded!");
-			dbh.deletePOC();
+			dbh.deletePOC(subsection);
 			dbh.alterPOCSection();
 			dbh.alterPOCSectionUpdate();
 			JSONObject jObj;
@@ -97,7 +99,7 @@ public class POCContentLoaderTask extends AsyncTask<String, String, String> {
 										jObj.getString("section_url"),
 										jObj.getString("updated_at"));
 				}
-				DownloadPOCContentTask task=new DownloadPOCContentTask(ctx);
+				DownloadPOCContentTask task=new DownloadPOCContentTask(ctx,subsection);
 				task.execute();
 			} catch (JSONException e) {
 				e.printStackTrace();

@@ -73,8 +73,8 @@ public class ChildWelfareActivity extends BaseActivity implements OnItemClickLis
 			@Override
 			public void onClick(View v) {
 				if(dbh.isOnline()){
-					POCContentLoaderTask task=new POCContentLoaderTask(mContext);
-					task.execute(getResources().getString(R.string.serverDefaultAddress)+File.separator+MobileLearning.POC_SERVER_DOWNLOAD_PATH+"alluploads");
+					POCContentLoaderTask task=new POCContentLoaderTask(mContext,"CWC");
+					task.execute(getResources().getString(R.string.serverDefaultAddress)+File.separator+MobileLearning.POC_SERVER_DOWNLOAD_PATH+"alluploadscwc");
 				}else{
 					UIUtils.showAlert(mContext, "Alert", "Check your internet connection and try again");
 				}
@@ -86,8 +86,8 @@ public class ChildWelfareActivity extends BaseActivity implements OnItemClickLis
 			@Override
 			public void onClick(View v) {
 				if(dbh.isOnline()){
-					POCRefreshContentTask task=new POCRefreshContentTask(mContext);
-					task.execute(getResources().getString(R.string.serverDefaultAddress)+File.separator+MobileLearning.POC_SERVER_DOWNLOAD_PATH+"alluploads");
+					POCRefreshContentTask task=new POCRefreshContentTask(mContext,"CWC");
+					task.execute(getResources().getString(R.string.serverDefaultAddress)+File.separator+MobileLearning.POC_SERVER_DOWNLOAD_PATH+"alluploadscwc");
 				}else{
 					UIUtils.showAlert(mContext, "Alert", "Check your internet connection and try again");
 				}

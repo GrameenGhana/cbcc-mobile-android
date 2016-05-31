@@ -20,6 +20,7 @@ import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.application.MobileLearning;
 import org.grameenfoundation.cch.model.POCSections;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -40,8 +41,9 @@ private DbHelper db;
 ArrayList<POCSections> sections;
 
 ProgressDialog mProgressDialog;
+    private int i;
 
- public RefreshPOCContentTask(Context context, ArrayList<POCSections> ps) {
+    public RefreshPOCContentTask(Context context, ArrayList<POCSections> ps) {
      this.context = context;
      db=new DbHelper(context);
      sections=new ArrayList<POCSections>();
@@ -53,7 +55,7 @@ mProgressDialog = new ProgressDialog(context);
 mProgressDialog.setMessage("Downloading Content, Please wait...");
 mProgressDialog.setIndeterminate(true);
 mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-mProgressDialog.setCancelable(false);
+mProgressDialog.setCancelable(true);
 
 }
  @Override
@@ -72,35 +74,38 @@ mProgressDialog.setCancelable(false);
 @Override
  protected String doInBackground(String... sUrl) {
 	 downloadDirectory  = new File(MobileLearning.POC_ROOT);
+     i=0;
      if(!downloadDirectory.exists()){
     	 downloadDirectory.mkdirs();
      }
      InputStream input = null;
      OutputStream output = null;
      HttpURLConnection connection = null;
+     
     // sections=db.getPocSections();
      try {
-    	 for(int i=0;i<sections.size();i++){
+    	 for(i=0;i<sections.size();i++){
          URL url = new URL(context.getResources().getString(R.string.serverDefaultAddress)+File.separator+MobileLearning.POC_SERVER_CONTENT_DOWNLOAD_PATH+URLEncoder.encode(sections.get(i).getSectionShortname()+".zip"));
         // System.out.println(context.getResources().getString(R.string.serverDefaultAddress)+File.separator+MobileLearning.POC_SERVER_CONTENT_DOWNLOAD_PATH+sections.get(i).getSectionShortname()+".zip");
          connection = (HttpURLConnection) url.openConnection();
          connection.connect();
-
          // expect HTTP 200 OK, so we don't mistakenly save error report
          // instead of the file
          if (connection.getResponseCode() != HttpURLConnection.HTTP_OK) {
              return "Server returned HTTP " + connection.getResponseCode()
                      + " " + connection.getResponseMessage();
          }
-
-         // this will be useful to display download percentage
-         // might be -1: server did not report the length
          int fileLength = connection.getContentLength();
-
          // download the file
          input = connection.getInputStream();
          output = new FileOutputStream(downloadDirectory+File.separator+sections.get(i).section_shortname+".zip");
-
+           // mProgressDialog.setMessage("Downloading: "+i+" of "+sections.size()+" \n"+sections.get(i).section_shortname+".zip");
+             ((Activity) context).runOnUiThread(new Runnable() {
+                 @Override
+                 public void run() {
+                     mProgressDialog.setMessage("Downloading: "+i+" of "+sections.size()+" \n"+sections.get(i).section_shortname+".zip");
+                 }
+             });
          byte data[] = new byte[4096];
          long total = 0;
          int count;
@@ -161,7 +166,8 @@ mProgressDialog.setCancelable(false);
                  }else if(newFile.exists()){
                 	 newFile.delete();
                  }
-                 unzip(zipLocation, newFile);		
+                 unzip(zipLocation, newFile);
+                 db.updatePOCSection(sections.get(i).getUpdatedAt(),sections.get(i).getSectionShortname());
         	 }
         	
 		} catch (IOException e) {
@@ -184,7 +190,7 @@ mProgressDialog.setCancelable(false);
 	        int count;
 	        byte[] buffer = new byte[8192];
 	        while ((ze = zis.getNextEntry()) != null) {
-	        	System.out.println(zipFile);
+	        	//System.out.println(zipFile);
 	            File file = new File(targetDirectory, ze.getName());
 	            File dir = ze.isDirectory() ? file : file.getParentFile();
 	            if (!dir.isDirectory() && !dir.mkdirs())

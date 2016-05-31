@@ -2,109 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Software Developer\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.2\a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d\joda-time-2.2.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\joda-time-2.2_5b9fa6db915a2078cc32084edc3f0a1af0d86f96.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\libs\mpandroidchartlibrary-1-7-4.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="c685e45ac6491e51640ce3571606ac22dfd4a6a3">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-1-7-4_33615052b42a1eedbf6f6929d6bac1770ae317a9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\libs\bugsense-3.6.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="3928cf9ff54683b522cee09da9034106c53fea91">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\bugsense-3.6_906eb5ea5389dd904615cc20924be114ed18a5f9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\libs\json-lib-2.4-jdk15.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="136743e0d12df4e785e62b48618cee169b2ae546">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\json-lib-2.4-jdk15_04ab2eb4395172b9b90faa44421246d5348b6b69.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="b40bdde631d4a6285325b310ed1b3a5e12e0c167">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\instant-run_a6044f19ba152ba99c2cbff3cb55781833ece985.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\libs\httpclient-4.2.5.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="3bfeb9062b12d5b340445336790dbc14c59c2d79">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\httpclient-4.2.5_06e2fa9305d4de8de7fb1ba8aa8af93ddcb8cbbe.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\libs\hirondelle-date4j-1.5.1.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="7b52de513f87ae4d9ff5d17518def0a1e9bc3df0">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\hirondelle-date4j-1.5.1_065415b80085ecd05206b20226e871be1da9822c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.2.0_857898e73eb21b95351b90ec648dd02a9b6786af.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_d0cae70d0f00896bf227fc6bd25ceeafae8f1e34.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\libs\mquiz-0.6.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="82bf81ccf7c1d46229e5aac87a8619823afeb4da">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\mquiz-0.6_05da7f2bff3665504bef10c950d6070fcce97cbd.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.0_ee457ee4eea07668138ec389a40abe06ad910f3d.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\Development\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0_8b97be455a6a40455e5fccd8e78ee3a761479755.jar" />
-    </item>
-    <item
         jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="5906621495b0a51e5b2e64f6cbb3727d5deba744">
+        sha1="aee41d426a3451153bbfc11a9f5edc7e77ae716f">
         <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3eec91bfbf6e47fa936a29c87bc0209146cf9636.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\libs\crouton-1.8.2.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ba14b78124a9945dab574c195b8b60633fd61f99">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\crouton-1.8.2_23a45d446a8566227d527f7aff455e58ee7c017b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\libs\acra-4.5.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
-        <dex dex="C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\pre-dexed\debug\acra-4.5.0_6e35c222042f20339ce635abee8ee647869b9629.jar" />
     </item>
 
 </items>

@@ -7,6 +7,7 @@ import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.model.User;
 import org.grameenfoundation.adapters.GroupParticipantsAdapter;
+import org.grameenfoundation.poc.BaseActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -22,7 +23,7 @@ import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-public class GroupParticipantsSelectActivity extends ActionBarActivity {
+public class GroupParticipantsSelectActivity extends BaseActivity {
 
 	private CheckBox self;
 	private ArrayList<User> groupmembernames;
@@ -45,7 +46,6 @@ public class GroupParticipantsSelectActivity extends ActionBarActivity {
         getSupportActionBar().setTitle("Planner");
         getSupportActionBar().setSubtitle("Group Participants");
 	    db=new DbHelper(GroupParticipantsSelectActivity.this);
-	   // list_group=(ListView) findViewById(R.id.listView_groups);
 	    group_members=new JSONObject();
 	    groupmembernames=db.getAllGroupMembers();
 	    allCb = new ArrayList<CheckBox>();
@@ -55,7 +55,6 @@ public class GroupParticipantsSelectActivity extends ActionBarActivity {
 	    fullName=new ArrayList<User>();
 	    fullName=db.getUserFullName();
 	    self.setText(fullName.get(0).getFirstname()+" "+fullName.get(0).getLastname()+" (me)");
-		// Collections.sort(groupmembernames,String.CASE_INSENSITIVE_ORDER);
 		 submit=(Button) findViewById(R.id.button_select);
 	    try{
 	    	for(int i=0;i<groupmembernames.size();i++){
@@ -85,7 +84,6 @@ public class GroupParticipantsSelectActivity extends ActionBarActivity {
 			public void onClick(View v) {
 				result=new StringBuilder();
 				ids=new StringBuilder();
-				//result.delete(0, result.length());
 				for (int i=0;i<parentView.getChildCount();i++){
 					if(allCb.get(i).isChecked()){	
 						 System.out.println(result.toString());
@@ -97,7 +95,6 @@ public class GroupParticipantsSelectActivity extends ActionBarActivity {
 					}else{
 						self_value="";
 						self_id="";
-						//setResult(RESULT_OK,returnIntent);
 					}	
 					returnIntent=new Intent();
 					returnIntent.putExtra("groups",result.toString()+self_value);

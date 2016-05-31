@@ -3,22 +3,26 @@ package org.grameenfoundation.poc;
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.application.MobileLearning;
+import org.digitalcampus.oppia.utils.UIUtils;
+import org.grameenfoundation.cch.model.POCSections;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import java.io.File;
+import java.util.ArrayList;
 
 public class PostnatalCareSectionActivity extends BaseActivity {
 
@@ -27,7 +31,9 @@ public class PostnatalCareSectionActivity extends BaseActivity {
 	private DbHelper dbh;
 	private Long start_time;
 	private Long end_time;
-	private JSONObject json;  
+	private JSONObject json;
+	private ArrayList<POCSections> list;
+	private String first_file;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -37,6 +43,11 @@ public class PostnatalCareSectionActivity extends BaseActivity {
         getSupportActionBar().setTitle("Point of Care");
         getSupportActionBar().setSubtitle("PNC Diagnostic: Baby");
 	    dbh=new DbHelper(mContext);
+		list=new ArrayList<POCSections>();
+		list=dbh.getPocSections("PNC Diagnostic Newborn");
+		listView_postnatalSections=(ListView) findViewById(R.id.listView_postnatalCareSections);
+		ListAdapter adapter=new ListAdapter(mContext, list);
+		listView_postnatalSections.setAdapter(adapter);
 	    start_time=System.currentTimeMillis();
 	    json=new JSONObject();
 	    try {
@@ -49,78 +60,54 @@ public class PostnatalCareSectionActivity extends BaseActivity {
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
-	    listView_postnatalSections=(ListView) findViewById(R.id.listView_postnatalCareSections);
+	    /*
 	    String[] items={"Newborn Emergency","Records & History","Very Severe Disease & Local Bacterial Infections",
 						"Jaundice","Other Serious Conditions, Birth Injury & Abnormalities",
 						"Diarrhoea","HIV Infection ","Feeding Problems, Low Weight for Age"};
 	    PostnatalSectionsListAdapter adapter=new PostnatalSectionsListAdapter(mContext,items);
-	    listView_postnatalSections.setAdapter(adapter);
+	    listView_postnatalSections.setAdapter(adapter);*/
 	    listView_postnatalSections.setOnItemClickListener(new OnItemClickListener(){
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
-				Intent intent;
-				switch(position){
-				case 0:
-					intent=new Intent(mContext,NewbornEmergenciesActivity.class);
+				File folder = new File(list.get(position).getSectionUrl());
+				if (folder.exists()) {
+					File[] listOfFiles = folder.listFiles();
+					for (int i = 0; i < listOfFiles.length; i++) {
+						String filename = listOfFiles[i].getName();
+						int pos = filename.lastIndexOf(".");
+						if (pos > 0) {
+							filename = filename.substring(0, pos);
+						}
+						if (filename.endsWith("1")) {
+							first_file = filename;
+						}
+					}
+					Intent intent;
+					intent = new Intent(mContext, POCDynamicActivity.class);
+					intent.putExtra("shortname", list.get(position).getSectionShortname());
+					intent.putExtra("link", list.get(position).getSectionShortname() + File.separator + first_file);
 					startActivity(intent);
 					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 1:
-					intent=new Intent(mContext,RecordsAskActivity.class);
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 2:
-					intent=new Intent(mContext,SevereDiseasesActivity.class);
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 3:
-					intent=new Intent(mContext,JaundiceActivity.class);
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 4:
-					intent=new Intent(mContext,OtherSeriousConditionsActivity.class);
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 5:
-					intent=new Intent(mContext,DiarrhoeaActivity.class);
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 6:
-					intent=new Intent(mContext,HIVInfectionStatusActivity.class);
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
-				case 7:
-					intent=new Intent(mContext,LowBirthWeightActivity.class);
-					startActivity(intent);
-					overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					break;
+				} else {
+					UIUtils.showAlert(mContext, "Alert", "Click on load content to proceed");
 				}
-				
 			}
-	    	
 	    });
 	}
-	class PostnatalSectionsListAdapter extends BaseAdapter{
+	class ListAdapter extends BaseAdapter{
 		Context mContext;
-		String[] listItems;
-		 public LayoutInflater minflater;
-		
-		public PostnatalSectionsListAdapter(Context mContext,String[] listItems){
-		this.mContext=mContext;
-		this.listItems=listItems;
-		 minflater = LayoutInflater.from(mContext);
+		ArrayList<POCSections> items;
+		public LayoutInflater minflater;
+		public ListAdapter(Context mContext,ArrayList<POCSections>items){
+			this.mContext=mContext;
+			this.items=items;
+			minflater = LayoutInflater.from(mContext);
 		}
 		@Override
 		public int getCount() {
-			return listItems.length;
+			return items.size();
 		}
 
 		@Override
@@ -136,13 +123,21 @@ public class PostnatalCareSectionActivity extends BaseActivity {
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			if( convertView == null ){
-				  convertView = minflater.inflate(R.layout.other_listview_single,parent, false);
-			    }
-			 TextView text=(TextView) convertView.findViewById(R.id.textView_otherCategory);
-			 text.setText(listItems[position]);
-			    return convertView;
+				convertView = minflater.inflate(R.layout.other_listview_single,parent, false);
+			}
+			ImageView image=(ImageView) convertView.findViewById(R.id.imageView1);
+			File file=new File(items.get(position).getSectionUrl());
+			if(file.exists()){
+				image.setImageDrawable(getResources().getDrawable(R.drawable.ic_special_bullet));
+			}else{
+				image.setImageDrawable(getResources().getDrawable(R.drawable.ic_special_bullet_downloaded));
+			}
+			TextView text=(TextView) convertView.findViewById(R.id.textView_otherCategory);
+			text.setText(items.get(position).getSectionName());
+
+			return convertView;
 		}
-		
+
 	}
 	public void onBackPressed()
 	{

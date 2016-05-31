@@ -2,10 +2,12 @@ package org.grameenfoundation.cch.activity;
 
 import java.util.ArrayList;
 
+import org.apache.http.conn.BasicEofSensorWatcher;
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
 import org.grameenfoundation.adapters.TargetRemindersAdapter;
 import org.grameenfoundation.cch.model.FacilityTargets;
+import org.grameenfoundation.poc.BaseActivity;
 import org.joda.time.DateTime;
 
 import android.app.Activity;
@@ -21,7 +23,7 @@ import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.Spinner;
 
-public class ReminderActivity extends ActionBarActivity {
+public class ReminderActivity extends BaseActivity {
 
 	private Spinner spinner_reminders;
 	private ListView listView_targets;

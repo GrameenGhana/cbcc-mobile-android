@@ -20,6 +20,7 @@ import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.application.MobileLearning;
 import org.grameenfoundation.cch.model.POCSections;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -37,13 +38,16 @@ public class DownloadPOCContentTask extends AsyncTask<String, Integer, String> {
  private PowerManager.WakeLock mWakeLock;
 private File downloadDirectory;
 private DbHelper db;
+    private String subsection;
 ArrayList<POCSections> sections;
 
 ProgressDialog mProgressDialog;
+    private int i;
 
- public DownloadPOCContentTask(Context context) {
+    public DownloadPOCContentTask(Context context, String subsection) {
      this.context = context;
      db=new DbHelper(context);
+        this.subsection=subsection;
      sections=new ArrayList<POCSections>();
 
 
@@ -71,15 +75,17 @@ mProgressDialog.setCancelable(true);
 @Override
  protected String doInBackground(String... sUrl) {
 	 downloadDirectory  = new File(MobileLearning.POC_ROOT);
+      i=0;
      if(!downloadDirectory.exists()){
     	 downloadDirectory.mkdirs();
      }
      InputStream input = null;
      OutputStream output = null;
      HttpURLConnection connection = null;
-     sections=db.getPocSections();
+     sections=db.getPocSubSection(subsection);
      try {
-    	 for(int i=0;i<sections.size();i++){
+        
+    	 for(i=0;i<sections.size();i++){
          URL url = new URL(context.getResources().getString(R.string.serverDefaultAddress)+File.separator+MobileLearning.POC_SERVER_CONTENT_DOWNLOAD_PATH+URLEncoder.encode(sections.get(i).getSectionShortname()+".zip"));
        //  System.out.println(context.getResources().getString(R.string.serverDefaultAddress)+File.separator+MobileLearning.POC_SERVER_CONTENT_DOWNLOAD_PATH+sections.get(i).getSectionShortname()+".zip");
          connection = (HttpURLConnection) url.openConnection();
@@ -99,7 +105,13 @@ mProgressDialog.setCancelable(true);
          // download the file
          input = connection.getInputStream();
          output = new FileOutputStream(downloadDirectory+File.separator+sections.get(i).section_shortname+".zip");
-
+             ((Activity) context).runOnUiThread(new Runnable() {
+                 @Override
+                 public void run() {
+                     mProgressDialog.setMessage("Downloading: "+i+" of "+sections.size()+" \n"+sections.get(i).section_shortname+".zip");
+                 }
+             });
+            //
          byte data[] = new byte[4096];
          long total = 0;
          int count;
@@ -155,6 +167,7 @@ mProgressDialog.setCancelable(true);
         	 for(int i=0;i<sections.size();i++){
         		 File zipLocation=new File(MobileLearning.POC_ROOT+File.separator+sections.get(i).getSectionShortname()+".zip");
                  File newFile=new File(sections.get(i).getSectionUrl());
+                 //System.out.println(sections.get(i).getSectionUrl());
                  if(!newFile.exists()){
                 	 newFile.mkdirs();
                  }else if(newFile.exists()){

@@ -29,6 +29,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Button;
 import android.widget.ListView;
 
 public class LearningCenterMenuActivity extends AppActivity {
@@ -36,6 +37,8 @@ public class LearningCenterMenuActivity extends AppActivity {
 	private Context mContext;
 	private DbHelper dbh;
 	private ListView listView_menu;
+	private Button button_refresh;
+	private Button button_load;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -46,6 +49,10 @@ public class LearningCenterMenuActivity extends AppActivity {
 	    dbh=new DbHelper(mContext);
         getSupportActionBar().setTitle("Learning Center");
 	    listView_menu=(ListView) findViewById(R.id.listView_antenatalCare);
+		button_load=(Button) findViewById(R.id.button_load);
+		button_load.setVisibility(View.GONE);
+		button_refresh=(Button) findViewById(R.id.button_refresh);
+		button_refresh.setVisibility(View.GONE);
 	    listView_menu.setOnItemClickListener(new OnItemClickListener(){
 
 			@Override
@@ -54,15 +61,9 @@ public class LearningCenterMenuActivity extends AppActivity {
 				Intent intent;
 				switch(position){
 				case 0:
-					//if(isOnline()){
 						intent=new Intent(mContext,CourseGroupActivity.class);
 						startActivity(intent);
 						overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-					//}else{
-						//intent=new Intent(mContext,OppiaMobileActivity.class);
-						//startActivity(intent);
-						//overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);	
-					//}
 					break;
 				case 1:
 					intent=new Intent(mContext,ReferencesDownloadActivity.class);

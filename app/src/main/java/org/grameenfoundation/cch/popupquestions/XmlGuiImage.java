@@ -8,7 +8,6 @@ package org.grameenfoundation.cch.popupquestions;
 
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.MobileLearning;
-import org.grameenfoundation.poc.TreatingUncomplicatedMalariaANCNextActivity;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -20,7 +19,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.View.OnClickListener;
 import android.webkit.WebView;
 import android.widget.ImageButton;
 import android.widget.ImageView;

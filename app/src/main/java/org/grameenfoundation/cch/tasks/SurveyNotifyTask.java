@@ -103,24 +103,7 @@ public class SurveyNotifyTask extends AsyncTask<Payload, Object, Payload> {
 				}
 					
 			
-		}/*else if(today.getMillis()>=Long.valueOf(surveys.get(1).getSurveyReminderDate())
-				&&today.getMillis()<=Long.valueOf(surveys.get(1).getSurveyNextReminderDate())
-				&&surveys.get(1).getSurveyStatus().equals("")
-				&&!surveys.get(1).getSurveyReminderFrequencyValue().equals("")){
-			reminder=new DateTime(Long.valueOf(surveys.get(1).getSurveyReminderFrequencyValue()));
-			if(now.getHourOfDay()==reminder.getHourOfDay()
-					&&now.getMinuteOfDay()==reminder.getMinuteOfDay()
-					&&now.getDayOfMonth()==reminder.getDayOfMonth()
-					&&now.getMonthOfYear()==reminder.getMonthOfYear()
-					&&now.getYear()==reminder.getYear())
-				{
-			System.out.println(String.valueOf(now.getDayOfMonth())+"/"+String.valueOf(now.getMonthOfYear())+"/"+String.valueOf(now.getYear()));
-			System.out.println(String.valueOf(reminder.getDayOfMonth())+"/"+String.valueOf(reminder.getMonthOfYear())+"/"+String.valueOf(reminder.getYear()));
-			 Intent i = new Intent("org.grameenfoundation.cch.popupquestions.SurveyAlertActivity");
-			 i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-			 ctx.startActivity(i);
-			}
-		}*/else if(today.getMillis()>=Long.valueOf(surveys.get(2).getSurveyReminderDate())
+		}else if(today.getMillis()>=Long.valueOf(surveys.get(2).getSurveyReminderDate())
 				&&today.getMillis()<=Long.valueOf(surveys.get(2).getSurveyNextReminderDate())
 				&&surveys.get(2).getSurveyStatus().equals("")
 				&&!surveys.get(2).getSurveyReminderFrequencyValue().equals("")){

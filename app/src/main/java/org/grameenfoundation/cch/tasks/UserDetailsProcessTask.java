@@ -31,7 +31,7 @@ public class UserDetailsProcessTask  extends AsyncTask<String, String, String>{
 	    db=new DbHelper(ctx);
 	}
 	protected void onPreExecute() {
-		 publishProgress("Retrieving user data.....");
+		 //publishProgress("Retrieving user data.....");
 		 
 	 };
 	@Override
@@ -125,7 +125,7 @@ public class UserDetailsProcessTask  extends AsyncTask<String, String, String>{
 			 db.updateSurveyData("Agreed", profileData.getString("profile"), profileData.getString("responses"), plan,String.valueOf(largest));
 		
 			
-			 publishProgress("Finished setting user data");
+			 //publishProgress("Finished setting user data");
 		} catch (NullPointerException e) {
 			db.updateSurveyData("", "", "", "","");
 			e.printStackTrace();

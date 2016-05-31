@@ -1,27 +1,21 @@
 package org.grameenfoundation.cch.popupquestions;
 
 import org.digitalcampus.mobile.learningGF.R;
+import org.grameenfoundation.poc.POCDynamicActivity;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
 import android.text.SpannableString;
 import android.text.style.BulletSpan;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.BaseAdapter;
 import android.widget.BaseExpandableListAdapter;
-import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.LinearLayout.LayoutParams;
 
 public class XmlGuiExpandableListview extends LinearLayout {
 	ExpandableListView label;

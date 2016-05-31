@@ -18,22 +18,18 @@
 package org.digitalcampus.oppia.activity;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.concurrent.Callable;
 
 import org.digitalcampus.mobile.learningGF.R;
-import org.digitalcampus.oppia.adapter.DownloadCourseListAdapter;
 import org.digitalcampus.oppia.adapter.TagListAdapter;
 import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.application.MobileLearning;
 import org.digitalcampus.oppia.listener.APIRequestListener;
 import org.digitalcampus.oppia.model.Course;
-import org.digitalcampus.oppia.model.Lang;
 import org.digitalcampus.oppia.model.Tag;
 import org.digitalcampus.oppia.task.APIRequestTask;
 import org.digitalcampus.oppia.task.Payload;
 import org.digitalcampus.oppia.utils.UIUtils;
-import org.grameenfoundation.poc.TakeActionOtherSeriousConditionActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -44,8 +40,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ExpandableListView;
-import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ListView;
 
 import com.bugsense.trace.BugSenseHandler;

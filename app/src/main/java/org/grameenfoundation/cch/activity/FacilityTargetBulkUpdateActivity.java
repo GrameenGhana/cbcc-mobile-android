@@ -216,11 +216,7 @@ public class FacilityTargetBulkUpdateActivity extends BaseActivity implements an
 												facilityname.getString("name").toString(),
 												userdetails.get(0).getUserZone());
 									 json.put("target_id", facilityTargets.get(i).getTargetId());
-									 //if(facilityTargets.get(i).getTargetDetail().equals("")){
-										 json.put("target_type", facilityTargets.get(i).getTargetType());
-									// }else{
-										// json.put("target_type", facilityTargets.get(i).getTargetDetail());
-									 //}
+									 json.put("target_type", facilityTargets.get(i).getTargetType());
 									 json.put("target_category", facilityTargets.get(i).getTargetCategory());
 									 json.put("target_number", facilityTargets.get(i).getTargetNumber());
 									 json.put("target_month", returnMonth(facilityTargets.get(i).getTargetMonth()));
