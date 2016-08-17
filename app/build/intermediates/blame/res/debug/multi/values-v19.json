@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\values-v19\\values-v19.xml",
+        "outputFile": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\values-v19\\values-v19.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 483
                 },
                 "from": {
-                    "file": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\values-v19\\styles_oppia.xml",
+                    "file": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\values-v19\\styles_oppia.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,

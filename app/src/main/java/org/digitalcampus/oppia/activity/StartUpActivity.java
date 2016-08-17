@@ -33,7 +33,6 @@ import org.digitalcampus.oppia.task.Payload;
 import org.digitalcampus.oppia.task.PostInstallTask;
 import org.digitalcampus.oppia.task.UpgradeManagerTask;
 import org.grameenfoundation.cch.tasks.CourseDetailsTask;
-import org.grameenfoundation.schedulers.EventUpdateService;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -132,13 +131,7 @@ public class StartUpActivity extends ActionBarActivity implements UpgradeListene
 		//userData=dbh.getUserFirstName(name);
  		Payload p = new Payload(data);
 		umt.execute(p);
-		try{
-			Intent service2 = new Intent(this, EventUpdateService.class);
-			this.startService(service2);
-			
-		}catch(Exception e){
-			e.printStackTrace();
-		}
+
 		 if(isOnline()){
 				try{
 					//
@@ -152,9 +145,6 @@ public class StartUpActivity extends ActionBarActivity implements UpgradeListene
 			}
 		 
 		 	dbh.alterUserFaciityTable();
-			dbh.alterFacilityTargetDetailTable();
-			dbh.alterFacilityTargetGroupTable();
-			dbh.alterFacilityTargetOverall();
 			dbh.alterUserTableDistrict();
 			dbh.alterUserTableForSubdistrict();
 			dbh.alterUserTableForZone();

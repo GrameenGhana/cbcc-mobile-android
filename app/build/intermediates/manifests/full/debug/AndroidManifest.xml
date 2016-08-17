@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.digitalcampus.mobile.learningGF"
+    package="org.grameenfoundation.cbcc"
     android:screenOrientation="portrait"
     android:versionCode="141"
     android:versionName="3.0.48" >
@@ -26,6 +26,8 @@
         android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:name="org.digitalcampus.oppia.application.MobileLearning"
         android:allowBackup="true"
@@ -38,12 +40,6 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Example" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
             <meta-data
                 android:name="android.app.default_searchable"
                 android:value="org.grameenfoundation.cch.activity.SearchableActivity" />
@@ -53,36 +49,30 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/Example" >
-        </activity>
+            android:theme="@style/Example" />
         <activity android:name="org.grameenfoundation.cch.activity.MagicAppRestart" />
         <activity
             android:name="org.digitalcampus.oppia.activity.OppiaMobileActivity"
             android:label="@string/app_name"
-            android:theme="@style/Example" >
-        </activity>
+            android:theme="@style/Example" />
         <activity
             android:name="org.digitalcampus.oppia.activity.CourseIndexActivity"
             android:label="@string/title_activity_course_index"
-            android:theme="@style/Example" >
-        </activity>
+            android:theme="@style/Example" />
         <activity
             android:name="org.digitalcampus.oppia.activity.CourseActivity"
             android:label="@string/title_activity_course"
-            android:windowSoftInputMode="stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name="org.digitalcampus.oppia.activity.DownloadActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout"
             android:label="@string/title_download_activity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="org.digitalcampus.oppia.activity.TagSelectActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_tag_select_activity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="org.digitalcampus.oppia.activity.PrefsActivity"
             android:label="@string/title_prefs" />
@@ -117,21 +107,18 @@
             android:name="org.digitalcampus.oppia.activity.AppActivity"
             android:label="@string/app_name" />
         <activity android:name="org.digitalcampus.oppia.activity.MainScreenActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.NewEventPlannerActivity" />
 
         <service
             android:name="org.digitalcampus.oppia.service.TrackerService"
             android:icon="@drawable/app_icon"
-            android:label="@string/service_tracker" >
-        </service>
+            android:label="@string/service_tracker" />
 
         <receiver android:name="org.digitalcampus.oppia.service.TrackerScheduleReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="org.digitalcampus.oppia.service.TrackerStartServiceReceiver" >
-        </receiver>
+        <receiver android:name="org.digitalcampus.oppia.service.TrackerStartServiceReceiver" />
         <receiver
             android:name="org.grameenfoundation.cch.receiver.CalendarChangeReceiver"
             android:priority="1000" >
@@ -146,80 +133,30 @@
         <activity android:name="org.grameenfoundation.poc.PointOfCareActivity" />
         <activity android:name="org.grameenfoundation.poc.AntenatalCareActivity" />
         <activity android:name="org.grameenfoundation.poc.DiagnosticToolActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.EventPlannerOptionsActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.PlanEventActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.EventsViewActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.UpdateTargetActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.PlannerViewOptionsActivity" />
         <activity android:name="org.grameenfoundation.cch.activity.AchievementCenterActivity" />
         <activity android:name="org.grameenfoundation.poc.EstimateTrimester" />
         <activity android:name="org.grameenfoundation.poc.PostnatalCareActivity" />
         <activity android:name="org.grameenfoundation.poc.PostnatalCareSectionActivity" />
         <activity android:name="org.grameenfoundation.poc.PostnatalCareMotherDiagnosticToolActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.UpdateActivity" />
         <activity android:name="org.grameenfoundation.poc.CounsellingPerTrimesterActivtiy" />
         <activity android:name="org.grameenfoundation.poc.CalculatorsMenuActivity" />
         <activity android:name="org.grameenfoundation.poc.ReferencesMenuActivity" />
         <activity android:name="org.grameenfoundation.poc.PostnatalCareCounsellingTopicsActivity" />
         <activity android:name="org.grameenfoundation.poc.TreatingDiarrhoeaActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.OtherTargetsDetailActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.TargetSettingActivity" />
         <activity android:name="org.grameenfoundation.poc.QuickReadsMenuActivity" />
         <activity android:name="org.grameenfoundation.poc.DosageCalculatorActivity" />
         <activity android:name="org.grameenfoundation.poc.EstimateDueDateCalculator" />
         <activity android:name="org.grameenfoundation.poc.ANCCounsellingTopicsMenuActivity" />
         <activity android:name="org.grameenfoundation.cch.activity.AchievementSummaryActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.EventsAchievementsActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.TargetAchievementDetailActivity" />
         <activity android:name="org.grameenfoundation.cch.activity.CourseDetailActivity" />
         <activity android:name="org.grameenfoundation.cch.activity.CourseAchievementActivity" />
         <activity android:name="org.grameenfoundation.cch.activity.LearningCenterMenuActivity" />
-        <activity android:name="org.grameenfoundation.cch.model.OtherTargetAchievementActivity" />
         <activity android:name="org.grameenfoundation.cch.activity.ReferencesDownloadActivity" />
-
-        <service android:name="org.grameenfoundation.schedulers.EventUpdateService" />
-
-        <receiver android:name="org.grameenfoundation.schedulers.EventScheduleReceiver" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-        <receiver android:name="org.grameenfoundation.schedulers.EventUpdateStartServiceReceiver" />
-
-        <activity android:name="org.grameenfoundation.cch.activity.OtherTargetsUpdateActivity" />
         <activity android:name="org.grameenfoundation.cch.popupquestions.XmlGui" />
-        <activity android:name="org.grameenfoundation.cch.popupquestions.RunForm" />
         <activity android:name="org.grameenfoundation.cch.activity.CourseGroupActivity" />
-        <activity
-            android:name="org.grameenfoundation.cch.popupquestions.SurveyAlertActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
-            <intent-filter>
-                <action android:name="org.grameenfoundation.cch.popupquestions.SurveyAlertActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
 
         <service android:name="org.grameenfoundation.schedulers.UserDetailsUpdateService" />
 
-        <activity android:name="org.grameenfoundation.cch.activity.ReminderActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.UpdateFacilityTargetsActivity" />
-        <activity android:name="org.grameenfoundation.cch.model.AgeGroupsFacilityTargetsActivity" />
-        <activity android:name="org.grameenfoundation.cch.model.FacilityTargetsAchievementActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.FacilityTargetBulkUpdateActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.FacilityTargetsActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.FacilityTargetOptionsActivity" />
-        <activity android:name="org.grameenfoundation.cch.model.FamilyPlanningFacilityTargetActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.OtherFacilityTargetActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.AntigensFacilityTargetActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.NewFacilityTargetsActivity" />
-        <activity android:name="org.grameenfoundation.cch.model.SchoolHealthFacilityTargetActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.GroupParticipantsSelectActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.MaternalHealthFacilityTargetsActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.ViewEventDetailsActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.UpdateEventActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.EventsListViewActivity" />
-        <activity android:name="org.grameenfoundation.cch.activity.UpdateEventsActivity" />
         <activity android:name="org.grameenfoundation.poc.ChildWelfareActivity" />
         <activity android:name="org.grameenfoundation.poc.ChildAgeCalculatorActivity" />
         <activity android:name="org.grameenfoundation.poc.ChildWelfareCalculatorsMenuActivity" />
@@ -228,6 +165,16 @@
         <activity android:name="org.grameenfoundation.poc.CWCDiagnosticToolActivity" />
         <activity android:name="org.grameenfoundation.poc.CWCCounsellingActivity" />
         <activity android:name="org.grameenfoundation.poc.CWCReferencesActivity" />
+        <activity
+            android:name="org.grameenfoundation.cch.activity.UserRegistrationActivity"
+            android:label="@string/title_activity_user_registration"
+            android:theme="@style/Example.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

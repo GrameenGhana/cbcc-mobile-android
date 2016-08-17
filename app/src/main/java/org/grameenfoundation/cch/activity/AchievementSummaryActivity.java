@@ -5,11 +5,7 @@ import java.util.ArrayList;
 
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
-import org.digitalcampus.oppia.application.MobileLearning;
 import org.digitalcampus.oppia.model.Scores;
-import org.grameenfoundation.calendar.CalendarEvents;
-import org.grameenfoundation.cch.model.FacilityTargets;
-import org.grameenfoundation.cch.model.MyCalendarEvents;
 import org.grameenfoundation.poc.BaseActivity;
 import org.joda.time.DateTime;
 import org.json.JSONException;
@@ -35,30 +31,10 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 public class AchievementSummaryActivity extends BaseActivity {
-
-	private CalendarEvents c;
-	 public ArrayList<MyCalendarEvents> pastEvents;
-	 public ArrayList<MyCalendarEvents> futureEvents;
-	 public ArrayList<MyCalendarEvents> totalNumberOfEvents;
-	 
-	 public int completedEventTargets;
-	 public int completedCoverageTargets;
-	 public int completedLearningTargets;
-	 public int completedOtherTargets;
-	 
-	 public int futureEventTargets;
-	 public int futureCoverageTargets;
-	 public int futureLearningTargets;
-	 public int futureOtherTargets;
-	 DbHelper db;
-	private TextView textView_eventPercentage;
-	private TextView textView_targetsPercentage;
+	DbHelper db;
 	private TextView textView_coursesPercentage;
-	private int totalOtherTargets;
 	private LinearLayout linearLayout_graph;
 	private BarChart chart;
-	private TableRow tableRow_events;
-	private TableRow tableRow_targets;
 	private TableRow tableRow_courses;
 	private int month;
 	private int year;
@@ -75,8 +51,6 @@ public class AchievementSummaryActivity extends BaseActivity {
 	private TextView textView_timePeriod;
 	private DateTime  today;
 	public String month_text;
-	private ArrayList<FacilityTargets> completedFacilityTargets;
-	private ArrayList<FacilityTargets> unCompletedFacilityTargets;
 	private int totalFacilityTargets;
 	public static final String TAG = AchievementSummaryActivity.class.getSimpleName();
 	@Override
@@ -85,48 +59,14 @@ public class AchievementSummaryActivity extends BaseActivity {
 	    setContentView(R.layout.activity_achievements_summary);
         getSupportActionBar().setTitle("Achievement Center");
         getSupportActionBar().setSubtitle("Achievement Summary");
-	    c= new CalendarEvents(AchievementSummaryActivity.this);
 	    db=new DbHelper(AchievementSummaryActivity.this);
 	    start_time=System.currentTimeMillis();
-        textView_eventPercentage=(TextView) findViewById(R.id.textView_eventPercentage);
-        textView_targetsPercentage=(TextView) findViewById(R.id.textView_targetPercentage);
         textView_coursesPercentage=(TextView) findViewById(R.id.textView_coursePercentage);
 	    textView_timePeriod=(TextView) findViewById(R.id.textView_timePeriod);
 	   today=new DateTime();
-	    tableRow_events=(TableRow) findViewById(R.id.tableRow_events);
-	    tableRow_targets=(TableRow) findViewById(R.id.tableRow_targets);
 	    tableRow_courses=(TableRow) findViewById(R.id.tableRow_courses);
-	    tableRow_events.setOnClickListener(new OnClickListener(){
 
-			@Override
-			public void onClick(View v) {
-				Intent intent=new Intent(AchievementSummaryActivity.this, EventsAchievementsActivity.class);
-				intent.putExtra("month", month);
-				intent.putExtra("year", year);
-				startActivity(intent);
-				overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-			}
-	    	
-	    });
-	    
-	    tableRow_targets.setOnClickListener(new OnClickListener(){
-
-			@Override
-			public void onClick(View v) {
-				Intent intent=new Intent(AchievementSummaryActivity.this, TargetAchievementDetailActivity.class);
-				intent.putExtra("month", month);
-				intent.putExtra("month_text", month_text);
-				intent.putExtra("year", year);
-				startActivity(intent);
-				overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
-			}
-	    	
-	    });
-	    
 	    tableRow_courses.setOnClickListener(new OnClickListener(){
-	    
-			
-			
 			@Override
 			public void onClick(View v) {
 				Intent intent=new Intent(AchievementSummaryActivity.this,CourseDetailActivity.class);
@@ -135,7 +75,6 @@ public class AchievementSummaryActivity extends BaseActivity {
 				startActivity(intent);
 				overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
 			}
-	    	
 	    });
 	    
 	    chart = new BarChart(AchievementSummaryActivity.this);
@@ -145,41 +84,9 @@ public class AchievementSummaryActivity extends BaseActivity {
 	}
 	
 	
-	private String calculateEventsCompleted(){
-		pastEvents=c.readPastCalendarEvents(AchievementSummaryActivity.this, month, year,true);
-		totalNumberOfEvents=c.readCalendarEventsTotal(AchievementSummaryActivity.this, month, year);
-		eventsNumberCompleted=pastEvents.size();
-		int totalNumber=totalNumberOfEvents.size();
-		String percentage;
-		if(totalNumber>0){
-			Double  percentage_completed=((double)eventsNumberCompleted/totalNumber) *100;
-			percentage=String.format("%.0f", percentage_completed);
-		}else{
-			percentage="0";
-		}	
-		return percentage;
-	}
-	
-
-	private String calculateEventsTodo(){
-		futureEvents=c.readFutureCalendarEvents(AchievementSummaryActivity.this, month, year,true);
-		totalNumberOfEvents=c.readCalendarEventsTotal(AchievementSummaryActivity.this, month, year);
-		numberTodo=futureEvents.size();
-		int totalNumber=totalNumberOfEvents.size();
-		String percentage;
-		if(totalNumber>0){
-			Double percentage_completed=((double)numberTodo/totalNumber) *100;
-			percentage=String.format("%.0f", percentage_completed);
-		}else{
-			percentage="0";
-		}
-		return percentage;
-	}
 
 	private class GetData extends AsyncTask<Object, Void, Object> {
 		 DbHelper db=new DbHelper(AchievementSummaryActivity.this);
-		 private String eventsCompleted;
-		 private String eventsTodo;
 
 		 private ProgressDialog dialog = 
 				   new ProgressDialog(AchievementSummaryActivity.this);
@@ -196,8 +103,6 @@ public class AchievementSummaryActivity extends BaseActivity {
 	            month_text=extras.getString("month_text");
 	            year=extras.getInt("year");
 	          }
-	        eventsCompleted=calculateEventsCompleted();
-	        eventsTodo=calculateEventsTodo();
 	        courseCompleted=Integer.valueOf(db.getCourseProgressCompleted(month+1,year));
 	        courseUncompletedText=100-courseCompleted;
 				return null;
@@ -206,9 +111,6 @@ public class AchievementSummaryActivity extends BaseActivity {
 	    @Override
 	    protected void onPostExecute(Object result) {
 	    	dialog.dismiss();
-	    	 if(eventsCompleted!=null && eventsTodo!=null){
-	    		 		textView_eventPercentage.setText(String.valueOf(eventsNumberCompleted)+"     /    "+String.valueOf(numberTodo) );
-	    	        }
 
 	    	        if(courseCompleted>0){
 	    	        	courseUncompletedText=100-courseCompleted;
@@ -255,10 +157,7 @@ public class AchievementSummaryActivity extends BaseActivity {
 	    	        ArrayList<BarEntry> valsComp1 = new ArrayList<BarEntry>();
 	    	        ArrayList<BarEntry> valsComp2 = new ArrayList<BarEntry>();
 	    	        ArrayList<BarEntry> valsComp3 = new ArrayList<BarEntry>();
-	    	        if(calculateEventsCompleted()!=null){
-	    	        	BarEntry c1e1 = new BarEntry(Integer.valueOf(calculateEventsCompleted()), 0); 
-	    	        	valsComp1.add(c1e1);
-	    	        }
+
 
 	    	        if(db.getCourseProgressCompleted(month+1,year)!=null){
 	    	        	if(year<=today.getYear()){
@@ -270,10 +169,7 @@ public class AchievementSummaryActivity extends BaseActivity {
 	    	        	}
 	    	        }
 	    	        
-	    	        if(calculateEventsTodo()!=null){
-	    	        	BarEntry c2e1 = new BarEntry(Integer.valueOf(calculateEventsTodo()), 0); // 0 == quarter 1
-	    	        	valsComp2.add(c2e1);
-	    	        }
+
 
 	    	        if(db.getCourseProgressCompleted(month+1,year)!=null){
 	    	        	if(year<=today.getYear()){
@@ -297,7 +193,7 @@ public class AchievementSummaryActivity extends BaseActivity {
 	    	        dataSets.add(setComp2);
 	    	        
 	    	        ArrayList<String> xVals = new ArrayList<String>();
-	    	        xVals.add("Events"); xVals.add("Courses");
+	    	        xVals.add("Courses");
 
 	    	        BarData data = new BarData(xVals, dataSets);
 	    	        

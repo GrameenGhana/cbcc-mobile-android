@@ -17,7 +17,6 @@ S * This file is part of OppiaMobile - http://oppia-mobile.org/
 
 package org.digitalcampus.oppia.service;
 
-import java.net.URLEncoder;
 import java.util.ArrayList;
 
 import org.digitalcampus.mobile.learningGF.R;
@@ -30,11 +29,7 @@ import org.digitalcampus.oppia.task.APIRequestTask;
 import org.digitalcampus.oppia.task.Payload;
 import org.digitalcampus.oppia.task.SubmitQuizTask;
 import org.digitalcampus.oppia.task.SubmitTrackerMultipleTask;
-import org.grameenfoundation.cch.tasks.FacilityTargetsSyncTask;
-import org.grameenfoundation.cch.tasks.FacilityTargetsTask;
 import org.grameenfoundation.cch.tasks.StayingWellNotifyTask;
-import org.grameenfoundation.cch.tasks.SurveyNotifyTask;
-import org.grameenfoundation.cch.tasks.TargetSettingNotifyTask;
 import org.grameenfoundation.cch.tasks.UpdateCCHLogTask;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -144,9 +139,6 @@ public class TrackerService extends Service implements APIRequestListener {
 				app.omStayingWellNotifyTask = new StayingWellNotifyTask(this);
 				app.omStayingWellNotifyTask.execute();
 			}
-
-			
-			
 			// send quiz results
 			if(app.omSubmitQuizTask == null){
 				Payload mqp = db.getUnsentQuizResults();

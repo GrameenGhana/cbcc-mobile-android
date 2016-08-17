@@ -1,722 +1,822 @@
 [
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_estimate_due_date.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_estimate_due_date.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_matching.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_matching.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\points.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\points.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_reminders.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_set_reminders.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_update_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\event_update_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_point_of_care.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_point_of_care.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_target_bulk_update.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_target_bulk_update.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_events.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_view_events.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\overall_course_details_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\overall_course_details_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_reminder.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\schedule_reminder.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_group.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_course_group.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_view.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\past_event_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\past_event_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_page.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_page.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\point_of_care_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\point_of_care_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_index.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_course_index.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_learning.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_update.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_event_update.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_help.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\style_text.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\layout\\style_text.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_main.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_new_main.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postnatal_care_sections.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_postnatal_care_sections.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coverage_targetsetting.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\coverage_targetsetting.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\step_tab_alternative.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\layout\\step_tab_alternative.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_third_trimester_counselling.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_third_trimester_counselling.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_download.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dosage_calculator.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_dosage_calculator.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_child_age_calculator.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_child_age_calculator.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\facility_target_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\facility_target_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_list_row.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\course_list_row.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_media.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_month_options.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_month_options.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\planner_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\planner_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\section_horizonal_item.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\section_horizonal_item.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_monitor.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_monitor.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\examine_patient_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\examine_patient_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_view.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\calendar_view.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_learning.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_family_planning_calculators.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_family_planning_calculators.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postnatal_care_menu.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postnatal_care_menu.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_pagenumber.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\dialog_pagenumber.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_details_view.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_event_details_view.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\examine_patient_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\examine_patient_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\media_download_row.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\media_download_row.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scorecard.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_scorecard.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\event_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_references_download.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_references_download.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_child_age_calculator.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_child_age_calculator.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_achievements.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_course_achievements.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_index.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_course_index.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_target_detail.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_event_target_detail.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_third_trimester_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_third_trimester_counselling.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_targets.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_update_targets.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_group.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_course_group.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning_target_detail.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_learning_target_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_course.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row2.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\row2.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_expandable_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\event_expandable_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dot.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\layout\\dot.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\other_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\other_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\events_pager_layout.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\events_pager_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_numerical.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_numerical.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_antenatal_care.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_antenatal_care.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_monitor.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_monitor.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_coverage.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_coverage.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\points_list_row.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\points_list_row.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_events_list_view.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_events_list_view.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_resource.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_resource.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_video.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\learning_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\learning_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_estimate_trimester.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_estimate_trimester.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_events.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_events.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\style_horizontal_tabs.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\layout\\style_horizontal_tabs.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_simple_dropdown_hint.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_achievements_detail.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_achievements_detail.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_other.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_other.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_other.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_other.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pdf_file_password.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\pdf_file_password.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_set_dialog.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\event_set_dialog.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_help.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\section_list_row.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\section_list_row.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_shortanswer.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_shortanswer.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_reminder_list_row.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\schedule_reminder_list_row.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_user_registration.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\content_user_registration.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\antenatal_care_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\antenatal_care_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\normal_date_cell.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\normal_date_cell.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievements_summary.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_achievements_summary.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_details_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_details_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\section_list_row.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\section_list_row.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_download_row_new.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_download_row_new.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\planner_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\planner_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\facility_target_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\facility_target_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_view_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\image_view_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_achievements.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_course_achievements.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coverage_add_dialog.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\coverage_add_dialog.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_registration.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_user_registration.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_achievements_paginated.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\course_achievements_paginated.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_event.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_add_event.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\facility_target_achievement_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\facility_target_achievement_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_additional_information.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\fragment_additional_information.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\section_horizonal_item.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\section_horizonal_item.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_facility_age_groups.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_facility_age_groups.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_events_list_view.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_events_list_view.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievements_summary.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_achievements_summary.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_events.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_events.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\expandable_group_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\expandable_group_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tag_row.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\tag_row.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_antenatal_care.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_antenatal_care.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\points.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\points.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diagnostic_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\diagnostic_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_overall_course_achievements.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_overall_course_achievements.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning_target_detail.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_learning_target_detail.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_points.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_points.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\other_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\other_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_mainscreen.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_new_mainscreen.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\events_pager_layout.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\events_pager_layout.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\media_download_row.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\media_download_row.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\antenatal_care_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\antenatal_care_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_event_planner.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_new_event_planner.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_screen.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_main_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning_center_references.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_learning_center_references.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\survey_popup_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\survey_popup_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_participants_select.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_group_participants_select.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\webview.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\webview.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\style_dots.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\layout\\style_dots.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_download_row.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_download_row.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_achievements_detail.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\course_achievements_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_up.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\start_up.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_reminder.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\schedule_reminder.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\overall_course_details_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\overall_course_details_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coverage_targetsetting.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\coverage_targetsetting.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_targets.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_targets.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_encounter.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_encounter.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\events_detail_pager_layout.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\events_detail_pager_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_results.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_results.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\severe_jaundice_description.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\severe_jaundice_description.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_text_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\listview_text_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_facility_targets.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_update_facility_targets.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_video.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_expandable_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\event_expandable_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postnatal_care_sections.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postnatal_care_sections.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_multichoice.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_multichoice.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_event_planner.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_new_event_planner.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\row.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_feedback_row.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_feedback_row.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievements.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_achievements.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cchlogin.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\fragment_cchlogin.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\events_detail_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\events_detail_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievements_details.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_achievements_details.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_grid_fragment.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\date_grid_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievements.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_achievements.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postnatal_care_counselling.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_postnatal_care_counselling.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_shortanswer.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_quiz_shortanswer.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_grid_fragment.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\date_grid_fragment.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_page.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_page.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dosage_calculator.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_dosage_calculator.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_multiselect.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_quiz_multiselect.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_screen_gridview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\main_screen_gridview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_trimester_counselling_answer_no.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\first_trimester_counselling_answer_no.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\events_detail_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\events_detail_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_points.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_points.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_details_view.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_event_details_view.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\fragment_login.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_multichoice.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_quiz_multichoice.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coverage_expandable_child_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\coverage_expandable_child_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\routines_detail_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\routines_detail_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_planner_options.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_event_planner_options.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_targets.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_targets.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_essay.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_quiz_essay.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pdf_file_password.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\pdf_file_password.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_quiz.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_view_dialog.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\image_view_dialog.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_point_of_care.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_point_of_care.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\events_detail_pager_layout.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\events_detail_pager_layout.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_up.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\start_up.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\achievements_target_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\achievements_target_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download_media.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_download_media.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_download_row_new.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\course_download_row_new.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_resource.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_resource.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_couselling.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_couselling.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cchlogin.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_cchlogin.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_target_detail.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_event_target_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cch_activity_home.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\cch_activity_home.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_couselling.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_couselling.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\style_progress.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\layout\\style_progress.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\webview.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\webview.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download_media.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_download_media.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_encounter.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_encounter.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_references_download.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_references_download.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_disgnostic_tool.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_disgnostic_tool.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_message.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\user_message.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_add_dialog.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\event_add_dialog.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\routines_detail_pager_layout.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\routines_detail_pager_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_update_dialog.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\event_update_dialog.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_facility_targets_view.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_facility_targets_view.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_results.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_quiz_results.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\routines_detail_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\routines_detail_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\points_list_row.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\points_list_row.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\expandable_group_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\expandable_group_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\square_date_cell.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\square_date_cell.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_multiselect.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_multiselect.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_alert_listview.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\custom_alert_listview.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_treating_diarrhoea.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_treating_diarrhoea.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_dialog.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\update_dialog.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_estimate_due_date.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_estimate_due_date.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievements_details.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_achievements_details.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\square_date_cell.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\square_date_cell.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\learning_add_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\learning_add_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tag_row_child.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\tag_row_child.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_download_row.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\course_download_row.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_lines.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_screen.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_main_screen.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\achievements_learning_target_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\achievements_learning_target_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\schedule_reminder_list_row.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\schedule_reminder_list_row.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_target_details_.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_target_details_.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_list_row.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\course_list_row.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_about.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_target_details_.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_target_details_.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\routines_detail_pager_layout.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\routines_detail_pager_layout.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning_center_references.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_learning_center_references.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\facility_target_bulk_update_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\facility_target_bulk_update_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tag_row.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\tag_row.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\survey_popup_dialog.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\survey_popup_dialog.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scorecard.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_scorecard.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_treating_diarrhoea.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_treating_diarrhoea.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_message.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\user_message.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_text_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\listview_text_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\references_download_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\references_download_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_essay.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\widget_quiz_essay.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_main.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_new_main.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_metapage.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_course_metapage.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\textview_for_spinner.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\textview_for_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\point_of_care_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\point_of_care_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_screen_gridview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\main_screen_gridview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\learning_add_dialog.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\learning_add_dialog.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_update.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_event_update.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weekday_textview.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\weekday_textview.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_targets.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_update_targets.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_view.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\calendar_view.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_target_bulk_update.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_target_bulk_update.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_course.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\achievements_target_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\achievements_target_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diagnostic_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\diagnostic_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_planner_options.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_event_planner_options.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_event.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_add_event.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\facility_target_achievement_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\facility_target_achievement_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coverage_add_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\coverage_add_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_trimester_counselling_answer_no.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\first_trimester_counselling_answer_no.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_download.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_month_options.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_month_options.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_matching.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_quiz_matching.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_family_planning_calculators.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_family_planning_calculators.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\references_download_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\references_download_listview_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\textview_for_spinner.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\textview_for_spinner.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\facility_target_bulk_update_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\facility_target_bulk_update_single.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\event_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_alert_listview.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\custom_alert_listview.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\past_event_listview_single.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\past_event_listview_single.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_new.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_login_new.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\target_number.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\target_number.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_estimate_trimester.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\activity_estimate_trimester.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cchlogin.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\fragment_cchlogin.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weekday_textview.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\weekday_textview.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_pagenumber.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\layout\\dialog_pagenumber.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_no_of_children.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\fragment_no_of_children.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_feedback_row.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_quiz_feedback_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_events.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_view_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\achievements_learning_target_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\achievements_learning_target_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\normal_date_cell.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\normal_date_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postnatal_care_counselling.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_postnatal_care_counselling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_set_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\event_set_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cch_activity_home.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\cch_activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_details_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\course_details_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_mainscreen.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_new_mainscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\learning_listview_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\learning_listview_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_metapage.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_course_metapage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_new.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_login_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_gender_of_child.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\fragment_gender_of_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\event_add_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\event_add_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\coverage_expandable_child_single.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\coverage_expandable_child_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\step_tab.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\layout\\step_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_postnatal_care_menu.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_postnatal_care_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cchlogin.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_cchlogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_facility_targets.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_update_facility_targets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tag_row_child.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\tag_row_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_quiz_numerical.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\widget_quiz_numerical.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_dialog.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\layout\\update_dialog.xml"
     }
 ]

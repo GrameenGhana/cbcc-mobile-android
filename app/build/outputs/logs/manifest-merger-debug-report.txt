@@ -1,575 +1,484 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:2:1-228:12
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:2:1-180:12
 	android:screenOrientation
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:6:5-41
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:4:5-41
 	xmlns:android
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:2:11-69
 	package
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:3:5-50
-		INJECTED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:5:5-33
-		INJECTED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:6:5-33
+		INJECTED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:4:9-34
-		INJECTED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.0] C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:design:23.3.0] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.github.fcannizzaro:material-stepper:1.2.2] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.github.fcannizzaro\material-stepper\1.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
 	android:targetSdkVersion
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:10:9-38
-		INJECTED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:9:9-35
-		INJECTED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:23:9-75
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:12:5-14:68
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:12:5-13:68
 	xmlns:android
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:13:9-67
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:12:22-80
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:14:9-65
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:13:9-65
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:15:5-17:54
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:14:5-15:54
 	xmlns:android
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:16:9-67
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:14:22-80
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:15:9-51
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:18:5-79
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:16:5-79
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:18:22-76
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:19:5-81
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:19:22-78
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:17:22-78
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:20:5-76
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:18:5-76
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:20:22-73
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:18:22-73
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:21:5-75
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:19:5-75
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:21:22-72
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:19:22-72
 uses-permission#android.permission.READ_CALENDAR
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:22:5-72
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:20:5-72
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:22:22-69
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:20:22-69
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:23:5-73
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:21:5-73
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:23:22-70
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:21:22-70
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:24:5-25:54
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:22:5-23:55
 	xmlns:android
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:24:23-81
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:22:22-80
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:25:9-52
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:23:9-52
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:26:5-65
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:24:5-66
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:26:22-63
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:24:22-63
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:26:5-88
+	android:name
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:26:30-85
 application
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:27:5-226:19
-MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.0] C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:28:5-178:19
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:23.3.0] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.github.fcannizzaro:material-stepper:1.2.2] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.github.fcannizzaro\material-stepper\1.2.2\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:cardview-v7:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:31:9-41
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:32:9-41
 	android:allowBackup
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:29:9-35
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:30:9-35
 	android:icon
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:30:9-42
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:31:9-42
 	android:theme
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:32:8-38
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:33:9-39
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:28:9-74
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:29:9-74
 activity#org.digitalcampus.oppia.activity.StartUpActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:33:9-46:20
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:34:9-45:20
 	android:screenOrientation
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:37:14-50
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:38:13-49
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:35:13-45
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:37:13-45
 	android:configChanges
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:38:7-57
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:36:13-63
 	android:theme
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:36:13-43
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:39:13-43
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:34:13-76
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:39:13-42:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:40:17-69
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:40:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:41:17-77
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:41:27-74
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:35:13-76
 meta-data#android.app.default_searchable
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:43:13-45:89
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:42:13-44:89
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:44:17-62
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:43:17-62
 	android:value
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:45:17-86
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:44:17-86
 activity#org.grameenfoundation.cch.activity.StayingWellActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:47:9-53:20
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:46:9-51:55
 	android:screenOrientation
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:51:14-50
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:50:13-49
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:49:13-45
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:49:13-45
 	android:configChanges
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:52:7-57
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:48:13-63
 	android:theme
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:50:13-43
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:51:13-43
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:48:13-82
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:47:13-82
 activity#org.grameenfoundation.cch.activity.MagicAppRestart
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:55:9-86
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:52:9-87
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:55:19-84
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:52:19-84
 activity#org.digitalcampus.oppia.activity.OppiaMobileActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:59:9-63:20
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:53:9-56:55
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:61:13-45
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:55:13-45
 	android:theme
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:62:13-43
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:56:13-43
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:60:13-80
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:54:13-80
 activity#org.digitalcampus.oppia.activity.CourseIndexActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:64:9-68:20
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:57:9-60:55
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:66:13-64
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:59:13-64
 	android:theme
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:67:13-43
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:60:13-43
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:65:13-80
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:58:13-80
 activity#org.digitalcampus.oppia.activity.CourseActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:69:9-73:20
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:61:9-64:72
 	android:windowSoftInputMode
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:72:13-60
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:64:13-60
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:71:13-58
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:63:13-58
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:70:13-75
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:62:13-75
 activity#org.digitalcampus.oppia.activity.DownloadActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:74:9-79:20
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:65:9-69:61
 	android:screenOrientation
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:78:13-49
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:69:13-49
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:77:13-60
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:68:13-60
 	android:configChanges
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:76:13-85
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:67:13-85
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:75:13-77
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:66:13-77
 activity#org.digitalcampus.oppia.activity.TagSelectActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:80:9-85:20
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:70:9-74:61
 	android:screenOrientation
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:84:13-49
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:74:13-49
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:83:13-62
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:73:13-62
 	android:configChanges
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:82:13-63
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:72:13-63
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:81:13-78
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:71:13-78
 activity#org.digitalcampus.oppia.activity.PrefsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:86:9-88:51
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:75:9-77:51
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:88:13-48
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:77:13-48
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:87:13-74
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:76:13-74
 activity#org.digitalcampus.oppia.activity.AboutActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:89:9-91:51
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:78:9-80:51
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:91:13-48
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:80:13-48
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:90:13-74
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:79:13-74
 activity#org.digitalcampus.oppia.activity.LoginActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:92:9-94:51
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:81:9-83:51
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:94:13-48
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:83:13-48
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:93:13-74
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:82:13-74
 activity#org.digitalcampus.oppia.activity.HelpActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:95:9-97:50
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:84:9-86:50
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:97:13-47
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:86:13-47
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:96:13-73
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:85:13-73
 activity#org.digitalcampus.oppia.activity.MonitorActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:98:9-101:53
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:87:9-90:53
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:101:13-50
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:90:13-50
 	android:configChanges
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:100:13-85
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:89:13-85
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:99:13-76
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:88:13-76
 activity#org.digitalcampus.oppia.activity.RegisterActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:102:9-104:54
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:91:9-93:54
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:104:13-51
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:93:13-51
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:103:13-77
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:92:13-77
 activity#org.digitalcampus.oppia.activity.CourseMetaPageActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:105:9-107:57
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:94:9-96:57
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:107:13-54
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:96:13-54
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:106:13-83
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:95:13-83
 activity#org.digitalcampus.oppia.activity.DownloadMediaActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:108:9-112:52
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:97:9-101:52
 	android:screenOrientation
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:112:13-49
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:101:13-49
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:111:13-57
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:100:13-57
 	android:configChanges
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:110:13-85
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:99:13-85
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:109:13-82
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:98:13-82
 activity#org.digitalcampus.oppia.activity.ScoreActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:113:9-115:52
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:102:9-104:52
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:115:13-49
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:104:13-49
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:114:13-74
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:103:13-74
 activity#org.digitalcampus.oppia.activity.AppActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:116:9-118:48
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:105:9-107:48
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:118:13-45
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:107:13-45
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:117:13-72
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:106:13-72
 activity#org.digitalcampus.oppia.activity.MainScreenActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:119:3-91
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:108:9-88
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:119:13-79
-activity#org.grameenfoundation.cch.activity.NewEventPlannerActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:120:9-104
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:120:19-92
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:108:19-85
 service#org.digitalcampus.oppia.service.TrackerService
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:121:9-125:19
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:110:9-113:63
 	android:label
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:124:13-52
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:113:13-52
 	android:icon
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:123:13-46
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:112:13-46
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:122:13-74
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:111:13-74
 receiver#org.digitalcampus.oppia.service.TrackerScheduleReceiver
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:127:9-131:20
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:115:9-119:20
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:127:19-89
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:115:19-89
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:128:13-130:29
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:116:13-118:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:129:17-79
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:117:17-79
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:129:25-76
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:117:25-76
 receiver#org.digitalcampus.oppia.service.TrackerStartServiceReceiver
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:133:9-134:20
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:120:9-105
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:133:19-93
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:120:19-93
 receiver#org.grameenfoundation.cch.receiver.CalendarChangeReceiver
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:136:4-143:17
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:121:9-130:20
 	android:priority
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:137:13-36
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:123:13-36
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:136:14-86
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:122:13-85
 intent-filter#android.intent.action.PROVIDER_CHANGED
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:138:10-142:26
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:124:13-129:29
 action#android.intent.action.PROVIDER_CHANGED
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:139:14-78
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:125:17-81
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:139:22-75
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:125:25-78
 data
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:140:14-47
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:127:17-50
 	android:scheme
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:140:20-44
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:127:23-47
 activity#org.grameenfoundation.poc.PointOfCareActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:145:9-91
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:132:9-82
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:145:19-79
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:132:19-79
 activity#org.grameenfoundation.poc.AntenatalCareActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:146:9-93
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:133:9-84
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:146:19-81
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:133:19-81
 activity#org.grameenfoundation.poc.DiagnosticToolActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:147:9-94
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:134:9-85
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:147:19-82
-activity#org.grameenfoundation.cch.activity.EventPlannerOptionsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:148:9-108
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:148:19-96
-activity#org.grameenfoundation.cch.activity.PlanEventActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:149:9-98
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:149:19-86
-activity#org.grameenfoundation.cch.activity.EventsViewActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:150:9-99
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:150:19-87
-activity#org.grameenfoundation.cch.activity.UpdateTargetActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:151:9-101
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:151:19-89
-activity#org.grameenfoundation.cch.activity.PlannerViewOptionsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:152:9-107
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:152:19-95
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:134:19-82
 activity#org.grameenfoundation.cch.activity.AchievementCenterActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:154:9-106
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:135:9-97
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:154:19-94
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:135:19-94
 activity#org.grameenfoundation.poc.EstimateTrimester
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:156:9-89
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:136:9-80
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:156:19-77
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:136:19-77
 activity#org.grameenfoundation.poc.PostnatalCareActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:157:9-93
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:137:9-84
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:157:19-81
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:137:19-81
 activity#org.grameenfoundation.poc.PostnatalCareSectionActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:158:9-100
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:138:9-91
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:158:19-88
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:138:19-88
 activity#org.grameenfoundation.poc.PostnatalCareMotherDiagnosticToolActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:159:9-113
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:139:9-104
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:159:19-101
-activity#org.grameenfoundation.cch.activity.UpdateActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:160:9-95
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:160:19-83
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:139:19-101
 activity#org.grameenfoundation.poc.CounsellingPerTrimesterActivtiy
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:161:9-103
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:140:9-94
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:161:19-91
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:140:19-91
 activity#org.grameenfoundation.poc.CalculatorsMenuActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:162:9-95
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:141:9-86
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:162:19-83
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:141:19-83
 activity#org.grameenfoundation.poc.ReferencesMenuActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:163:9-94
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:142:9-85
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:163:19-82
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:142:19-82
 activity#org.grameenfoundation.poc.PostnatalCareCounsellingTopicsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:164:9-110
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:143:9-101
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:164:19-98
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:143:19-98
 activity#org.grameenfoundation.poc.TreatingDiarrhoeaActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:165:9-97
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:144:9-88
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:165:19-85
-activity#org.grameenfoundation.cch.activity.OtherTargetsDetailActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:166:9-107
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:166:19-95
-activity#org.grameenfoundation.cch.activity.TargetSettingActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:167:9-102
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:167:19-90
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:144:19-85
 activity#org.grameenfoundation.poc.QuickReadsMenuActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:168:9-94
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:145:9-85
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:168:19-82
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:145:19-82
 activity#org.grameenfoundation.poc.DosageCalculatorActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:169:9-96
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:146:9-87
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:169:19-84
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:146:19-84
 activity#org.grameenfoundation.poc.EstimateDueDateCalculator
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:170:9-97
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:147:9-88
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:170:19-85
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:147:19-85
 activity#org.grameenfoundation.poc.ANCCounsellingTopicsMenuActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:171:9-104
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:148:9-95
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:171:19-92
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:148:19-92
 activity#org.grameenfoundation.cch.activity.AchievementSummaryActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:172:9-107
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:149:9-98
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:172:19-95
-activity#org.grameenfoundation.cch.activity.EventsAchievementsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:173:9-107
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:173:19-95
-activity#org.grameenfoundation.cch.activity.TargetAchievementDetailActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:174:9-112
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:174:19-100
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:149:19-95
 activity#org.grameenfoundation.cch.activity.CourseDetailActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:175:9-101
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:150:9-92
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:175:19-89
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:150:19-89
 activity#org.grameenfoundation.cch.activity.CourseAchievementActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:176:9-106
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:151:9-97
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:176:19-94
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:151:19-94
 activity#org.grameenfoundation.cch.activity.LearningCenterMenuActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:177:4-102
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:152:9-98
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:177:14-90
-activity#org.grameenfoundation.cch.model.OtherTargetAchievementActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:178:9-108
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:178:19-96
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:152:19-95
 activity#org.grameenfoundation.cch.activity.ReferencesDownloadActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:179:9-107
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:153:9-98
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:179:19-95
-service#org.grameenfoundation.schedulers.EventUpdateService
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:181:9-95
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:181:18-84
-receiver#org.grameenfoundation.schedulers.EventScheduleReceiver
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:182:9-186:20
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:182:19-88
-receiver#org.grameenfoundation.schedulers.EventUpdateStartServiceReceiver
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:187:9-110
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:187:19-98
-activity#org.grameenfoundation.cch.activity.OtherTargetsUpdateActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:188:9-107
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:188:19-95
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:153:19-95
 activity#org.grameenfoundation.cch.popupquestions.XmlGui
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:189:11-95
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:154:9-84
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:189:21-83
-activity#org.grameenfoundation.cch.popupquestions.RunForm
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:190:13-98
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:190:23-86
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:154:19-81
 activity#org.grameenfoundation.cch.activity.CourseGroupActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:191:13-104
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:155:9-91
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:191:23-92
-activity#org.grameenfoundation.cch.popupquestions.SurveyAlertActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:192:13-198:24
-	android:theme
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:193:17-87
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:192:23-98
-intent-filter#android.intent.category.DEFAULT+org.grameenfoundation.cch.popupquestions.SurveyAlertActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:194:14-197:29
-action#org.grameenfoundation.cch.popupquestions.SurveyAlertActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:195:17-103
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:195:25-100
-category#android.intent.category.DEFAULT
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:196:17-76
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:196:27-73
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:155:19-88
 service#org.grameenfoundation.schedulers.UserDetailsUpdateService
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:199:13-105
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:157:9-93
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:199:22-94
-activity#org.grameenfoundation.cch.activity.ReminderActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:200:13-101
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:200:23-89
-activity#org.grameenfoundation.cch.activity.UpdateFacilityTargetsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:201:13-114
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:201:23-102
-activity#org.grameenfoundation.cch.model.AgeGroupsFacilityTargetsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:202:13-114
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:202:23-102
-activity#org.grameenfoundation.cch.model.FacilityTargetsAchievementActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:203:13-116
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:203:23-104
-activity#org.grameenfoundation.cch.activity.FacilityTargetBulkUpdateActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:204:13-117
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:204:23-105
-activity#org.grameenfoundation.cch.activity.FacilityTargetsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:205:13-108
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:205:23-96
-activity#org.grameenfoundation.cch.activity.FacilityTargetOptionsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:206:13-114
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:206:23-102
-activity#org.grameenfoundation.cch.model.FamilyPlanningFacilityTargetActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:207:15-120
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:207:25-108
-activity#org.grameenfoundation.cch.activity.OtherFacilityTargetActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:208:13-112
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:208:23-100
-activity#org.grameenfoundation.cch.activity.AntigensFacilityTargetActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:209:13-115
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:209:23-103
-activity#org.grameenfoundation.cch.activity.NewFacilityTargetsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:210:13-111
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:210:23-99
-activity#org.grameenfoundation.cch.model.SchoolHealthFacilityTargetActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:211:13-116
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:211:23-104
-activity#org.grameenfoundation.cch.activity.GroupParticipantsSelectActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:212:13-116
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:212:23-104
-activity#org.grameenfoundation.cch.activity.MaternalHealthFacilityTargetsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:213:13-122
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:213:23-110
-activity#org.grameenfoundation.cch.activity.ViewEventDetailsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:214:13-109
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:214:23-97
-activity#org.grameenfoundation.cch.activity.UpdateEventActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:215:13-104
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:215:23-92
-activity#org.grameenfoundation.cch.activity.EventsListViewActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:216:13-107
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:216:23-95
-activity#org.grameenfoundation.cch.activity.UpdateEventsActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:217:13-105
-	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:217:23-93
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:157:18-90
 activity#org.grameenfoundation.poc.ChildWelfareActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:218:13-96
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:159:9-83
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:218:23-84
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:159:19-80
 activity#org.grameenfoundation.poc.ChildAgeCalculatorActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:219:13-102
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:160:9-89
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:219:23-90
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:160:19-86
 activity#org.grameenfoundation.poc.ChildWelfareCalculatorsMenuActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:220:13-111
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:161:9-98
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:220:23-99
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:161:19-95
 activity#org.grameenfoundation.poc.FamilyPlanningCalculatorActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:221:13-108
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:162:9-95
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:221:23-96
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:162:19-92
 activity#org.grameenfoundation.poc.POCDynamicActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:222:13-94
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:163:9-81
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:222:23-82
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:163:19-78
 activity#org.grameenfoundation.poc.CWCDiagnosticToolActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:223:13-101
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:164:9-88
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:223:23-89
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:164:19-85
 activity#org.grameenfoundation.poc.CWCCounsellingActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:224:13-98
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:165:9-85
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:224:23-86
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:165:19-82
 activity#org.grameenfoundation.poc.CWCReferencesActivity
-ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:225:13-97
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:166:9-84
 	android:name
-		ADDED from C:\Users\Software Developer\AndroidstudioProjects\cch-android4\app\src\main\AndroidManifest.xml:225:23-85
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:166:19-81
+activity#org.grameenfoundation.cch.activity.UserRegistrationActivity
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:167:9-177:20
+	android:label
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:169:13-69
+	android:theme
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:170:13-55
+	android:name
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:168:13-87
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:172:13-176:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:173:17-69
+	android:name
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:173:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:175:17-77
+	android:name
+		ADDED from C:\Users\Software Developer\Development\android-studio-workspace\cbcc-mobile-android-studio\app\src\main\AndroidManifest.xml:175:27-74

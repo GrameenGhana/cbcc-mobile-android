@@ -1,54 +1,54 @@
 [
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_login.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\activity_login.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_register.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_home.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\activity_home.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\context_menu.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\context_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_course.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\activity_course.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_references.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\activity_references.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\activity_main.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\cchlogin.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\cchlogin.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_course_index.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\activity_course_index.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_monitor.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\activity_monitor.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_references.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\activity_references.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\custom_action_bar.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\custom_action_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_monitor.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\activity_monitor.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\acivity_download_menu.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\acivity_download_menu.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_course.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\activity_course.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\custom_action_bar.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\custom_action_bar.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_home.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\course_context_menu.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\course_context_menu.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_login.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\cchlogin.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\cchlogin.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\course_context_menu.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\course_context_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_register.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\activity_register.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\acivity_download_menu.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\acivity_download_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\menu\\context_menu.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\menu\\context_menu.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_course_index.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\menu\\activity_course_index.xml"
     }
 ]

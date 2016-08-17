@@ -7,19 +7,13 @@ import java.util.ArrayList;
 
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
-import org.grameenfoundation.cch.activity.EventsAchievementsActivity;
 import org.grameenfoundation.cch.activity.MagicAppRestart;
-import org.grameenfoundation.cch.activity.StayingWellActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.app.Activity;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.text.format.Time;
 import android.util.Log;

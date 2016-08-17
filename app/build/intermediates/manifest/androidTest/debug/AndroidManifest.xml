@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.digitalcampus.mobile.learningGF.test">
+    package="org.grameenfoundation.cbcc.test">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="org.digitalcampus.mobile.learningGF"
+                     android:targetPackage="org.grameenfoundation.cbcc"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for org.digitalcampus.mobile.learningGF"/>
+                     android:label="Tests for org.grameenfoundation.cbcc"/>
 </manifest>

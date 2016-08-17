@@ -33,9 +33,9 @@ public class XmlGui extends Activity {
         	{
         		EditText formNumber = (EditText) findViewById(R.id.formNumber);
         		Log.i(tag,"Attempting to process Form # [" + formNumber.getText().toString() + "]");
-        		Intent newFormInfo = new Intent(XmlGui.this,RunForm.class);
-        		newFormInfo.putExtra("formNumber", formNumber.getText().toString());
-        		startActivity(newFormInfo);
+        		//Intent newFormInfo = new Intent(XmlGui.this,RunForm.class);
+        		//newFormInfo.putExtra("formNumber", formNumber.getText().toString());
+        		//startActivity(newFormInfo);
         	}
         });
     }

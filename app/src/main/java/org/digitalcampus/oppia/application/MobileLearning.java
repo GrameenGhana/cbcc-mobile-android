@@ -22,11 +22,7 @@ import java.io.File;
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.task.SubmitQuizTask;
 import org.digitalcampus.oppia.task.SubmitTrackerMultipleTask;
-import org.grameenfoundation.cch.tasks.FacilityTargetsSyncTask;
-import org.grameenfoundation.cch.tasks.FacilityTargetsTask;
 import org.grameenfoundation.cch.tasks.StayingWellNotifyTask;
-import org.grameenfoundation.cch.tasks.SurveyNotifyTask;
-import org.grameenfoundation.cch.tasks.TargetSettingNotifyTask;
 import org.grameenfoundation.cch.tasks.UpdateCCHLogTask;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
@@ -109,17 +105,6 @@ public class MobileLearning extends Application {
 	public static final String CCH_DIAGNOSTIC = "Diagnostic Tool";
 	public static final String CCH_REFERENCES = "References";
 	public static final String CCH_COUNSELLING = "Counselling";
-	
-	public static final String CCH_TARGET_TYPE_EVENT = "Event";
-	public static final String CCH_TARGET_TYPE_COVERAGE = "Coverage";
-	public static final String CCH_TARGET_TYPE_OTHER = "Other";
-	public static final String CCH_TARGET_TYPE_LEARNING = "Learning";
-	
-	public static final String CCH_TARGET_STATUS_NEW = "new_record";
-	public static final String CCH_TARGET_STATUS_UPDATED = "updated";
-	
-	public static final String CCH_TARGET_PERSONAL = "personal";
-	public static final String CCH_TARGET_NOT_PERSONAL= "not_personal";
 
 	// general other settings
 	public static final String BUGSENSE_API_KEY = "f3a6ec3a";
@@ -139,7 +124,6 @@ public class MobileLearning extends Application {
 	
 	// for tracking if SubmitTrackerMultipleTask is already running
 	public SubmitTrackerMultipleTask omSubmitTrackerMultipleTask = null;
-	public FacilityTargetsSyncTask omFacilityTargetSyncTask = null;
 	
 	// for tracking if SubmitQuizTask is already running
 	public SubmitQuizTask omSubmitQuizTask = null;
@@ -149,11 +133,7 @@ public class MobileLearning extends Application {
 	
 	// for tracking if notifier is already running
 	public StayingWellNotifyTask omStayingWellNotifyTask = null;
-	
-	public TargetSettingNotifyTask omTargetSettingNotifyTask = null;
-	public SurveyNotifyTask omSurveyNotifyTask = null;
 
-	public FacilityTargetsTask omFacilityTargetsDownloadTask= null;
 	
 	public static boolean createDirs() {
 		String cardstatus = Environment.getExternalStorageState();

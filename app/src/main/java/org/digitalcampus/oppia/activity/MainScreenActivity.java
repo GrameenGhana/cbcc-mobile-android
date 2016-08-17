@@ -1,41 +1,22 @@
 package org.digitalcampus.oppia.activity;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.List;
 
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
-import org.digitalcampus.oppia.application.MobileLearning;
 import org.digitalcampus.oppia.model.User;
 import org.digitalcampus.oppia.service.TrackerService;
-import org.grameenfoundation.adapters.EventsDetailPagerAdapter;
-import org.grameenfoundation.calendar.CalendarEvents;
 import org.grameenfoundation.cch.activity.AchievementCenterActivity;
-import org.grameenfoundation.cch.activity.EventPlannerOptionsActivity;
 import org.grameenfoundation.cch.activity.LearningCenterMenuActivity;
 import org.grameenfoundation.cch.activity.StayingWellActivity;
-import org.grameenfoundation.cch.activity.UpdateTargetActivity;
+import org.grameenfoundation.cch.activity.UserRegistrationActivity;
 import org.grameenfoundation.poc.PointOfCareActivity;
-import org.grameenfoundation.schedulers.EventUpdateService;
 import org.grameenfoundation.schedulers.UserDetailsUpdateService;
-import org.grameenfoundation.cch.model.EventTargets;
-import org.grameenfoundation.cch.model.MyCalendarEvents;
 import org.grameenfoundation.cch.model.RoutineActivity;
 import org.grameenfoundation.cch.model.RoutineActivityDetails;
-import org.grameenfoundation.cch.model.Survey;
-import org.grameenfoundation.cch.popupquestions.RunForm;
-import org.grameenfoundation.cch.tasks.FacilityTargetsTask;
 import org.grameenfoundation.cch.utils.CCHTimeUtil;
 import org.joda.time.DateTime;
-import org.joda.time.Days;
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
 
-import de.keyboardsurfer.android.widget.crouton.Crouton;
-import de.keyboardsurfer.android.widget.crouton.Style;
-import android.app.AlarmManager;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -49,14 +30,10 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.text.Html;
-import android.text.format.Time;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -64,17 +41,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.view.ViewGroup;
 import android.widget.RadioButton;
-import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedPreferenceChangeListener {
+public class MainScreenActivity extends AppCompatActivity  implements OnSharedPreferenceChangeListener {
 
 	private static Context mContext;
 	private static TextView status;
@@ -89,14 +63,10 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
 	private LinearLayout achievements;
 	private LinearLayout stayingWell;
 	private LinearLayout learning;
-	private TextView events;
-	private ArrayList<MyCalendarEvents> TodayCalendarEvents;
-	private CalendarEvents c;
 	private Animation slide_up;
 	private CCHTimeUtil timeUtils;
 	private DateTime today;
 	private String name;
-	private ArrayList<Survey> surveyData;
 	private RadioGroup reminder;
 	private RadioButton weekRadioButton;
 	private RadioButton dayRadioButton;
@@ -114,9 +84,6 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
 		getSupportActionBar().setIcon(R.drawable.app_icon);
         getSupportActionBar().setTitle("Welcome");
         getSupportActionBar().setSubtitle("Home Page");
-	    c= new CalendarEvents(mContext);
-	    TodayCalendarEvents=new ArrayList<MyCalendarEvents>();
-	    TodayCalendarEvents=c.getTodaysEvents(false);
 		dbh = new DbHelper(getApplicationContext());
 		timeUtils=new CCHTimeUtil();
 		today=new DateTime();
@@ -133,9 +100,6 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
 			dbh.alterUserTableDistrict();
 			dbh.alterPOCSection();
 			dbh.alterPOCSectionUpdate();
-			 dbh.alterFacilityTargetTable();
-			 dbh.alterFacilityTargetDetailTable();
-			 dbh.alterFacilityTargetGroupTable();
 			prefs = PreferenceManager.getDefaultSharedPreferences(this);
 			name=prefs.getString("first_name", "name");
 			if(dbh.isOnline()){
@@ -153,31 +117,18 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
 		tb.putBoolean("backgroundData", true);
 		service.putExtras(tb);
 		this.startService(service);
-		
-		Intent service2 = new Intent(this, EventUpdateService.class);
-		this.startService(service2);
+
 		planner=(LinearLayout) findViewById(R.id.planner);
 		poc=(LinearLayout) findViewById(R.id.poc);
 		learning=(LinearLayout) findViewById(R.id.learning);
 		stayingWell=(LinearLayout) findViewById(R.id.stayingWell);
 		achievements=(LinearLayout) findViewById(R.id.achievements);
-		events=(TextView) findViewById(R.id.textView_events);
-		slide_up=AnimationUtils.loadAnimation(getApplicationContext(),
-	              R.anim.slide_up);
-		for(int i=0;i<TodayCalendarEvents.size();i++){
-			if(TodayCalendarEvents.size()==0){
-				events.setText("No planned events");
-				events.setAnimation(slide_up);
-			}else{
-			events.setText(TodayCalendarEvents.get(i).getEventType());
-			events.setAnimation(slide_up);
-			}
-		}
+
 		planner.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent=new Intent(mContext, EventPlannerOptionsActivity.class);
+				Intent intent=new Intent(mContext, UserRegistrationActivity.class);
 				startActivity(intent);
 				 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right);
 				
@@ -259,11 +210,8 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
                 if(position==0 ){
                 	 fragment= new EventsSummary();   
                 }else if(position==1){
-                	 fragment= new EventsDetails();   
-                } else if (position==2) {
-                	 fragment = new RoutineActivityDetails(mViewPager);
+                	 fragment= new RoutineActivityDetails(mViewPager);
                 }
-               	
                 return fragment;
         }
 
@@ -288,13 +236,12 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
 		 private TextView textView_routinesClickHere;
 		 private TextView tv8;
 		 String due_date;
-		 CalendarEvents c;
+
 		 private SharedPreferences prefs;
 		 private String name;
 		 private String user_first_name;
 
 		 private ArrayList<User> firstName;
-		 public ArrayList<MyCalendarEvents> EventTypeToday;
 		private int numactivities;
 		 public EventsSummary(){
 			 
@@ -307,10 +254,7 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
 			    dbh=new DbHelper(getActivity());
 			    firstName=dbh.getUserFirstName(name);
 			    status=(TextView) rootView.findViewById(R.id.textView_status);
-			    event_number=(TextView) rootView.findViewById(R.id.textView_eventsNumber);
-			    c= new CalendarEvents(mContext);
-			    
-			    EventTypeToday=c.getTodaysEvents(false);
+
 			    try{
 		    if(firstName.size()>0 &&firstName!=null){
 			    	user_first_name=firstName.get(0).getFirstname();
@@ -322,28 +266,8 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
 		    e.printStackTrace();	
 		    }
 		    	status.setText("Good "+dbh.getTime()+", "+user_first_name+"!");
-		 if(EventTypeToday.size()==0 &&EventTypeToday!=null){
-				 event_number.setText("0"); 
-			 }else {
-				 event_number.setText(String.valueOf(EventTypeToday.size())); 
-			 }
-			 Calendar c = Calendar.getInstance();
-		        int month=c.get(Calendar.MONTH)+1;
-		        int day=c.get(Calendar.DAY_OF_WEEK);
-		        int year=c.get(Calendar.YEAR);
-		        due_date=day+"-"+month+"-"+year;
-	
-				textView_eventTargetsNumber=(TextView) rootView.findViewById(R.id.textView_eventTargetsNumber);
-				textView_clickHere=(TextView) rootView.findViewById(R.id.textView_clickHere);
 
-			
-				textView_eventsClickHere = (TextView) rootView.findViewById(R.id.textView_eventsClickHere);
-			    textView_eventsClickHere.setOnClickListener(new OnClickListener(){
-			    	@Override
-					public void onClick(View v) {
-							mViewPager.setCurrentItem(1, true);	
-					}
-				});
+
 				/* Routine Info */
 				ArrayList<RoutineActivity> todos = new ArrayList<RoutineActivity>();
 				todos=dbh.getSWRoutineActivities();
@@ -374,59 +298,7 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
 		 }
 	 }
 	 
-	 public static class EventsDetails extends Fragment {
-		 View rootView;
-		 CalendarEvents c;
-		private TextView eventStatus;
-		int month;
-		String month_text;
-		private ListView listView_details;
-		private ArrayList<MyCalendarEvents> TodayCalendarEvents;
-		private TextView textView_clickHere;
-		 public EventsDetails(){
-			 
-		 }
-		 
-		 public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-			 	rootView=inflater.inflate(R.layout.events_detail_pager_layout,null,false);
-			    dbh=new DbHelper(getActivity());
-			    status=(TextView) rootView.findViewById(R.id.textView_status);
-			    eventStatus=(TextView) rootView.findViewById(R.id.textView1);
-			    listView_details=(ListView) rootView.findViewById(R.id.listView_eventsDetail);
-			    Time time = new Time();
-			    time.setToNow();
-			    c= new CalendarEvents(mContext);
-			    TodayCalendarEvents=c.getTodaysEvents(false);
-		 if(TodayCalendarEvents.size()==0&&TodayCalendarEvents!=null){
-				 eventStatus.setText("No events planned for today!"); 
-		 }else if(TodayCalendarEvents.size()>0&&TodayCalendarEvents!=null){
-				 EventsDetailPagerAdapter adapter=new EventsDetailPagerAdapter(getActivity(),TodayCalendarEvents);
-			    	adapter.notifyDataSetChanged();
-			    	listView_details.setAdapter(adapter);	 
-			 }
 
-		    textView_clickHere = (TextView) rootView.findViewById(R.id.textView_back);
-		    textView_clickHere.setOnClickListener(new OnClickListener(){
-
-		    	@Override
-				public void onClick(View v) {
-						mViewPager.setCurrentItem(0, true);
-				
-				}
-			});
-		    
-			 return rootView;
-		 }
-	 }
-	 
-	
-	 
-	 @Override
-	 public void onResume()
-	 {
-		 super.onResume();
-	     mViewPager.getAdapter().notifyDataSetChanged();
-	 }
 	 	 
 	 
 	@Override
@@ -459,41 +331,6 @@ public class 	MainScreenActivity extends AppCompatActivity  implements OnSharedP
 				service.putExtras(tb);
 				this.startService(service);
 				
-				return true;
-			}else if (itemId == R.id.menu_survey) {
-				try{
-					DateTimeFormatter formatter = DateTimeFormat.forPattern("dd-MM-yyyy HH:mm");
-				DateTime today=new DateTime();
-				today=formatter.parseDateTime(today.toString("dd-MM-yyyy HH:mm"));
-				
-				ArrayList<Survey> surveys=new ArrayList<Survey>();
-				surveys=dbh.getSurveys();
-				System.out.println("Today "+today.getMillis());
-				ArrayList<User> user_role = dbh.getUserFirstName(name);
-				surveyData = dbh.getSurveys();
-				List<String> userDistricts = Arrays.asList(getResources().getStringArray(R.array.Districts));
-				if((user_role.get(0).getUserrole().equals("chn")
-						||user_role.get(0).getUserrole().equals("Sub-District Supervisor")
-						||user_role.get(0).getUserrole().equalsIgnoreCase("District Supervisor"))
-						&&userDistricts.contains(user_role.get(0).getUserDistrict())){
-					if(today.getMillis()>=Long.valueOf(surveys.get(0).getSurveyReminderDate())
-							&&today.getMillis()<=Long.valueOf(surveys.get(0).getSurveyNextReminderDate())
-							&&surveys.get(0).getSurveyStatus().equals("")){
-							Intent intent = new Intent(this, RunForm.class);
-							this.startActivity(intent);
-					}else if(today.getMillis()>=Long.valueOf(surveys.get(2).getSurveyReminderDate())
-							&&today.getMillis()<=Long.valueOf(surveys.get(2).getSurveyNextReminderDate())
-							&&surveys.get(2).getSurveyStatus().equals("")){
-							Intent intent = new Intent(this, RunForm.class);
-							this.startActivity(intent);
-					}else{
-							Crouton.makeText(this, "This survey does not exist at this time", Style.ALERT).show();
-					}
-					}
-				}catch(Exception e){
-					e.printStackTrace();
-					Crouton.makeText(this, "This survey does not exist at this time", Style.ALERT).show();
-				}
 				return true;
 			}
 			

@@ -6,15 +6,12 @@ import java.util.ArrayList;
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.application.MobileLearning;
-import org.grameenfoundation.cch.model.CourseAchievments;
-import org.grameenfoundation.cch.model.EventTargets;
 import org.grameenfoundation.cch.tasks.AchievementsTask;
-import org.grameenfoundation.cch.tasks.CourseAchievementsTask;
 import org.grameenfoundation.poc.BaseActivity;
 
 import de.keyboardsurfer.android.widget.crouton.Crouton;
 import de.keyboardsurfer.android.widget.crouton.Style;
-import android.app.Activity;
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -22,7 +19,6 @@ import android.preference.PreferenceManager;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -40,7 +36,6 @@ public class AchievementCenterActivity extends BaseActivity {
 	private SharedPreferences prefs;
 	private ListView listView;
 	private DbHelper db;
-	private ArrayList<EventTargets> completedCoverageTargets;
 	private Spinner spinner_years;
 	private Button button_refresh;
 	private TextView textView_status;

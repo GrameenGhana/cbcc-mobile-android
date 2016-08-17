@@ -31,7 +31,7 @@ public class AllUsersDetailsTask  extends AsyncTask<String, String, String>{
 	    db=new DbHelper(ctx);
 	}
 	protected void onPreExecute() {
-		 publishProgress("Retrieving user data.....");
+
 		 
 	 };
 	@Override
@@ -63,7 +63,6 @@ public class AllUsersDetailsTask  extends AsyncTask<String, String, String>{
      protected void onPostExecute(String result) {
 		 db.alterUserTableForZone();
 		 db.alterUserTableForSubdistrict();
-		 db.deleteGroupsTable();
 		 System.out.println(result);
 		 JSONObject jsonfromresult2;
 		 JSONArray jsonGroups;
@@ -82,15 +81,7 @@ public class AllUsersDetailsTask  extends AsyncTask<String, String, String>{
 				 zone=jsonfromresult2.getString("zone_name");
 				 jsonGroups=new JSONArray(jsonfromresult2.getString("groups"));
 				 facility=jsonfromresult2.getString("primary_facility");
-				 for (int j=0;j<jsonGroups.length();j++){
-				db.insertUserGroupMembers(jsonGroups.getJSONObject(j).getString("username"),
-												jsonGroups.getJSONObject(j).getString("first_name"), 
-												jsonGroups.getJSONObject(j).getString("last_name"),
-												jsonGroups.getJSONObject(j).getString("district_name"),
-												jsonGroups.getJSONObject(j).getString("subdistrict_name"),
-												jsonGroups.getJSONObject(j).getString("facility_name"),
-												jsonGroups.getJSONObject(j).getString("zone_name"));
-				 }
+
 				 db.updateUserData(name,user_role,district,facility,subdistrict,zone);
 			 }else if(jsonfromresult2.getString("role").equalsIgnoreCase("District Supervisor")||jsonfromresult2.getString("role").equalsIgnoreCase("Sub-District Supervisor")){
 				 user_role=jsonfromresult2.getString("role");
@@ -98,7 +89,6 @@ public class AllUsersDetailsTask  extends AsyncTask<String, String, String>{
 				 facility=jsonfromresult2.getString("primary_facility");
 				 db.updateUserData(name,user_role,district,facility,subdistrict,zone);
 			 }
-			 publishProgress("Finished setting user data");
 		} catch (NullPointerException e) {
 			db.updateSurveyData("", "", "", "","");
 			e.printStackTrace();

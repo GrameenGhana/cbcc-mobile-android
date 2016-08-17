@@ -1,270 +1,334 @@
 [
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\card_background.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\card_background.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selectable_background_om.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\selectable_background_om.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_background_completed.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\activity_background_completed.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator_ab_om.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\tab_indicator_ab_om.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_example.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\progress_horizontal_example.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_background_gradient.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\green_background_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_background.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\activity_background.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stroke_bg_green.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\stroke_bg_green.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selectable_background_example.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\selectable_background_example.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\zoom_out.png",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\zoom_out.png"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stroke_bg_curry.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\stroke_bg_curry.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selectable_background_example.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\selectable_background_example.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_change_pressed.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\background_change_pressed.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cab_done_om.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\btn_cab_done_om.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stroke_bg_curry.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\stroke_bg_curry.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cab_done_example.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\btn_cab_done_example.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator_ab_example.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\tab_indicator_ab_example.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ab_background_textured_example.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\ab_background_textured_example.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\divider.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_border.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\red_border.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cab_done_om.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\btn_cab_done_om.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stroke_bg.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\stroke_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_border2.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\custom_border2.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_border_gray_bg.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\red_border_gray_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_arrow.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\right_arrow.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\listchoice_selector.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\listchoice_selector.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_nav_button.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\activity_nav_button.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_border_selected.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\activity_border_selected.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\raised_button_background.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\raised_button_background.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\message_background.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\message_background.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_change_pressed.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\background_change_pressed.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stroke_bg.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\stroke_bg.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_border.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\activity_border.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_background.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\my_background.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\progress_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\customborder.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\customborder.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\listchoice_selector.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\listchoice_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_arrow.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\left_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_example.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\progress_horizontal_example.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\card_bakground_selector.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\card_bakground_selector.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\zoom_in.png",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\zoom_in.png"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\disable_cell.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\disable_cell.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\card_bakground_selector.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\card_bakground_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_edit_text_holo_light.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\apptheme_edit_text_holo_light.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_background.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\my_background.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\divider.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_edit_text_holo_light.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\apptheme_edit_text_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ab_background_textured_om.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\ab_background_textured_om.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background_ab_example.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\spinner_background_ab_example.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selectable_background_om.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\selectable_background_om.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cell_bg.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\cell_bg.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ab_background_textured_om.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\ab_background_textured_om.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\customborder.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\customborder.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_arrow.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\left_arrow.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_nav_button.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\activity_nav_button.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\card_state_pressed.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\card_state_pressed.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_background.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\activity_background.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_border_gray_bg.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\red_border_gray_bg.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\points_background.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\points_background.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\raised_button_background.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\raised_button_background.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_border_completed.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\activity_border_completed.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\card_state_pressed.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\card_state_pressed.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\message_background.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\message_background.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background_ab_om.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\spinner_background_ab_om.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_arrow.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\right_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\zoom_out.png",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\zoom_out.png"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_background_gradient.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\green_background_gradient.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\progress_bar.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_radio_holo_light.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\apptheme_btn_radio_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_om.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\progress_horizontal_om.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_bg.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\drawable\\circle_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background_ab_om.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\spinner_background_ab_om.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_border.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\red_border.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pressed_background_om.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\pressed_background_om.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fab_shape.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\fab_shape.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cab_done_example.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\btn_cab_done_example.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator_ab_example.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\tab_indicator_ab_example.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_border.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\activity_border.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_background_completed.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\activity_background_completed.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_radio_holo_light.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\apptheme_btn_radio_holo_light.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\zoom_in.png",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\zoom_in.png"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_border2.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\custom_border2.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_border_selected.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\activity_border_selected.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background_ab_example.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\spinner_background_ab_example.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stroke_bg_green.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\stroke_bg_green.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ab_background_textured_example.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\drawable\\ab_background_textured_example.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator_ab_om.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\tab_indicator_ab_om.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fab_shape.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\fab_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cell_bg.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\cell_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_om.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\progress_horizontal_om.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\disable_cell.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\disable_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pressed_background_om.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\pressed_background_om.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\card_background.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\points_background.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\points_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_border_completed.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\drawable\\activity_border_completed.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ratingbar_material.xml"
     }
 ]

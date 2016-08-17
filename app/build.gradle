@@ -1,18 +1,19 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
+    compileSdkVersion 23
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "org.digitalcampus.mobile.learningGF"
+        applicationId "org.grameenfoundation.cbcc"
         minSdkVersion 14
+        useLibrary 'org.apache.http.legacy'
         targetSdkVersion 19
     }
     dexOptions {
         javaMaxHeapSize "2048M"
     }
-    packagingOptions{
+    packagingOptions {
         exclude 'META-INF/LICENSE.txt'
         exclude 'APK META-INF/NOTICE.txt'
         exclude 'META-INF/NOTICE.txt'
@@ -30,8 +31,6 @@ android {
 }
 
 dependencies {
-    compile "com.android.support:appcompat-v7:22.2.0"
-    compile 'joda-time:joda-time:2.2'
     compile files('libs/acra-4.5.0.jar')
     compile files('libs/bugsense-3.6.jar')
     compile files('libs/crouton-1.8.2.jar')
@@ -42,4 +41,9 @@ dependencies {
     compile files('libs/mquiz-0.6.jar')
 
 
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'joda-time:joda-time:2.2'
+    compile 'com.android.support:design:23.3.0'
+    compile 'com.github.fcannizzaro:material-stepper:1.2.2'
+    compile 'com.android.support:support-v4:23.3.0'
 }

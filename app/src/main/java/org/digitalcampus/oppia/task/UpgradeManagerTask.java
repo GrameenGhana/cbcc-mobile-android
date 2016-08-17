@@ -4,7 +4,6 @@ import java.io.File;
 import java.util.ArrayList;
 
 import org.digitalcampus.mobile.learningGF.R;
-import org.digitalcampus.oppia.activity.StartUpActivity;
 import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.application.MobileLearning;
 import org.digitalcampus.oppia.exception.InvalidXMLException;
@@ -14,14 +13,9 @@ import org.digitalcampus.oppia.utils.CourseScheduleXMLReader;
 import org.digitalcampus.oppia.utils.CourseTrackerXMLReader;
 import org.digitalcampus.oppia.utils.CourseXMLReader;
 import org.digitalcampus.oppia.utils.FileUtils;
-import org.grameenfoundation.cch.model.EventTargets;
 import org.grameenfoundation.cch.tasks.CourseDetailsTask;
 import org.grameenfoundation.cch.utils.CCHTimeUtil;
 import org.joda.time.DateTime;
-import org.joda.time.LocalDate;
-import org.joda.time.LocalDateTime;
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -33,7 +27,6 @@ import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.text.format.Time;
 import android.util.Log;
-import android.widget.Toast;
 
 public class UpgradeManagerTask extends AsyncTask<Payload, String, Payload> {
 	
@@ -83,7 +76,6 @@ public class UpgradeManagerTask extends AsyncTask<Payload, String, Payload> {
 			payload.setResult(true);
 		}
 			SWReset();
-			 SurveyInitialize();
 			 ReinstallingCourses();
 		return payload;
 	}
@@ -261,32 +253,7 @@ public class UpgradeManagerTask extends AsyncTask<Payload, String, Payload> {
 		}
 		
 	}
-	protected void SurveyInitialize(){
-		try{
-			 SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(ctx);
-		      int fix_number = prefs.getInt("survey_initialize1", 0);
-		      if (fix_number==0) {
-		    	  publishProgress("Initializing survey");
-		        prefs.edit().putInt("survey_initialize1", 1).commit();
-		        Time now=new Time();
-		        now.setToNow();
-		    	  DateTime firstDate=new DateTime(2015,07,01,00,00);
-		    	  DateTime secondDate=new DateTime(2015,11,1,00,00);
-		    	  DateTime thirdDate=new DateTime(2016,03,1,00,00);
-		    	  DateTime firstDateReminder=new DateTime(2015,07,31,23,59);
-		    	  DateTime secondDateReminder=new DateTime(2015,11,30,23,59);
-		    	  DateTime thirdDateReminder=new DateTime(2016,03,31,23,59);
-		    	  db.deleteTables(db.SURVEY_TABLE);
-		        db.insertSurvey("", "", "",String.valueOf(firstDate.getMillis()),String.valueOf(firstDateReminder.getMillis()),"","","","");
-		        db.insertSurvey("", "", "", String.valueOf(secondDate.getMillis()),String.valueOf(secondDateReminder.getMillis()),"", "","","");
-		        db.insertSurvey("", "", "", String.valueOf(thirdDate.getMillis()),String.valueOf(thirdDateReminder.getMillis()),"","","","");
-		      }
-		      
-		}catch(Exception e){
-			e.printStackTrace();
-		}
-		
-	}
+
 
 	@Override
 	protected void onProgressUpdate(String... obj) {

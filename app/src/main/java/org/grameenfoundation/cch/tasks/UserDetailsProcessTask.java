@@ -97,34 +97,7 @@ public class UserDetailsProcessTask  extends AsyncTask<String, String, String>{
 					 profileData=new JSONObject(jsonArray.getJSONObject(i).getString("data"));
 				 }
 			 }
-			 
-			 for(int k=0;k<surveyResponses.length();k++){
-				 responses=new JSONObject(surveyResponses.getJSONObject(k).getString("data"));
-				if(surveyResponses.length()==1&&!responses.toString().contains("survey_type")){
-					 id=1;
-					 data=surveyResponses.getJSONObject(0).getString("data").toString();
-				 }else if(surveyResponses.length()==2 && !responses.toString().contains("survey_type")){
-					 id=2;
-					 data=surveyResponses.getJSONObject(1).getString("data").toString();
-				 }else if(surveyResponses.length()==3 && !responses.toString().contains("survey_type")){
-					 id=3;
-					 data=surveyResponses.getJSONObject(2).getString("data").toString();
-				 }else if(responses.getString("survey_type").contains("survey1")){
-					id=1; 
-					 data=surveyResponses.getJSONObject(k).getString("data").toString();
-				 }else if(responses.getString("survey_type").contains("survey2")){
-					id=2; 
-					data=surveyResponses.getJSONObject(k).getString("data").toString();
-				}else if(responses.getString("survey_type").contains("survey3")){
-					id=3; 
-					data=surveyResponses.getJSONObject(k).getString("data");
-				}
-				 db.updateSurveyData(data, name, user_role, "done", db.getDate(), id);
-			 }
-			
 			 db.updateSurveyData("Agreed", profileData.getString("profile"), profileData.getString("responses"), plan,String.valueOf(largest));
-		
-			
 			 //publishProgress("Finished setting user data");
 		} catch (NullPointerException e) {
 			db.updateSurveyData("", "", "", "","");

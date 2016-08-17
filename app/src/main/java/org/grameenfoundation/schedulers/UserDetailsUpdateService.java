@@ -1,13 +1,9 @@
 package org.grameenfoundation.schedulers;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import org.digitalcampus.mobile.learningGF.R;
 import org.digitalcampus.oppia.application.DbHelper;
 import org.digitalcampus.oppia.application.MobileLearning;
 import org.grameenfoundation.cch.tasks.AllUsersDetailsTask;
-import org.grameenfoundation.cch.tasks.FacilityTargetsTask;
 import org.grameenfoundation.cch.tasks.UserDetailsProcessTask;
 
 import android.app.Service;

@@ -1,86 +1,142 @@
 [
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_popup_exit.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_popup_enter.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\drop_two.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\drop_two.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\slide_in.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\drop_two.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\drop_two.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\slide_in_left.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_up.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\slide_up.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\together_animation.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\together_animation.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\drop_three.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\drop_three.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\slide_in_right.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_down.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\slide_down.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\out_to_left.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\anim\\out_to_left.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\fade_out.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_fade_out.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_fade_in.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_up.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\slide_up.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\in_from_rigth.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\anim\\in_from_rigth.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\together_animation.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\together_animation.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\out_to_top.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\anim\\out_to_top.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\drop_three.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\drop_three.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\fade_in.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_out.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\anim\\scale_out.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_in.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\anim\\scale_in.xml"
     },
     {
-        "merged": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\build\\intermediates\\res\\merged\\debug\\anim\\drop_one.xml",
-        "source": "C:\\Users\\Software Developer\\AndroidstudioProjects\\cch-android4\\app\\src\\main\\res\\anim\\drop_one.xml"
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\drop_one.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\drop_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\in_from_bottom.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\anim\\in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\in_from_top.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\anim\\in_from_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_down.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\out_to_bottom.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\exploded-aar\\com.github.fcannizzaro\\material-stepper\\1.2.2\\res\\anim\\out_to_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "C:\\Users\\Software Developer\\Development\\android-studio-workspace\\cbcc-mobile-android-studio\\app\\src\\main\\res\\anim\\fade_in.xml"
     }
 ]
